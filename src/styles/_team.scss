@@ -1,0 +1,72 @@
+  .team-wrapper {
+    padding-top: 104px;
+    background-image: url('~@images/about/wave-3.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 100% 100%;
+
+    // .team-wrapper
+    @media #{$mobile} {
+      background-size: cover;
+      background-position: 50% 100%;
+      padding-top: 150px;
+    }
+
+    .sliced-section-inner {
+      padding: 0 10px;
+    }
+    .sliced-section--left,
+    .sliced-section--right {
+        padding: 0;
+
+        // .sliced-section--left,
+        // .sliced-section--right
+        @media #{$mobile} {
+          width: 100%;
+          padding: 0 25px;
+        }
+
+    }
+
+    .image-container {
+        .team-image {
+            margin-left: -120px;
+
+            @media #{$smallest-desktop} {
+                margin-left: -20px;
+            }
+
+            @media #{$mobile} {
+              margin-left: 0;
+            }
+        }
+    }
+
+    .column-section {
+      // .column-section
+      @media #{$mobile} {
+        flex-direction: column-reverse;
+      }
+    }
+  }
+
+  .team-content-text {
+    font-family: $font-secondary;
+    font-size: $font-md;
+    font-weight: 500;
+    @include font-settings;
+    line-height: 2.22;
+    letter-spacing: normal;
+    color: #6d7278;
+  }
+
+  .team-signature {
+    font-family: $font-secondary;
+    font-size: $font-md;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.22;
+    letter-spacing: normal;
+    color: #2353c4;
+  }

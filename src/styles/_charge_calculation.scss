@@ -1,0 +1,41 @@
+.charge-calculation {
+    border-radius: 4px;
+    background-color: #ffffff;
+
+    border:1px solid #07265d;
+    display:flex;
+    flex-direction: column;
+    padding: 24px 0;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-secondary;
+
+    &-numbers {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .percentage {
+        color: #f7b500;
+        font-size: $font-xlg;
+        font-weight: 700;
+    }
+    .operator {
+        color: #2e4dab;
+        font-size: $font-smd;
+        margin: 0 10px;
+    }
+    .amount {
+        color: #000a12;
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .detail {
+        font-family: $font-primary;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.13px;
+        color: #8796af;
+    }
+}

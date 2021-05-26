@@ -1,0 +1,82 @@
+.contactus-wrapper {
+  .cards-wrapper {
+    margin-top: auto;
+    li {
+      margin-bottom: 15px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    @media #{$mobile} {
+      margin-top: 56px;
+     }
+  }
+
+  .sliced-section--right {
+    height: 100%;
+    display: flex;
+
+    @media #{$mobile} {
+        width: 100%;
+        padding: 0 24px;
+     }
+  }
+
+  .sliced-section--left {
+    @media #{$mobile} {
+        width: 100%;
+        padding: 0 24px;
+     }
+  }
+
+  .sliced-section-inner {
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+  .form-section-wrapper {
+    margin-top: -22%;
+    padding-bottom: 80px;
+
+    @media #{$mobile} {
+        margin-top: -15%;
+        padding-bottom: 80px;
+        padding: 0 15px 80px;
+     }
+
+
+    .column-section {
+      @media #{$mobile} {
+          flex-direction: column;
+       }
+    }
+
+    .card-w-icon {
+      @media #{$mobile} {
+          flex-direction: column;
+       }
+
+      .icon-container {
+        margin-bottom: 32px;
+      }
+      &-description {
+        line-height: 24px !important;
+      }
+    }
+  }
+
+  .contactus-form {
+    padding: 55px 56px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25);
+
+    @media #{$mobile} {
+        padding: 56px 24px;
+     }
+  }
+  .header-text-1 {
+    margin-bottom: 31px;
+  }
+}

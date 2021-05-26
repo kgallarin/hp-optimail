@@ -1,0 +1,21 @@
+.payments-section {
+    padding: 80px 0;
+
+    .card-w-icon {
+        box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25);
+
+        &-header {
+            margin-bottom: 23px;
+            font-size: $font-md;
+            letter-spacing: 0.16px;
+            color: #07265d;
+            font-weight: 600;
+        }
+    }
+
+    
+    // .payments-section
+    @media #{$mobile} {
+        padding: 40px 0;
+    }
+}   

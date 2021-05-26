@@ -1,0 +1,21 @@
+.blue-ribbon {
+  border-radius: 4px;
+  background-color: #e8f4fd;
+  padding: 20px 32px;
+
+  p {
+    font-size: $font-smd;
+    line-height: 1.5;
+    letter-spacing: 0.15px;
+    color: #07265d;
+    font-family: $font-primary;
+  }
+
+  .font-icon {
+    margin-right: 8px;
+  }
+
+  .br-link {
+    font-weight: 500;
+  }
+}

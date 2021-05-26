@@ -1,0 +1,48 @@
+@mixin font-settings{
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+@mixin styled-placeholder($color, $font-size){
+  &::-webkit-input-placeholder {
+    color: $color;
+    font-size: $font-size;
+    vertical-align: middle;
+  }
+
+  &:-ms-input-placeholder {
+    color: $color;
+    font-size: $font-size;
+    vertical-align: middle;
+  }
+
+  &::placeholder {
+    color: $color;
+    font-size: $font-size;
+    vertical-align: middle;
+  }
+}
+
+@mixin text-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@mixin styled-scroll($trackColor,$thumbColor) {
+    &::-webkit-scrollbar {
+      width: 3px;
+      margin-right: 5px;
+    }
+    &::-webkit-scrollbar-track {
+      background: $trackColor;
+      border-radius: 10px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: $thumbColor;
+      width: 3px;
+      border-radius: 10px;
+    }
+}

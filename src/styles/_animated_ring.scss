@@ -1,0 +1,68 @@
+.animated-ring-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 34;
+
+  .ring {
+    position: absolute;
+
+    &-top {
+      top: 21%;
+      right: 30%;
+      width: 39%;
+      z-index: 30;
+    }
+
+    &-bottom {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .particles2 {
+    animation: shooting 19s linear infinite;
+    border-top-left-radius: 45px;
+    overflow: hidden;
+    border-bottom-left-radius: 20px;
+    width: 100%;
+    height: 115%;
+    background: url('~@svg/animation_ring/doodle.svg');
+    background-size: 100%;
+    position: absolute;
+    right: 18px;
+    top: -27px;
+    z-index: 1;
+  }
+}
+
+.particles-container {
+
+      height: 47%;
+      width: 100%;
+      position: absolute;
+      top: 28%;
+      overflow: hidden;
+      transform: rotate(-30deg);
+
+    &-inner {
+      -webkit-mask-image: -webkit-gradient(linear, 0% 0%, 0% 80%, from(rgba(0, 0, 0, 0)), to(black));
+      transform: rotate(28.5deg);
+      height: 205% !important;
+      overflow: hidden;
+      top: -75px;
+    }
+}
+
+.ring-container {
+}
+
+
+@-webkit-keyframes shooting {
+  from {
+    background-position:100px 998px;
+  }
+  to {
+    background-position: 1890px;
+  }
+}

@@ -1,0 +1,53 @@
+.check-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    // .check-list
+    @media #{$tablet-portrait} {
+        flex-direction: column;
+    }
+}
+
+.check-list-item {
+    width: 33.33%;
+    padding: 0 5px;
+    display: flex;
+    margin: 40px 0;
+
+    // .check-list-item
+    @media #{$tablet-portrait} {
+        width: 100%;
+    }
+    &-content{
+        margin-left: 26px;
+        .header {
+            font-family: $font-secondary;
+            line-height: 1.75;
+            letter-spacing: 0.15;
+            color: #07265d;
+            font-weight: 600;
+            margin-bottom: 14px;
+
+            font-size: $font-smd;
+        }
+
+        li {
+            font-family: $font-primary;
+            line-height: 2.29;
+            letter-spacing: 0.13px;
+            color: #6d7278;
+        }
+    }
+
+    &-icon{
+        color: #2353c4;
+        min-width: 55px;
+    }
+  .check-list-btext {
+    font-family: $font-primary;
+    @include font-settings;
+    line-height: 1.43;
+    letter-spacing: 0.13px;
+    color: #6d7278;
+  }
+}

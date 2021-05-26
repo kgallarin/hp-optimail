@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="806px" viewBox="0 0 1440 806" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#0091FF" offset="0%"></stop>
+            <stop stop-color="#2E4DAB" offset="100%"></stop>
+        </linearGradient>
+        <path d="M-9.09494702e-13,134.020658 C121.598089,87.3402192 264.140224,64 427.626404,64 C662,64 882.709435,135.854817 1147.50043,92.3205575 C1261.0378,73.6538908 1358.53766,42.8803717 1440,4.54747351e-13 L1440,761.935484 C1331.6751,791.311828 1221.21529,806 1108.62057,806 C889.925486,806 731.188678,739.839597 468.070661,739.839597 C329.784502,739.839597 173.760948,760.56439 -9.09494702e-13,802.013976 L-9.09494702e-13,134.020658 Z" id="path-2"></path>
+    </defs>
+    <g id="DWo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="New-/-features" transform="translate(0.000000, -2270.000000)">
+            <g id="shutterstock_608453894" transform="translate(0.000000, 2270.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+            </g>
+        </g>
+    </g>
+</svg>

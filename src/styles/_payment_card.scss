@@ -1,0 +1,228 @@
+.payment-card {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25);
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin: 30px 12px 90px;
+
+    // payment card
+    @media #{$tablet-portrait} {
+        margin: 0 0 30px;
+        order: 3;
+    }
+
+    &.purple {
+        margin: 0;
+        position: relative;
+        z-index: 9;
+        background-color: #2e4dab;
+
+        // purple
+        @media #{$tablet-portrait} {
+            margin-bottom: 30px;
+            order: 1;
+        }
+
+        .payment-card-header {
+            color: #f7b500;
+        }
+
+        .payment-card-footer {
+            background-color: #07265d;
+        }
+
+        .payment-card-link {
+            color: #fff;
+
+            .yellow-arrow {
+                fill: #fff;
+            }
+
+            &:hover, &:active {
+              color: #f7a000;
+
+              svg {
+                fill: #f7a000;
+              }
+            }
+        }
+
+        .pcard-content {
+            $font-family: $font-primary;
+            &-headers {
+                font-size: $font-smd;
+                letter-spacing: 0.15px;
+                color: #fff;
+                font-weight: 500;
+            }
+            &-text {
+                font-size: $base;
+                letter-spacing: 0.13px;
+                color: #fff;
+            }
+
+            .calculation {
+                border:0;
+            }
+
+            .details-list {
+                &-item {
+                    display: flex;
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    &-header,
+    &-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &-header {
+        @include font-settings;
+        font-family: $font-secondary;
+        font-weight: 700;
+        letter-spacing: 0.13px;
+        color: #2353c4;
+
+        text-transform: uppercase;
+        height: 68px;
+        min-height: 68px;
+
+
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    &-content {
+        padding: 32px;
+        height: 100%;
+    }
+
+    &-footer {
+        height: 87px;
+        background-color: #f8fafc;
+        min-height: 87px;
+    }
+    &-link {
+        color: #f7b500;
+        @include font-settings;
+        letter-spacing: 0.15px;
+        font-weight: 700;
+        @include font-settings;
+        text-transform: uppercase;
+
+        &:hover {
+            color: darken(#f7b500, 3%);
+
+            .yellow-arrow {
+                fill: darken(#f7b500, 3%);
+            }
+        }
+
+    }
+
+    .details-list {
+        font-family: $font-primary;
+        margin-top: 32px;
+        &-item {
+            display: flex;
+            color: #07265d;
+        }
+
+        &-icon {
+            padding-top: 6px;
+        }
+        &-text {
+            font-size: $font-smd;
+            margin-left: 16px;
+            line-height: 2 !important;
+            @include font-settings;
+            letter-spacing: 0.15px;
+        }
+    }
+
+
+
+
+
+    // payment card content styles
+
+
+    .pcard-content {
+        $font-family: $font-primary;
+        &-headers {
+            font-size: $font-smd;
+            letter-spacing: 0.15px;
+            color: #07265d;
+            font-weight: 500;
+        }
+        &-text {
+            font-size: $base;
+            letter-spacing: 0.13px;
+            color: #6d7278;
+        }
+
+        .pcard-smbox-wrapper {
+            border: 1px solid #d4e1f4;
+            border-bottom: 0;
+            border-radius: 4px;
+            overflow: hidden;
+
+            // pcard-smbox-wrapper
+            @media #{$tablet-portrait} {
+                flex-direction: column;
+            }
+        }
+        .pcard-smbox {
+            width: 50%;
+            background-color: #f8fafc;
+            @include font-settings;
+            letter-spacing: 0.13px;
+            color: #374163;
+            padding: 21px;
+            border-bottom: 1px solid #d4e1f4;
+            text-align: center;
+            min-height: 91px;
+
+            // .pcard-smbox
+            @media #{$tablet-portrait} {
+                width: 100%;
+                border-left: 0;
+                border-right: 0;
+            }
+
+            &:nth-child(even) {
+                border-left: 1px solid #d4e1f4;
+                // .pcard-smbox
+                @media #{$tablet-portrait} {
+                    border-left: 0;
+                }
+            }
+
+        }
+
+        // integrated card style
+
+        &.integrated {
+            .pcard-content{
+                &-headers {
+                    font-weight: normal;
+                    margin-bottom: 32px;
+                    line-height: 1.5;
+                    letter-spacing: 0.15px;
+                }
+            }
+        }
+
+
+    }
+
+
+}

@@ -1,0 +1,106 @@
+@import 'variables';
+@import 'breakpoints';
+@import 'mixins';
+@import 'fonts';
+@import 'hamburgers';
+@import 'base';
+@import 'animate';
+
+
+// layout
+@import 'default_layout';
+
+// common
+@import 'header_nav';
+@import 'menu_item_mobile';
+@import 'blue_ribbon';
+
+// Form elements
+@import 'button';
+@import 'custom_input';
+@import 'custom_checkbox';
+
+@import 'sliced_section';
+@import 'move_money';
+@import 'highlight_style';
+@import 'bread_tag';
+@import 'mobile_menu';
+@import 'menu_list';
+@import 'auth_layout';
+
+//   Footer
+@import 'social_media';
+@import 'footer';
+@import 'footer_links';
+
+
+//views
+
+// Homepage
+
+@import 'home';
+@import 'waves';
+@import 'landing_hero';
+@import 'learn_more';
+@import 'brands';
+  // Homepage -- Common components
+    @import 'card_wicon.scss';
+    @import 'blog_slider';
+    @import 'animated_demo';
+    @import 'code_panel';
+    @import 'list_column';
+    @import 'payments';
+    @import 'dark_card';
+    @import 'aboutus';
+    @import 'getting_started';
+
+
+// Auth page(s)
+@import 'login';
+@import 'register';
+@import 'register_form';
+@import 'forgot_password';
+@import 'change_password';
+
+// Pricing Page
+
+@import 'pricing_hero';
+@import 'payment_card';
+@import 'included_section';
+@import 'tab_control';
+@import 'tab_view';
+@import 'check_list';
+@import 'receipt_card';
+@import 'charge_calculation';
+@import 'blue_brands';
+@import 'question_list';
+
+// Text page
+@import 'text_canvas';
+
+// Blog page
+@import 'blog_styles';
+
+// Case study page
+
+@import 'case_study';
+
+// About page
+
+@import 'about';
+@import 'gems';
+@import 'about_list_section';
+@import 'iconed_list';
+
+// Team page
+
+@import 'team';
+
+// Features Page
+@import 'features';
+@import 'animated_datacenter';
+@import 'animated_ring';
+
+// Contactus page
+@import 'contact_us';
+@import 'custom_textarea';

@@ -1,0 +1,201 @@
+.case-study-wrapper {
+    .case-study-content {
+        background-image: url('~@svg/wave-bg.svg');
+        background-size: 100% 90%;
+        background-repeat: no-repeat;
+        background-position: 0px 80px;
+        padding: 20px 0;
+    }
+    .cs-text-headers {
+        margin: 80px 36px 80px;
+    }
+
+    .cs-content-text {
+        font-family: $font-primary;
+        font-size: $font-md;
+        @include font-settings;
+        text-align: center;
+        line-height: 2.22;
+        margin-top: 36px;
+        color: #374163;
+    }
+
+    .cs-brands-navigation {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+    .cs-navigation-item {
+        margin-right: 38px;
+        &.active{
+            .cs-navigation-link {
+                background-color: #d3ddf3;
+            }
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    .cs-navigation-link {
+        font-family: $font-primary;
+        font-size: $base;
+        font-weight: 500;
+        letter-spacing: 0.13px;
+        display: block;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        border-radius: 16px;
+        padding: 0 16px;
+        color: #2353c4;
+    }
+
+    // brands list starts
+
+    .brands-card-list {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+
+    .cs-brands-item {
+        max-width: 33.33%;
+        flex: 0 0 33.33%;
+        padding: 10px;
+
+        // .cs-brands-item
+        @media #{$tablet-portrait} {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+        @media #{$mobile} {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+
+    .cs-image-screen {
+        max-width: 146px;
+        height: 67px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        margin-bottom: 36px;
+    }
+
+    .cs-brands-item-inner {
+        padding: 24px;
+        border-radius: 6px;
+        box-shadow: 0 0 16px -8px rgba(50, 50, 93, 0.25);
+        background: #fff;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+
+        .color-gold {
+          &:hover {
+            color: #f7b500;
+          }
+        }
+    }
+
+    .cs-brands-item-header,
+    .cs-brands-item-desc {
+        font-family: $font-secondary;
+        font-size: $font-smd;
+        font-weight: 600;
+        @include font-settings;
+        letter-spacing: 0.15px;
+        color: #07265d;
+        margin-bottom: 0;
+    }
+
+    .cs-brands-item-header {
+        min-height: 75px;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .cs-brands-item-desc {
+        color: #6d7278;
+        font-family: $font-primary;
+        font-weight: normal;
+        margin: 24px 0;
+        overflow: hidden;
+        max-height: 57px;
+        height: 57px;
+    }
+
+    .cs-brands-link {
+        font-family: $font-primary;
+        font-weight: 500;
+        line-height: 1.43;
+        letter-spacing: 0.13px;
+        color: #f7b500;
+    }
+
+    .cs-nav-wrapper {
+        @media #{$tablet-portrait} {
+            padding: 0 15px;
+        }
+    }
+
+    .cs-dropdown{
+        width: 100%;
+        button,
+        button.dropdown-toggle {
+            border-radius: 16px;
+            background-color: #d3ddf3;
+            font-family: $font-primary;
+            font-weight: 500;
+            letter-spacing: 0.13px;
+            color: #2353c4;
+            border: 0;
+            box-shadow: 0 !important;
+
+            &:focus,&:active {
+                color: #2353c4 !important;
+                background-color: #d3ddf3 !important;
+                border-color: transparent;
+                box-shadow: 0 0 0 0.2rem rgba(211, 221, 243, 0.39) !important;
+            }
+
+            &:after {
+                position: relative;
+                top: 3px;
+                display: inline-block;
+                margin-left: 0.255em;
+                vertical-align: 0.255em;
+                content: "";
+                border-top: 8px solid;
+                border-right: 7px solid transparent;
+                border-bottom: 0;
+                border-left: 7px solid transparent;
+                border-radius: 1px;
+            }
+        }
+
+        .dropdown-menu {
+            width: 100%;
+            transform: translate3d(0px, 38px, 0px) !important;
+
+            .dropdown-item {
+                font-size: $base;
+                padding: 10px 15px;
+
+                &:active{
+                    background-color: #f8f9fa;
+                    color: #2353c4 !important;
+                }
+            }
+        }
+    }
+
+
+
+}

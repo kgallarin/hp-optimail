@@ -1,0 +1,144 @@
+
+// menu list style
+  .menu-list {
+    margin-left: 87px;
+
+    &.white-menu-list {
+      .menu-item {
+        a {
+          color: #2353c4;
+
+          &:hover, &.active {
+            color: #f7b500;
+          }
+        }
+      }
+    }
+  }
+
+  // menu link item styles
+
+  .menu-item {
+    height: 70px;
+    z-index: 15;
+    a {
+      color: #fff;
+      text-transform: uppercase;
+      transition: all .2s ease;
+      font-weight: 700;
+      letter-spacing: 0.13px;
+      display: flex;
+      height: 100%;
+      align-items: center;
+      position: relative;
+      z-index: 1;
+
+      &.main-links {
+        padding: 15px;
+      }
+
+      &:hover, &.active {
+        color: #f7b500;
+      }
+    }
+
+    .sub-navigation {
+      position: absolute;
+      top: 55px;
+      font-size: 12px;
+      font-family: "Roboto", sans-serif;
+      width: max-content;
+      box-shadow: 0 2px 12px 0 rgba(50, 50, 93, 0.25);
+      max-width: 220px;
+
+    .sub-navigation-inner {
+      padding: 64px 40px;
+      background: #fff;
+      border-radius: 2px;
+
+      position: relative;
+      z-index: 2;
+    
+      &:after, &:before {
+        bottom: 100%;
+        left: 50%;
+        border: solid transparent;
+        content: "";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+        z-index: 2;
+      }
+      
+      &:after {
+        border-color: rgba(136, 183, 213, 0);
+        border-bottom-color: #fff;
+        border-width: 7px;
+        margin-left: -7px;
+      }
+      a {
+        color: #fff;
+        text-transform: uppercase;
+        transition: all .8s ease;
+        font-weight: 700;
+        letter-spacing: 0.13px;
+        margin-right: 0;
+
+        &:hover, &:active {
+          color: #f7b500;
+        }
+      }
+    }
+
+    li { 
+        margin-bottom: 40px;
+        a {
+          display: block;
+          margin-right:0
+        }
+        .sub-nav-title{ 
+          font-weight: 500;
+          color:#2e4dab;
+          margin-bottom: 3px;
+          text-transform: none;
+        }
+
+        .sub-nav-icon {
+          color:#2e4dab;
+        }
+
+
+        .sub-nav-description{ 
+          font-size: 10px;
+          letter-spacing: 0.09px;
+          color: #8796af;
+          font-weight: normal;
+          text-transform: none;
+        }
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+
+        // hover state
+        &:hover {
+          color:#f7b500;
+          .sub-nav-title{ 
+            color:#f7b500;
+          }
+
+          .sub-nav-description,
+          .sub-nav-icon
+          { 
+            color: #f7b500;
+          }
+        }
+        
+    }
+    .sub-nav-desc {
+      padding-left: 16px;
+    }
+      
+    }
+  }

@@ -1,0 +1,79 @@
+.mobile-menu {
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    padding-top: 70px;
+    overflow: hidden;
+    position: fixed;
+    transition: max-height 10s ease;
+    transform:translateZ(10px);
+
+    &-inner {
+      padding: 0 25px;
+    }
+
+    &.blue-menu {
+        .mobile-menu-inner {
+            background-image: linear-gradient(to bottom, #2e4dab, #0091ff);
+            height: 100%;
+            overflow-y: auto;
+        }
+    }
+    &.white-menu {
+        .mobile-menu-inner {
+            background: #fff;
+            height: 100%;
+            overflow-y: auto;
+        }
+
+        .menu-item-li {
+          .menu-item
+           {
+            color: #2e4dab;
+          }
+        }
+        .custom-button {
+          color: #2e4dab;
+          border-color: #2e4dab;
+        }
+        .chevron-icon {
+          fill:  #2e4dab;
+        }
+
+        .sub_links-views {
+          .contents--title,
+          .contents--desc,
+          .subs-mobile-icon  {
+            color: #2e4dab;
+          }
+        }
+
+      .custom-button {
+        &:hover, &:focus, &:active {
+          background:#f7a000;
+          color:#fff;
+          border-color: #f7a000;
+        }
+      }
+
+    }
+
+    .menu-list {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 40px;
+        margin-left: 0;
+    }
+
+    .menu-item{
+        margin-bottom: 32px;
+        height: 100%;
+        a { margin-right: 0; padding: 0 !important; }
+    }
+
+    .custom-button {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}

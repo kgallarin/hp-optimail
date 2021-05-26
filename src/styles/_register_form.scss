@@ -1,0 +1,62 @@
+.register-form-container{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 30px;
+    max-width: 420px;
+    border-radius: 4px;
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25);
+    padding: 40px 22px;
+
+    .custom-button {
+      margin-top: 8px;
+    }
+
+    .base-column {
+        margin-bottom: 0;
+        padding: 0 10px;
+    }
+
+    .links {
+        @include font-settings;
+        letter-spacing: 0.13px;
+        font-weight: 700;
+        text-transform: uppercase;
+        a {
+          color: #2353c4;
+          font-family: $font-secondary;
+          &:first-child {
+            margin-right: 48px;
+          }
+          &:last-child {
+            color: #f7b500;
+          }
+        }
+    }
+
+    .v-provider-wrap {
+        position: relative;
+        width: 100%;
+        display: block;
+        &.col50 {
+            width:50%;
+        }
+    }
+
+    .validation-err {
+        position: absolute;
+        font-size: 10px;
+        color: #f96b68;
+        left: 5px;
+        bottom: -12px;
+    }
+    .custom-input {
+      padding: 35px 5px 5px;
+      &.active {
+        .input-placeholder {
+          bottom: 45px;
+        }
+      }
+    }
+}

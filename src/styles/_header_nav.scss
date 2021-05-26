@@ -1,0 +1,135 @@
+.header_navigation {
+    display: flex;
+    align-items: center;
+    background-color: #2c4dab;
+    font-family: $font-secondary;
+    transform: translateZ(10px);
+    padding: 0;
+    height: 100px;
+    min-height: 70px;
+    z-index: 9999;
+    padding: 0 48px;
+
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+    &.sticky-nav {
+      height: 80px;
+       -webkit-transition: height .5s ease;
+          -moz-transition: height .5s ease;
+            -o-transition: height .5s ease;
+           -ms-transition: height .5s ease;
+               transition: height .5s ease;
+    }
+
+    @media #{$small-desktop}{
+      height: 70px !important;
+      padding: 0 24px;
+    }
+
+  &-inner {
+    max-width: 1344px;
+    margin: 0 auto;
+
+    // header_navigation-inner
+    @media #{$md-desktop} {
+      max-width: 1144px;
+    }
+
+    @media #{$small-desktop} {
+      max-width: 1144px;
+      justify-content: space-between !important;
+    }
+
+    @media #{$smallest-desktop} {
+      &.menu-active {
+        .hp-home-logo {
+          margin: 0 auto;
+        }
+      }
+
+      .hamburger--slider {
+        position: absolute;
+        right: 25px;
+      }
+    }
+  }
+
+  // right content
+  .right-content {
+    margin-left: auto;
+
+    .custom-button {
+      min-width: 140px;
+    }
+  }
+
+  // white navigation starts
+
+  &.white-navigation {
+    background-color: #fff;
+    min-height: 100px;
+    transform: translateZ(40px);
+
+
+
+
+    &.sticky-nav {
+      height: 80px;
+      min-height: 80px;
+      -webkit-transition: height .5s ease;
+         -moz-transition: height .5s ease;
+           -o-transition: height .5s ease;
+          -ms-transition: height .5s ease;
+              transition: height .5s ease;
+    }
+
+    .nav-mob-back.color-white {
+      color: #2e4dab !important;
+    }
+
+    .right-content {
+      .custom-button {
+        border-color: #2353c4;
+        color: #2353c4;
+        &:hover, &:active {
+          color: #fff;
+          border-color: #f7a000;
+          background-color: #f7a000;
+        }
+      }
+    }
+
+    .header_navigation-inner {
+      max-width: 100%;
+      margin: 0 48px;
+
+      // .header_navigation-inner
+      @media #{$tablet-portrait} {
+        margin: 0;
+      }
+    }
+
+    .hamburger-inner,
+    .hamburger-inner::before,
+    .hamburger-inner::after {
+        background-color: #2f50ae !important;
+    }
+    // .white-navigation
+    @media #{$smallest-desktop} {
+      min-height: 70px;
+
+      &.menu-active {
+        .hp-home-logo {
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+
+  .nav-mob-back {
+    position: absolute;
+    left: 25px;
+  }
+}

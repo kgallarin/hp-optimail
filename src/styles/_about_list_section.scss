@@ -1,0 +1,12 @@
+.about-list-section {
+  .abt-list-sub {
+    font-family: $font-primary;
+    font-size: $font-smd;
+    @include font-settings;
+    line-height: 1.5;
+    letter-spacing: 0.15px;
+    text-align: center;
+    color: #6d7278;
+    margin-top: 29px;
+  }
+}

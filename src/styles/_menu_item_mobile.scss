@@ -1,0 +1,85 @@
+.menu-item-mobile {
+  .menu-item-ul {
+    padding: 34px 0 32px;
+    .menu-item-li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+    }
+    .menu-item {
+      display: block;
+
+      font-family: $font-secondary;
+      font-size: $base;
+      font-weight: 700;
+      @include font-settings;
+      letter-spacing: 0.13px;
+      color: #ffffff;
+      text-transform: uppercase;
+      margin-bottom: 0;
+
+      padding: 16px 0;
+      width: 100%;
+    }
+  }
+
+  .chevron-icon {
+    fill: #fff;
+    position: absolute;
+    right: 0;
+    top: 50%;
+  }
+
+  .sub_links-views {
+    padding-top: 60px;
+
+    .sub_links--link {
+      &:hover, &:active {
+        color: #000;
+
+        .contents {
+          &--title {
+            color: #f7b500;
+          }
+          &--desc {
+            color: #f7b500;
+          }
+        }
+        .subs-mobile-icon {
+          color: #f7b500;
+        }
+      }
+    }
+
+    .subs-mobile {
+      margin-bottom: 40px;
+    }
+    .subs-mobile-icon {
+      color: #fff;
+      min-width: 45px;
+    }
+    .contents {
+      padding-left: 16px;
+      &--title {
+        margin-bottom: 3px;
+        font-size: 12px;
+        font-weight: 500;
+        @include font-settings;
+        letter-spacing: 0.11px;
+        color: #ffffff;
+        padding-top: 3px;
+      }
+      &--desc {
+        font-size: 10px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 0.09px;
+        color: #ffffff;
+      }
+    }
+
+  }
+}

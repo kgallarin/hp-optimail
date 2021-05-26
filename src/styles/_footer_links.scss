@@ -1,0 +1,43 @@
+.footer-links {
+    h3 {
+        font-family: $font-secondary;
+        font-weight: 600;
+        font-size: $font-smd;
+        letter-spacing: 0.15px;
+        color: #07265d;
+        margin-bottom: 14px;
+        text-transform: uppercase;
+    }
+
+    .link-list {}
+
+    .link-item {
+        font-family: $font-primary;
+        letter-spacing: 0.13px;
+        color: #8796af;
+        margin-bottom: 8px;
+        display: block;
+
+        // .link-item
+        @media #{$small-desktop} {
+            text-align: left;
+            line-height: 1.71;
+            margin-bottom: 8px;
+        }
+    }
+
+    .toggle-menu {
+        &.collapsed {
+            p {
+                &:after {
+                    content: " +"
+                }
+            }
+        }
+        p {
+            &:after {
+                content: " -"
+            }
+        }
+    }
+}

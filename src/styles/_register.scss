@@ -1,0 +1,104 @@
+.register-page {
+    font-family: $font-primary;
+    .white-wrapper {
+        padding: 70px 0;
+    }
+
+    .white-container {
+        background-color: #fff;
+        padding:32px;
+        border-radius: 4px;
+
+        // .white-container
+        @media #{$tablet-portrait} {
+            flex-direction: column-reverse;
+            padding:0;
+            margin: 0 15px;
+        }
+        @media #{$mobile} {
+            margin: 0;
+        }
+    }
+
+    .white-container-text,
+    .white-container-blank {
+        width: 50%;
+
+        // .white-container-text,
+        //.white-container-blank
+        @media #{$tablet-portrait} {
+            width: 100%;
+        }
+    }
+    .white-container-text {
+        .content {
+            line-height: 1.5;
+            letter-spacing: 0.15px;
+            color: #6d7278;
+            margin-top: 32px;
+            font-size: $font-smd;
+            font-family: $font-primary;
+        }
+
+        .header-text-1 {
+            font-weight: 700;
+            font-family: $font-secondary;
+            letter-spacing: 0.13px;
+            color: #2353c4;
+            text-transform: uppercase;
+        }
+
+        //.white-container-text
+        @media #{$tablet-portrait} {
+            padding: 40px 22px;
+        }
+    }
+
+    .white-container-blank {
+    }
+
+    .help-links {
+        display: flex;
+        flex-direction: column;
+
+        &-header {
+            @include font-settings;
+            line-height: 1.5;
+            letter-spacing: 0.15px;
+            color: #07265d;
+            font-size: 16px;
+            margin-top: 32px;
+        }
+
+        li {
+            font-weight: 500;
+            line-height: 1.43;
+            letter-spacing: 0.13px;
+            color: #f7b500;
+            margin-bottom: 8px;
+        }
+
+        &-footer {
+            margin-top: 100px;
+            p, a {
+                color: #07265d;
+                font-size: $base;
+            }
+        }
+    }
+
+    .custom-checkbox {
+        margin: 36px 0 32px;
+    }
+
+    .register-form-container {
+        position: absolute;
+
+        // register-form-container
+        @media #{$tablet-portrait} {
+            position: static;
+            box-shadow: none;
+            max-width: 100%;
+        }
+    }
+}

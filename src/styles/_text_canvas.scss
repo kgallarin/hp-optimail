@@ -1,0 +1,91 @@
+.text-page-canvas {
+    .title {
+        font-family: $font-secondary;
+        font-size: $font-xlg;
+        font-weight: 700;
+        @include font-settings;
+        letter-spacing: 0.36px;
+        text-align: center;
+        color: #07265d;
+        margin: 76px 0 105px;
+    }
+
+    .text-canvas-paragraph{
+        font-family: $font-primary;
+        font-size: $font-smd;
+        @include font-settings;
+        line-height: 1.5;
+        color: #8796af;
+    }
+
+    @mixin headers_common {
+        font-family: $font-secondary;
+        font-weight: 700;
+        @include font-settings;
+        color: #000a12;
+    }
+
+    .text-page-hero {
+        @include headers_common;
+        font-size: $font-lg;
+        color: #2e4dab;
+    }
+
+    h1 {
+        @include headers_common;
+    }
+
+
+    h2 {
+        font-size: 32px;
+        @include headers_common;
+    }
+
+    h3 {
+        font-size: 28px;
+        @include headers_common;
+    }
+
+    h4 {
+        font-size: $font-xmd;
+        @include headers_common;
+    }
+
+    h5 {
+        font-size: 16px;
+        @include headers_common;
+        font-weight: 600;
+        color: #2e4dab;
+        margin: 25px 0;
+    }
+
+    .canvas-list-item {
+        font-family: $font-primary;
+        font-size: $font-smd;
+        @include font-settings;
+        line-height: 1.5;
+        letter-spacing: normal;
+        color: #8796af;
+    }
+
+    .unordered-list {
+        list-style-type: disc;
+        margin-left: 20px;
+    }
+
+    .ordered-list {
+        list-style-type: decimal;
+        margin-left: 20px;
+    }
+
+    .aside-content {
+        max-width: 20%;
+        flex: 0 0 20%;
+    }
+
+    .block-content {
+        max-width: 80%;
+        flex: 0 0 80%;
+    }
+
+}

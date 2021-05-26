@@ -1,0 +1,33 @@
+.getting-started {
+    background-image: url('~@svg/blue-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    .sliced-section-inner {
+        min-height: 388px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+    h1 {
+        color: #fff;
+        font-family: $font-secondary;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.33px;
+        color: #ffffff;
+        margin-bottom: 44px;
+        font-size: 32px;
+    }
+
+    .custom-button {
+        max-width: 185px;
+        margin: 0 auto;
+    }
+
+    // .getting-started
+    @media #{$mobile} {
+        background-position: -255px;
+    }
+}

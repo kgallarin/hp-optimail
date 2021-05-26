@@ -1,0 +1,22 @@
+$responsive-xxxs: 374px;
+$responsive-xxs: 412px;
+$responsive-xs: 767px;
+$responsive-sm: 1023px;
+$responsive-md: 1200px;
+$responsive-smd: 1279px;
+$responsive-lg: 1280px;
+
+$mobile-small: '(max-width: #{$responsive-xxs}) ';
+$mobile: '(max-width: #{$responsive-xs}) ';
+$tablet-portrait: '(max-width: #{$responsive-sm}) ';
+$small-desktop: '(max-width: #{$responsive-md}) ';
+$smallest-desktop: '(max-width: #{$responsive-smd}) ';
+$md-desktop: '(max-width: #{$responsive-lg}) ';
+$retina: '(min-resolution: 2dppx) ';
+
+// * Responsive breakpoint usage *
+// * * * * * * * * * * * * * * * *
+// @media #{$tablet-portrait} {
+//    style_key: style;
+//  }
+// * * * * * * * * * * * * * * * *

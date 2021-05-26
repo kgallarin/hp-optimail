@@ -1,0 +1,43 @@
+.card-w-icon {
+  padding: 32px;
+  background: #fff;
+  width: 100%;
+  color: #2353C4;
+
+  border-radius: 6px;
+  box-shadow: 0 8px 16px -8px rgba(50, 50, 93, 0.25);
+
+  .icon-container {
+    margin-right: 31px;
+  }
+  &-content{
+
+  }
+  &-header{
+    font-size: $font-smd;
+    letter-spacing: 0.15px;
+    color: #07265d;
+    font-weight: 600;
+    margin-bottom: 6px;
+    font-family: $font-secondary;
+  }
+  &-description{
+    font-size: $base;
+    font-family: $font-primary;
+    letter-spacing: 0.13px;
+    color: #6d7278;
+    line-height: 16px !important;
+  }
+
+  &--icon {
+    margin-right: 32px;
+  }
+
+  &-link {
+    display: inline-block;
+    margin-top: 16px;
+    letter-spacing: 0.15px;
+    color: #f7b500;
+    text-decoration: underline !important;
+  }
+}

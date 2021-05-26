@@ -1,0 +1,79 @@
+.move_money-section {
+  .card-list {
+    margin-top: 46px;
+    li {
+      margin-bottom: 16px;
+      cursor: pointer;
+
+      &.active {
+        .card-w-icon {
+          box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25);
+        }
+      }
+    }
+  }
+
+  .sliced-section-inner {
+    max-width: 940px;
+    padding-left: 0px;
+    // .sliced-section-inner
+    @media #{$small-desktop} {
+      padding-left: 0;
+      padding: 10px;
+    }
+  }
+  .sliced-section--left,
+  .sliced-section--right {
+    width: 50%;
+    // sliced-section--left,
+    // sliced-section--right
+    @media #{$small-desktop} {
+      width: 100%;
+      padding: 0 15px;
+    }
+  }
+  .sliced-section--left {
+    margin-right: 50px;
+    // .sliced-section--left
+    @media #{$small-desktop} {
+      margin-right: 0px;
+    }
+  }
+  .column-section {
+    justify-content: flex-start !important;
+
+    // .column-section
+    @media #{$small-desktop} {
+      flex-direction: column;
+    }
+  }
+
+  .card-w-icon {
+    max-width: 380px;
+    // .card-w-icon
+    @media #{$small-desktop} {
+      max-width: 100%;
+    }
+  }
+  .code-panel {
+    // .code-panel
+
+    margin-top: 50px;
+    @media #{$tablet-portrait} {
+      margin-top: 0;
+    }
+    @media #{$small-desktop} {
+      margin: 0 auto;
+    }
+  }
+
+  // .move_money-section
+  @media #{$small-desktop} {
+    margin-top: 0;
+  }
+}
+
+
+.hdw-at-movemoney {
+  margin-top: 120px;
+}

@@ -1,0 +1,112 @@
+.blog-slider {
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25);
+    .text-content, .date {
+        font-family: $font-primary;
+        line-height: 1.29;
+        letter-spacing: 0.13px;
+        color: #8796af;
+        margin-bottom: 24px;
+    }
+
+    .text-content {
+        max-height: 126px;
+        min-height: 126px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .date {
+        font-size: $font-smallest;
+        margin-bottom: 18px;
+        line-height: 1.8;
+        letter-spacing: 0.09px;
+    }
+
+    .date {
+        line-height: 1.8;
+        letter-spacing: 0.09px;
+        color: #8796af;
+
+        // .date
+        @media #{$tablet-portrait} {
+          margin-bottom: 10px;
+        }
+    }
+
+    img {
+        max-width: 100%;
+        min-width: 100%;
+        width: -webkit-fill-available;
+    }
+
+    .header-text-1 {
+        margin:22px 0 18px;
+        color: #2353c4 !important;
+        font-family: $font-secondary;
+        font-size: $font-md;
+        font-weight: 600;
+
+        // .header-text-1
+        @media #{$tablet-portrait} {
+          margin: 9px 0 9px;
+        }
+
+    }
+
+    .main-content {
+        padding-top: 48px;
+        padding-left: 48px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-right: 24px;
+
+        @media #{$tablet-portrait} {
+            padding-top: 24px;
+            padding-left: 24px;
+        }
+
+        @media #{$mobile} {
+            padding: 30px 15px;
+        }
+
+    }
+
+    .swiper-pagination {
+        position: absolute;
+        z-index: 999;
+        width: 50%;
+        right: 0;
+        left: initial;
+        bottom: 45px;
+        &-bullet {
+            background-color: rgba(0, 0, 0, 0.5);
+
+            &-active {
+                background-color: #f7b500;
+            }
+        }
+        // .swiper-pagination
+      @media #{$tablet-portrait} {
+          bottom: 12px;
+        }
+
+        // .swiper-pagination
+        @media #{$mobile} {
+            width: 100%;
+            bottom: 25px;
+        }
+    }
+
+    .slider-inner {
+
+        // .slider-inner
+        @media #{$mobile} {
+            flex-direction: column;
+            .w-50 { width: 100% !important; }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.brands {
+    height: auto !important;
+    padding: 15px 15px 80px !important;
+}
+.brands-main-wrapper {
+    max-width: 1044px;
+    margin: 0 auto;    
+    padding-bottom: 61px;
+
+    @media #{$small-desktop} {
+        padding: 25px;
+    }
+}
+.brands-main {
+    margin-top: 80px;
+    margin-left: -25px;
+    margin-right: -25px;
+}
+
+.brands-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 80px;
+
+    li {
+        max-width: 20%;
+        display: flex;
+        align-items:center;
+        padding: 25px;
+
+        @media #{$small-desktop} {
+            max-width: 33.33%;
+        }
+        @media #{$mobile} {
+            max-width: 50%;
+        }
+    }
+}

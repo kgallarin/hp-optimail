@@ -1,0 +1,70 @@
+.default-sliced {
+  background-color: #fff;
+  padding: 81px 0;
+
+  &-inner {
+    max-width: 940px;
+    margin: 0 auto;
+  }
+}
+
+// sliced section main class
+.sliced-section {
+  &-inner {
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+
+    @media #{$small-desktop} {
+      padding: 0 10px;
+   }
+  }
+
+  .single-column {
+    position: relative;
+    z-index: 105;
+    width: 100%;
+    max-width: 940px;
+
+    @media #{$small-desktop} {
+      padding: 0 10px;
+    }
+  }
+
+  &.mask {
+    background-repeat: no-repeat;
+    padding-top: 25px;
+    position: relative;
+    border-bottom: solid 1px rgba(35, 56, 184, 0.08);
+    background-image: linear-gradient(to bottom, #f8fafc, #ffffff);
+    background-position: 0 248px;
+    background-size: 100% 46%;
+
+    &:before {
+      content: ' ';
+      position: absolute;
+      background-image: url('~@svg/wave-bg-2.svg');
+      background-size: 100%;
+      height: 250px;
+      width: 100%;
+      left: 0;
+    }
+  }
+
+  &.bordered-bottom {
+    border-bottom: solid 1px rgba(35, 56, 184, 0.08);
+  }
+  &.bordered-top {
+    border-top: solid 1px rgba(35, 56, 184, 0.08);
+  }
+
+  .column-section {
+    margin-left: -5px;
+    margin-right: -5px;
+  }
+
+  &--left, &--right {
+    width: 50%;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,29 @@
+.list-container {
+    display: flex;
+
+    .custom-button {
+        max-width: 220px;
+    }
+}
+
+.list-column {
+    display: flex;
+    flex-direction: column;
+    color: #2353C4;
+    padding: 15px;
+    &-header{
+        font-weight: 600;
+        letter-spacing: 0.15px;
+        color: #07265d;
+        font-family: $font-secondary;
+        margin:30px 0 14px;
+        font-size: $font-smd;
+
+     }
+    &-description{
+        line-height: 16px !important;
+        font-family: $font-primary;
+        letter-spacing: 0.13px;
+        color: #6d7278;
+     }
+}

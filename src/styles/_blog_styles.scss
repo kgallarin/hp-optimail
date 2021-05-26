@@ -1,0 +1,79 @@
+.blog-wrapper {
+    padding-top: 76px;
+}
+.blog-single {
+    header {
+        font-family: $font-secondary;
+        font-size: $font-xlg;
+        font-weight: 700;
+        @include font-settings;
+        letter-spacing: 0.36px;
+        text-align: center;
+        color: #07265d;
+        margin-bottom: 13px;
+    }
+    .sub-header {
+        font-family: $font-primary;
+        font-size: $base;
+        @include font-settings;
+        line-height: 1.71;
+        letter-spacing: normal;
+        text-align: center;
+        color: #8796af;
+        margin-bottom: 48px;
+
+        // .sub-header
+        @media #{$tablet-portrait} {
+          margin-bottom: 62px;
+        }
+    }
+
+    .image-screen {
+        max-width: 940px;
+        margin: 0 auto;
+        img {
+            object-fit: contain;
+        }
+    }
+
+    .main-content {
+        margin-top: 48px;
+        &-texts {
+            font-family: $font-primary;
+            font-size: $font-smd;
+            line-height: 1.5;
+            letter-spacing: 0.15px;
+            color: #6d7278;
+        }
+    }
+
+    .social-media-wrapper {
+        display: flex;
+        justify-content: flex-end;
+        .social-media {
+            padding-top: 55px;
+            .header {
+                font-family: $font-primary;
+                color: #fa6400;
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .col-2-parent {
+        display: flex;
+
+        .aside-content {
+            // .aside-content
+            @media #{$mobile} {
+                margin-bottom: 15px;
+            }
+        }
+
+        // .col-2-parent
+        @media #{$mobile} {
+            flex-direction: column;
+        }
+    }
+}

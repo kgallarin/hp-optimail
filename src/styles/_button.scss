@@ -1,0 +1,44 @@
+.custom-button {
+  display: block;
+  &.btn-outline-primary {
+    border-color: #fff;
+    color: #fff;
+    border-radius: 4px;
+    width: 100%;
+
+    font-size: $base;
+    letter-spacing: 0.13px;
+    font-weight: 700;
+    height: 48px;
+
+    &:hover, &:active, &:active {
+      background-color: #f7b500 !important;
+      border-color: #f7b500;
+      box-shadow: 0 0 0 0.2rem rgba(191, 143, 11, 0.14) !important;
+    }
+  }
+
+  &.custom-button-yellow {
+    background-color: #f7b500;
+    border-color:#f7b500;
+
+    &:hover, &:focus, &:active {
+      background-color: #f7b500 !important;
+      color: darken(#fff, 5%);
+      border-color: transparent !important;
+      box-shadow: 0 0 0 0.2rem rgba(191, 143, 11, 0.14);
+    }
+  }
+}
+
+
+.gold-link {
+  color: #f7b500;
+  &:hover, &:active, &:focus {
+    color: #f7a000 !important;
+
+    svg {
+      fill: #f7a000 !important;
+    }
+  }
+}

@@ -1,0 +1,129 @@
+.homepage-wrapper {
+  height: calc(100% - 48px);
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+
+  &.sticky-nav {
+    padding-top: 80px;
+  }
+
+  // .homepage-wrapper
+  @media #{$small-desktop} {
+    padding-top: 70px;
+  }
+
+  .wave-container {
+    position: absolute;
+    width: 100%;
+    bottom: -285px;
+    transform: translateY(-3px) rotate(180deg);
+    height: 143px;
+
+    @media #{$md-desktop} {
+      bottom: -180px;
+    }
+
+
+    @media #{$smallest-desktop} {
+      height: 100px;
+      bottom: -125px !important;
+    }
+  }
+}
+
+.landing-hero {
+  background-image: linear-gradient(to bottom, #2e4dab, #0091ff);
+  padding-top: 80px;
+  position: relative;
+  padding-bottom: 200px;
+  transform: translateZ(3px);
+
+  .sliced-section-inner {
+    transform: translateZ(3px);
+    padding: 5px;
+  }
+
+  .sliced-section--left {
+    width: 67%;
+    @media #{$small-desktop} {
+      margin: 0 auto;
+      width: 80%;
+    }
+
+    @media #{$mobile} {
+      width: 100%;
+    }
+  }
+
+  .hero-intro-wrapper {
+    @media #{$small-desktop} {
+      padding-left: 40px;
+      max-width: 70%;
+      margin: 0 auto;
+    }
+    @media #{$mobile} {
+      max-width: 100%;
+      padding-left: 0;
+    }
+  }
+
+  .sliced-section--right {
+    width: 33%;
+    padding: 0;
+    min-width: 310.19px;
+    min-height: 463px;
+    @media #{$small-desktop} {
+      display: none;
+   }
+  }
+
+  .extra-el {
+    margin-top: auto;
+    transform: translateZ(3px);
+  }
+
+  &--header{
+    margin-bottom: 37px;
+    font-family: $font-secondary;
+    letter-spacing: 0.33px;
+    font-size: 36px;
+    @media #{$small-desktop} {
+      text-align: center;
+    }
+  }
+
+  &--list {
+    li {
+      list-style-type: disc;
+      margin-left: 15px;
+      font-size: $font-md;
+      font-family: $font-primary;
+      margin-bottom: 15px;
+
+      @media #{$small-desktop} {
+        line-height: 2.22;
+      }
+    }
+
+    // &--list
+    @media #{$small-desktop} {
+      padding: 20px;
+    }
+  }
+
+  .custom-button {
+    margin-top: 39px;
+    max-width: 220px;
+    @media #{$small-desktop} {
+      margin: 40px auto;
+   }
+  }
+
+  // .landing-hero
+  @media #{$md-desktop} {
+    padding-top: 40px;
+   padding-bottom: 70px;
+ }
+
+}

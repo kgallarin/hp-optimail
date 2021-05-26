@@ -1,0 +1,27 @@
+.pricing-hero {
+    padding-bottom: 80px;
+    background-image: url('~@svg/wave-bg.svg');
+    background-size: 100%;
+    background-position: 100% -50%;
+    background-repeat: no-repeat;
+    .header-text-1 {
+        padding: 100px 0;
+    }
+
+    .sliced-section-inner {
+        max-width: 960px;
+    }
+
+    .cards-wrapper {
+        @media #{$tablet-portrait} {
+            flex-direction: column;
+        }
+    }
+
+    .details-list-wrapper {
+        @media #{$tablet-portrait} {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

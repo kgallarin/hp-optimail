@@ -1,0 +1,264 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+html,body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+    min-width: 414px;
+    background: #fff;
+    font-family: $font-primary;
+    font-size: $base;
+    font-weight: 400;
+    color: #fff;
+}
+
+strong {
+  font-weight: 700;
+}
+
+// layout base
+
+.landing-layout {
+  // height: 100%;
+}
+
+h1[class],
+h2[class],
+h3[class],
+h4[class],
+h5[class],
+h6[class],
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child,
+h6:last-child,
+p:last-child,
+ul:last-child,
+ol:last-child,
+dl:last-child,
+table:last-child,
+blockquote:last-child {
+    margin-bottom: 0;
+    @include font-settings;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+table,
+a,
+blockquote {
+  @include font-settings;
+  list-style: none;
+  padding: 0;
+  text-decoration: none !important;
+}
+
+// utilities
+
+.oflow-hidden {
+  overflow: hidden;
+}
+
+.text- {
+  &-uppercase {
+    text-transform: uppercase;
+  }
+
+  &-lowercase {
+    text-transform: lowercase;
+  }
+}
+
+svg {
+  outline: none;
+}
+
+.yellow-arrow {
+  fill: #F7B500;
+}
+
+.cursor {
+  &-pointer {
+    cursor: pointer;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+// for icon rotations
+
+.rotate {
+  &-180 {
+    transform: rotate(180deg);
+  }
+}
+
+.base-row-wrapper {
+  padding: 5px;
+}
+.base-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -5px;
+  margin-right: -5px;
+
+  // .base-row
+  @media #{$tablet-portrait} {
+    flex-direction: column;
+  }
+}
+
+.base-column {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 20px;
+
+  // .base-column
+  @media #{$tablet-portrait} {
+    width: 100%;
+  }
+}
+
+// Hamburger
+// ==================================================
+.hamburger {
+  padding: $hamburger-padding-y $hamburger-padding-x;
+  display: inline-block;
+  cursor: pointer;
+  outline: none !important;
+
+  transition-property: opacity, filter;
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
+
+  // Normalize (<button>)
+  font: inherit;
+  color: inherit;
+  text-transform: none;
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  overflow: visible;
+
+  &:hover {
+    @if $hamburger-hover-use-filter == true {
+      filter: $hamburger-hover-filter;
+    }
+    @else {
+      opacity: $hamburger-hover-opacity;
+    }
+  }
+
+  &.is-active {
+    &:hover {
+      @if $hamburger-hover-use-filter == true {
+        filter: $hamburger-active-hover-filter;
+      }
+      @else {
+        opacity: $hamburger-active-hover-opacity;
+      }
+    }
+
+    .hamburger-inner,
+    .hamburger-inner::before,
+    .hamburger-inner::after {
+      background-color: $hamburger-active-layer-color;
+    }
+  }
+}
+
+.hamburger-box {
+  width: $hamburger-layer-width;
+  height: $hamburger-layer-height * 3 + $hamburger-layer-spacing * 2;
+  display: inline-block;
+  position: relative;
+}
+
+.hamburger-inner {
+  display: block;
+  top: 50%;
+  margin-top: $hamburger-layer-height / -2;
+
+  &,
+  &::before,
+  &::after {
+    width: $hamburger-layer-width;
+    height: $hamburger-layer-height;
+    background-color: $hamburger-layer-color;
+    border-radius: $hamburger-layer-border-radius;
+    position: absolute;
+    transition-property: transform;
+    transition-duration: 0.15s;
+    transition-timing-function: ease;
+  }
+
+  &::before,
+  &::after {
+    content: "";
+    display: block;
+  }
+
+  &::before {
+    top: ($hamburger-layer-spacing + $hamburger-layer-height) * -1;
+  }
+
+  &::after {
+    bottom: ($hamburger-layer-spacing + $hamburger-layer-height) * -1;
+  }
+}
+
+select {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+}
+
+// autocomplete solution without autocomplete off
+
+input:-webkit-autofill {
+  -webkit-box-shadow:0 0 0 50px white inset;
+  -webkit-text-fill-color: #333;
+}
+
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 50px white inset;
+}
+
+select:-webkit-autofill {
+  -webkit-box-shadow:0 0 0 50px white inset;
+  -webkit-text-fill-color: #333;
+}
+
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 50px white inset;
+}
+
+.flip-list-move {
+  transition: transform 1s;
+}
+
+.validation-err {
+  color: #f85c5a;
+}

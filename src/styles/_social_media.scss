@@ -1,0 +1,25 @@
+.social-media {
+    display: flex;
+    align-items: center;
+
+    .header {
+        font-family: $font-secondary;
+        font-weight: 600;
+        letter-spacing: 0.15px;
+        color: #07265d;
+        margin-bottom: 0;
+        text-transform: uppercase;
+        margin-right: 15px;
+    }
+
+    .media-list{
+        display: flex;
+        margin-left: -5px;
+        margin-right: -5px;
+
+    }
+
+    .media-list-item {
+        padding: 0 5px;
+    }
+}

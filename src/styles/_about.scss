@@ -1,0 +1,121 @@
+// about hero
+
+.about-hero {
+  .hero-image {
+    width: 100%;
+  }
+
+  .hero-content {
+    padding-top: 76px;
+  }
+
+  .hero-content-text {
+    font-family: $font-primary;
+    font-size: $font-md;
+    @include font-settings;
+    line-height: 2.22;
+    letter-spacing: normal;
+    text-align: center;
+    color: #374163;
+    margin: 36px 0 48px;
+  }
+
+  .custom-button-yellow {
+    max-width: 220px;
+    margin: 0 auto;
+
+    // .custom-button-yellow
+    @media #{$mobile} {
+      max-width: 100%;
+    }
+  }
+}
+
+// mission section styles starts
+
+.mission-section {
+  padding-top: 80px;
+
+  .column-section {
+      align-items: flex-start !important;
+
+      // .column-section
+      @media #{$mobile} {
+        flex-direction: column;
+      }
+      .sliced-section--right,
+      .sliced-section--left {
+        // .sliced-section--right,
+        // .sliced-section--left
+        @media #{$mobile} {
+          max-width: 100%;
+          width: 100%;
+          .mission-p {
+            line-height: 1.5;
+          }
+          .header-text-1 {
+            text-align: right !important;
+          }
+        }
+      }
+  }
+  .mission-p{
+      font-family: $font-primary;
+      font-size: $font-smd;
+      @include font-settings;
+      line-height: 1.5;
+      letter-spacing: 0.15px;
+      color: #6d7278;
+  }
+
+  .header-text-1 {
+    padding:0 0 0 95px;
+    text-transform: none !important;
+    font-family: $font-secondary;
+
+    @media #{$mobile} {
+      padding: 0;
+    }
+  }
+
+  // .mission-section
+  @media #{$tablet-portrait} {
+    padding: 80px 15px 0;
+  }
+
+  // .mission-section
+  @media #{$mobile} {
+    padding-top: 40px;
+  }
+
+}
+
+
+// diamond-section styles
+
+.diamond-section {
+  padding: 16px 0 76px;
+  margin-left: 150px;
+  .diamond-gems-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1070px;
+    margin: 0 auto;
+
+    // .diamond-gems-wrapper
+  @media #{$smallest-desktop} {
+      max-width: 40%;
+    }
+  @media #{$mobile} {
+      max-width: 100%;
+      flex-direction: column;
+      padding: 120px 0 0px;
+    }
+  }
+
+  // .diamond-section
+  @media #{$smallest-desktop} {
+    margin-left: 0;
+    padding: 16px 0 40px;
+  }
+}

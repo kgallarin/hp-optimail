@@ -1,0 +1,16 @@
+.bread-tag {
+    padding: 8px;
+    width: max-content;
+    border-radius: 2px;
+    .text {
+        letter-spacing: 0.09px;
+        font-weight: 500;
+        margin-bottom: 0;
+        font-size: 10px;
+        font-weight: 500;
+        font-family: $font-primary;
+    }
+    &.green {
+        background-color: rgba(68,215,182,0.5);
+    }
+}
