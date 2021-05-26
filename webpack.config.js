@@ -13,7 +13,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, './docs'),
-    publicPath: '/hydropay-frontend-2020/',
+    publicPath: '/hp-optimail/',
     publicPath: '',
     filename: 'build.js'
   },
