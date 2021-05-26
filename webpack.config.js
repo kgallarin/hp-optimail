@@ -12,7 +12,7 @@ module.exports = {
     hot: true
   },
   output: {
-    path: path.resolve(__dirname, './docs'),
+    path: path.resolve(__dirname, './dist'),
     publicPath: '/hp-optimail/',
     publicPath: '',
     filename: 'build.js'
