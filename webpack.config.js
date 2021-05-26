@@ -7,7 +7,7 @@ const root = path.resolve(__dirname,"./src")
 module.exports = {
   entry: './src/main.js',
   devServer: {
-    publicPath: '/',
+    publicPath: '',
     historyApiFallback: true,
     hot: true
   },
