@@ -1,7 +1,7 @@
 <template>
   <SlicedSection class="research-section">
     <template v-slot:slot-left>
-      <img :src="require('@svg/features/cube.svg')" alt="Affiliate Builder research">
+      <img :src="require('@svg/features/cube.svg')" alt="Aff Builder research">
     </template>
     <template v-slot:slot-right>
       <header-text size="xmd" class="text-uppercase">

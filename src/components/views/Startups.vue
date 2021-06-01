@@ -50,7 +50,7 @@ import GettingStarted from '@components/partials/home/GettingStarted'
                   id: 0,
                   title: 'Fraud Protection',
                   icon: ['fas','book-open'],
-                  block_text:'Chargebacks from players have become an increasing challenge. Affiliate Builder can provide fraud prevention to identify fraudulent transactions in real-time. We have implemented hundreds of data points that minimize chargebacks and detect fraudsters.'
+                  block_text:'Chargebacks from players have become an increasing challenge. Aff Builder can provide fraud prevention to identify fraudulent transactions in real-time. We have implemented hundreds of data points that minimize chargebacks and detect fraudsters.'
               },
               {
                   id: 1,

@@ -10,10 +10,10 @@
             <Card
               informative
               :fa_icon="['fas', 'envelope-open-text']"
-              headerLabel="Get Answers from the Affiliate Builder Team"
+              headerLabel="Get Answers from the Aff Builder Team"
               iconSize="3x"
             >
-              Find everything you need to know to make Affiliate Builder work for you.
+              Find everything you need to know to make Aff Builder work for you.
               Contact our customer success team at <strong>support@affiliatebuilder.com</strong> or <strong>123-456-789</strong>.
             </Card>
           </li>
@@ -33,7 +33,7 @@
             <Card
               informative
               :fa_icon="['fas', 'map-marked-alt']"
-              headerLabel="Affiliate Builder"
+              headerLabel="Aff Builder"
               iconSize="3x"
             >
               909 Locust Street, Suite 201 <br />

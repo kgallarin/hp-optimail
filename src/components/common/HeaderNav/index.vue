@@ -9,10 +9,10 @@
       <!-- Affiliate logo -->
       <router-link :to="{ name: 'home' }" class="hp-home-logo">
        <template v-if="!whiteNav">
-          <b-img height="40" width="141" :src="require('@images/affiliate/aff_logo_white.png')" alt="Affiliate builder"></b-img>
+          <b-img height="40" width="141" :src="require('@images/affiliate/aff_logo_white.png')" alt="Aff Builder"></b-img>
        </template>
        <template v-else>
-          <b-img height="auto" width="125" :src="require('@images/affiliate/aff_logo.png')" alt="Affiliate builder"></b-img>
+          <b-img height="auto" width="125" :src="require('@images/affiliate/aff_logo.png')" alt="Aff Builder"></b-img>
        </template>
       </router-link>
 

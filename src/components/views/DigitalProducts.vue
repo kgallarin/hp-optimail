@@ -2,7 +2,7 @@
   <div class="features-wrapper">
     <features-hero
       header-text="Digital product Merchants"
-      text-desc="Affiliate Builder can provide you with all the payment solutions for your digital products worldwide to accelerate your profits and acquire more customers."
+      text-desc="Aff Builder can provide you with all the payment solutions for your digital products worldwide to accelerate your profits and acquire more customers."
     />
 
     <!-- section 2 -->
@@ -24,7 +24,7 @@
 
     <!-- section 4 -->
     <security 
-      header-text="Why is Affiliate Builder right for you?"
+      header-text="Why is Aff Builder right for you?"
       :list-data="paymentBlueList" 
     />
   </div>
@@ -58,7 +58,7 @@ import GettingStarted from '@components/partials/home/GettingStarted'
                   id: 2,
                   title: 'Data-driven Insights',
                   icon: ['fas','chess-rook'],
-                  block_text:'Affiliate Builder is a data-driven solution for digital products that provide clear and comprehensive reports, insights, and analyses for your business.'
+                  block_text:'Aff Builder is a data-driven solution for digital products that provide clear and comprehensive reports, insights, and analyses for your business.'
               },
               {
                   id: 3,

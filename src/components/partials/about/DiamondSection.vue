@@ -26,14 +26,14 @@ import Gems from './Gems'
           {
             id: 1,
             textHeaders:'Instant Money Transfer',
-            texts: 'Affiliate Builder to Affiliate Builder account funds transfer will reflect the funds in real-time with no hidden fees.',
+            texts: 'Aff Builder to Aff Builder account funds transfer will reflect the funds in real-time with no hidden fees.',
             imageSource: 'diamond-image02',
             style: ''
           },
           {
             id: 3,
             textHeaders:'Perks and Referral Bonus',
-            texts: 'Get your friends and family all together with your referral code and get a cash bonus directly to your Affiliate Builder account once they signed up and make their first transfer.',
+            texts: 'Get your friends and family all together with your referral code and get a cash bonus directly to your Aff Builder account once they signed up and make their first transfer.',
             imageSource: 'diamond-image03',
             style: 'offset-top-left image-text-swap'
           },

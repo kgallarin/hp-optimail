@@ -12,7 +12,7 @@
       header-text="Currency Conversions"
       :text-desc="
         [
-          'Affiliate Builder understands the importance of bringing transparency to finance. We offer a mid-market, competitive range of foreign exchange without hidden fees. Our automated conversion functions provide you best exchange rates, convert funds, and manage settlements at your Affiliate Builder online account with little feasible cost as possible in real-time.', 
+          'Aff Builder understands the importance of bringing transparency to finance. We offer a mid-market, competitive range of foreign exchange without hidden fees. Our automated conversion functions provide you best exchange rates, convert funds, and manage settlements at your Aff Builder online account with little feasible cost as possible in real-time.', 
         ]
       "
     />
@@ -22,7 +22,7 @@
       header-text="Settlements and Conversion Management"
       :text-desc="
         [
-          'With our settlement platforms, you can merge multiple conversion into a single transaction to store funds in your Affiliate Builder account.',
+          'With our settlement platforms, you can merge multiple conversion into a single transaction to store funds in your Aff Builder account.',
         ]
       "
       :list-data="[]"  

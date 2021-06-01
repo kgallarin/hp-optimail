@@ -5,7 +5,7 @@
     </header-text>
     <p class="text-center text-desc">
       <!-- Don’t manage the complexities of payments alone. <br v-if="windowWidth > 767" />
-      Let Affiliate Builder's accomplished security team protect what matters most. -->
+      Let Aff Builder's accomplished security team protect what matters most. -->
       {{ textDesc }}
     </p>
     <SlicedSection single-column class="">
