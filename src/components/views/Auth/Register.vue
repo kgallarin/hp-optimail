@@ -58,7 +58,7 @@
                         </ul>
 
                         <div class="help-links-footer d-flex justify-content-between">
-                            <p>© {{ currentYear }} HydroPay</p>
+                            <p>© {{ currentYear }} Affiliate Builder</p>
                             <router-link :to="{ name: 'text_page' }">Terms & Privacy</router-link>
                         </div>
                     </div>

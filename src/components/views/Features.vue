@@ -2,7 +2,7 @@
   <div class="features-wrapper">
     <features-hero 
       header-text="Mass Payouts"
-      text-desc="HydroPay provides the most efficient, state of the art mass payment API when you can process your bulk payment 
+      text-desc="Affiliate Builder provides the most efficient, state of the art mass payment API when you can process your bulk payment 
       and track the progress in just one click, which helps you save time and focus more on building your business."
     />
 
@@ -11,7 +11,7 @@
       header-text="Mass Payment Platform"
       :text-desc="
         [
-          'With HydroPay mass payment platform, you can make mass payments securely and in a cost-effective way to Visa, Mastercard, SEPA, Bank Transfer or SWIFT, eWallets, or any online account in either local or international cross border payouts.', 
+          'With Affiliate Builder mass payment platform, you can make mass payments securely and in a cost-effective way to Visa, Mastercard, SEPA, Bank Transfer or SWIFT, eWallets, or any online account in either local or international cross border payouts.', 
           'With our wide range of payment methods – we offer an attractive rate without double commissions to instantly process payouts any time of the day.'
         ]
       "
@@ -22,7 +22,7 @@
       header-text="Domestic and International Mass Payment Solutions"
       :text-desc="
         [
-          'Sending at least hundreds of mass payouts only takes a few minutes. With HydroPay’s mass payment platform – payouts are group together for efficiency.', 
+          'Sending at least hundreds of mass payouts only takes a few minutes. With Affiliate Builder’s mass payment platform – payouts are group together for efficiency.', 
           'According to the report, ACH payments had the lowest fraud rate, by value, among the payment types with just 1.3% of fraudulent ACH transactions in 2015.'
         ]
       "
@@ -42,7 +42,7 @@
 
     <features-hero
       header-text="Payment Processing"
-      text-desc="HydroPay payment platform supports payment processing for all online transactions, 
+      text-desc="Affiliate Builder payment platform supports payment processing for all online transactions, 
       whether it&#39;s credit card and debit card, e-wallets, bank transfer, and mobile banking activities."
     />
 
@@ -52,7 +52,7 @@
       :text-desc="
         [
           'Our solutions will allow you to localize your payment target locations and broaden to worldwide scope.', 
-          'We have the latest cutting-edge technologies that emphasize on core customers and product experiences that will cater to all your payment needs as you grow your business. Whether domestic or international, POS, on-site, or in-app transactions, HydroPay has everything you need from a secure payment processing to recurring bills and subscriptions, from marketplace to simply accepting payments from any currency.',
+          'We have the latest cutting-edge technologies that emphasize on core customers and product experiences that will cater to all your payment needs as you grow your business. Whether domestic or international, POS, on-site, or in-app transactions, Affiliate Builder has everything you need from a secure payment processing to recurring bills and subscriptions, from marketplace to simply accepting payments from any currency.',
           'Increase your revenue with fast and secure payment options, low-cost B2B transactions, and advanced checkout conversion. Our process will ensure that the funds will be credited immediately and available for use without any foreign exchange liabilities.'
         ]
       "
@@ -63,7 +63,7 @@
       header-text="Accessible Mobile Payment"
       :text-desc="
         [
-          'In today\'s emerging technology, where you can do everything with just a single click, mobile phones became the most quintessential gadgets for reaching your customers. With Hydropay, your customers can make a mobile payment, barcode scanning, checking transactions, NFC, and mobile wallets or apps: mobile payment options are dynamic for every industry and company.',
+          'In today\'s emerging technology, where you can do everything with just a single click, mobile phones became the most quintessential gadgets for reaching your customers. With Affiliate Builder, your customers can make a mobile payment, barcode scanning, checking transactions, NFC, and mobile wallets or apps: mobile payment options are dynamic for every industry and company.',
           'Give your customers a complete payment option for any industry'
         ]
       "
@@ -91,7 +91,7 @@
       header-text="Currency Conversions"
       :text-desc="
         [
-          'HydroPay understands the importance of bringing transparency to finance. We offer a mid-market, competitive range of foreign exchange without hidden fees. Our automated conversion functions provide you best exchange rates, convert funds, and manage settlements at your HydroPay online account with little feasible cost as possible in real-time.', 
+          'Affiliate Builder understands the importance of bringing transparency to finance. We offer a mid-market, competitive range of foreign exchange without hidden fees. Our automated conversion functions provide you best exchange rates, convert funds, and manage settlements at your Affiliate Builder online account with little feasible cost as possible in real-time.', 
         ]
       "
     />
@@ -101,7 +101,7 @@
       header-text="Settlements and Conversion Management"
       :text-desc="
         [
-          'With our settlement platforms, you can merge multiple conversion into a single transaction to store funds in your HydroPay account.',
+          'With our settlement platforms, you can merge multiple conversion into a single transaction to store funds in your Affiliate Builder account.',
         ]
       "
       :list-data="[]"  
@@ -112,7 +112,7 @@
 
     <features-hero
       header-text="Process All Your Recurring Plans in One API"
-      text-desc="With HydroPay’s payment dashboard and simple API – making it easy to manage all your subscription plans most cost-effectively."
+      text-desc="With Affiliate Builder’s payment dashboard and simple API – making it easy to manage all your subscription plans most cost-effectively."
     />
 
     <!-- section 2 -->
@@ -120,7 +120,7 @@
       header-text="Billing Automation in One Platform"
       :text-desc="
         [
-          'HydroPay provides a secure payment solution for business, which allows our clients to process automated billing and payment collection regularly. With our sophisticated API: business, eCommerce, iGaming, and other business trends will no longer need to process the recurring bill manually, and customers don’t have to make manual payments every cycle. Let our platform do the automation for your business.', 
+          'Affiliate Builder provides a secure payment solution for business, which allows our clients to process automated billing and payment collection regularly. With our sophisticated API: business, eCommerce, iGaming, and other business trends will no longer need to process the recurring bill manually, and customers don’t have to make manual payments every cycle. Let our platform do the automation for your business.', 
         ]
       "
     />
@@ -163,7 +163,7 @@ import GettingStarted from '@components/partials/home/GettingStarted'
                   id: 0,
                   title: 'Manage, Audit and Launch Funds Transfer',
                   icon: ['fas','book-open'],
-                  block_text:'HydroPay’s platform is fully equipped to track each transaction, view trends in metrics and performance while checking customer accounts and initiating funds transfers.'
+                  block_text:'Affiliate Builder’s platform is fully equipped to track each transaction, view trends in metrics and performance while checking customer accounts and initiating funds transfers.'
               },
               {
                   id: 1,
@@ -181,7 +181,7 @@ import GettingStarted from '@components/partials/home/GettingStarted'
                   id: 3,
                   title: 'Accelerated Processing',
                   icon: ['fas','user-shield'],
-                  block_text:'HydroPay\'s mass payment solutions help remove all international bank transfer fees, acquire a better foreign exchange rate, lessen data entry errors, and accelerate the processing of your mass payment.'
+                  block_text:'Affiliate Builder\'s mass payment solutions help remove all international bank transfer fees, acquire a better foreign exchange rate, lessen data entry errors, and accelerate the processing of your mass payment.'
               }
           ],
           paymentList: [
@@ -249,7 +249,7 @@ import GettingStarted from '@components/partials/home/GettingStarted'
                   id: 0,
                   title: 'Step 1',
                   icon: ['fas','database'],
-                  block_text:'Just enter your file containing massive payments lists directly to the HydroPay platform, and you can view everything live.'
+                  block_text:'Just enter your file containing massive payments lists directly to the Affiliate Builder platform, and you can view everything live.'
               },
               {
                   id: 1,
@@ -263,7 +263,7 @@ import GettingStarted from '@components/partials/home/GettingStarted'
                   id: 0,
                   title: 'Over 250 payment networks',
                   icon: ['fas','database'],
-                  block_text:'HydroPay – as one of the leading international payment service providers, offers you secured access to over 250 payment networks that can be easily configured.'
+                  block_text:'Affiliate Builder – as one of the leading international payment service providers, offers you secured access to over 250 payment networks that can be easily configured.'
               },
               {
                   id: 1,

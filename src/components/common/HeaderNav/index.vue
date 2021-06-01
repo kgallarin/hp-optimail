@@ -6,13 +6,13 @@
         <font-awesome-icon :icon="['fas','arrow-left']" size="lg" />
       </a>
 
-      <!-- Hydropay logo -->
+      <!-- Affiliate logo -->
       <router-link :to="{ name: 'home' }" class="hp-home-logo">
        <template v-if="!whiteNav">
-          <b-img height="30" width="136" :src="require('@svg/hydropay-white.svg')" alt="Hydropay"></b-img>
+          <b-img height="40" width="141" :src="require('@images/affiliate/aff_logo_white.png')" alt="Affiliate builder"></b-img>
        </template>
        <template v-else>
-          <b-img height="30" width="136" :src="require('@svg/hydropay-logo.svg')" alt="Hydropay"></b-img>
+          <b-img height="auto" width="125" :src="require('@images/affiliate/aff_logo.png')" alt="Affiliate builder"></b-img>
        </template>
       </router-link>
 

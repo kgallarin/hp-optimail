@@ -5,7 +5,7 @@
 
         <!-- image area -->
         <div class="image-screen">
-            <img :src="require('@images/blog/blog-header.jpg')" alt="hydropay blog header">
+            <img :src="require('@images/blog/blog-header.jpg')" alt="Affiliate Builder blog header">
         </div>
         <SlicedSection single-column >
             <!-- content starts -->

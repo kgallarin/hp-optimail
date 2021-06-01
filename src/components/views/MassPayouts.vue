@@ -2,7 +2,7 @@
   <div class="features-wrapper">
     <features-hero 
       header-text="Mass Payouts"
-      text-desc="HydroPay provides the most efficient, state of the art mass payment API when you can process your bulk payment 
+      text-desc="Affiliate Builder provides the most efficient, state of the art mass payment API when you can process your bulk payment 
       and track the progress in just one click, which helps you save time and focus more on building your business."
     />
 
@@ -11,7 +11,7 @@
       header-text="Mass Payment Platform"
       :text-desc="
         [
-          'With HydroPay mass payment platform, you can make mass payments securely and in a cost-effective way to Visa, Mastercard, SEPA, Bank Transfer or SWIFT, eWallets, or any online account in either local or international cross border payouts.', 
+          'With Affiliate Builder mass payment platform, you can make mass payments securely and in a cost-effective way to Visa, Mastercard, SEPA, Bank Transfer or SWIFT, eWallets, or any online account in either local or international cross border payouts.', 
           'With our wide range of payment methods – we offer an attractive rate without double commissions to instantly process payouts any time of the day.'
         ]
       "
@@ -22,7 +22,7 @@
       header-text="Domestic and International Mass Payment Solutions"
       :text-desc="
         [
-          'Sending at least hundreds of mass payouts only takes a few minutes. With HydroPay’s mass payment platform – payouts are group together for efficiency.'
+          'Sending at least hundreds of mass payouts only takes a few minutes. With Affiliate Builder’s mass payment platform – payouts are group together for efficiency.'
         ]
       "
       :list-data="massList"  
@@ -53,7 +53,7 @@ import GettingStarted from '@components/partials/home/GettingStarted'
                   id: 0,
                   title: 'Manage, Audit and Launch Funds Transfer',
                   icon: ['fas','book-open'],
-                  block_text:'HydroPay’s platform is fully equipped to track each transaction, view trends in metrics and performance while checking customer accounts and initiating funds transfers.'
+                  block_text:'Affiliate Builder’s platform is fully equipped to track each transaction, view trends in metrics and performance while checking customer accounts and initiating funds transfers.'
               },
               {
                   id: 1,
@@ -71,7 +71,7 @@ import GettingStarted from '@components/partials/home/GettingStarted'
                   id: 3,
                   title: 'Accelerated Processing',
                   icon: ['fas','user-shield'],
-                  block_text:'HydroPay\'s mass payment solutions help remove all international bank transfer fees, acquire a better foreign exchange rate, lessen data entry errors, and accelerate the processing of your mass payment.'
+                  block_text:'Affiliate Builder\'s mass payment solutions help remove all international bank transfer fees, acquire a better foreign exchange rate, lessen data entry errors, and accelerate the processing of your mass payment.'
               }
           ],
           massBlueList: [
@@ -79,7 +79,7 @@ import GettingStarted from '@components/partials/home/GettingStarted'
                   id: 0,
                   title: 'Step 1',
                   icon: ['fas','database'],
-                  block_text:'Just enter your file containing massive payments lists directly to the HydroPay platform, and you can view everything live.'
+                  block_text:'Just enter your file containing massive payments lists directly to the Affiliate Builder platform, and you can view everything live.'
               },
               {
                   id: 1,

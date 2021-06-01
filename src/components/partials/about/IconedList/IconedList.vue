@@ -17,7 +17,7 @@ export default {
                 { 
                     id: 0,
                     header: 'Compliance and Security', 
-                    content: 'HydroPay has comprehensive experience with KYC/CIP and AML procedure, compliance with all local and international laws, and licensed and regulated financial institution that diverges according to payment options and countries. We have a full regulatory understanding and compliance risk assessments - which means every transaction is highly secured and treated with confidentiality.',
+                    content: 'Affiliate Builder has comprehensive experience with KYC/CIP and AML procedure, compliance with all local and international laws, and licensed and regulated financial institution that diverges according to payment options and countries. We have a full regulatory understanding and compliance risk assessments - which means every transaction is highly secured and treated with confidentiality.',
                     icon:'baby-carriage'
                 },
                 { 
@@ -29,13 +29,13 @@ export default {
                 { 
                     id: 2,
                     header: 'Multi- Currencies and Flexible Foreign Exchange', 
-                    content: 'Hydropay provides the most competitive foreign exchange rates either for single or mass payments and the flexibility for mixing and funding your FX needs, which allows you to store funds in major currencies while having an advantage payment network for minor currencies.',
+                    content: 'Affiliate Builder provides the most competitive foreign exchange rates either for single or mass payments and the flexibility for mixing and funding your FX needs, which allows you to store funds in major currencies while having an advantage payment network for minor currencies.',
                     icon:'business-time'  
                 },
                 { 
                     id: 3,
                     header: 'Worldwide Reach', 
-                    content: 'HydroPay, as one of the fastest-growing international payment service providers, we provide services for both business customers and consumers with real-time digital payments with our unique and integrated B2B B2C approach.',
+                    content: 'Affiliate Builder, as one of the fastest-growing international payment service providers, we provide services for both business customers and consumers with real-time digital payments with our unique and integrated B2B B2C approach.',
                     icon:'procedures'   
                 },
                 { 

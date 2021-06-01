@@ -12,6 +12,11 @@
       }
     }
   }
+  
+  .aff-ai-image {
+    margin-top: 30px;
+    width: 100%;
+  }
 
   .sliced-section-inner {
     max-width: 940px;
@@ -33,7 +38,7 @@
     }
   }
   .sliced-section--left {
-    margin-right: 50px;
+    margin-right: 0;
     // .sliced-section--left
     @media #{$small-desktop} {
       margin-right: 0px;

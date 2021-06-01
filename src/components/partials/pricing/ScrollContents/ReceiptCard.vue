@@ -8,7 +8,7 @@
               </header-text>
               <p class="mf-sub-text">
                   Leading businesses across the country are saving time and money <br />
-                  with HydroPay, receiving benefits like predictable pricing, support, <br />
+                  with Affiliate Builder, receiving benefits like predictable pricing, support, <br />
                   security and a seamless integration. Ready to connect?
                   <a href="#" class="link">Let’s talk payments.</a>
               </p>

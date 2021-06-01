@@ -26,7 +26,7 @@
 
     <!-- right content -->
     <template v-slot:slot-right>
-     <code-panel title="Step 1 - Create Users" v-show="isTabActive('create_users')">
+     <!-- <code-panel title="Step 1 - Create Users" v-show="isTabActive('create_users')">
         <pre v-highlightjs>
           <code class="bash">
             curl -X POST -H "Accept: application/vnd.hydropay.v1.hal+json" -H
@@ -71,7 +71,8 @@
             }' "https://api-sandbox.hydropay.com/customers" -v
           </code>
         </pre>
-     </code-panel>
+     </code-panel> -->
+      <img class="aff-ai-image" :src="require('@images/affiliate/ai.jpg')" alt="affiliate">
     </template>
   </SlicedSection>
   </div>

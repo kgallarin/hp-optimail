@@ -1,8 +1,8 @@
 <template>
   <div class="animated-ring-wrapper">
     <!-- <span class="particles1"></span> -->
-      <img class="ring ring-top" :src="require('@svg/animation_ring/circle-top.svg')" alt="Hydropay">
-      <img class="ring-bottom" :src="require('@svg/animation_ring/cirlce-bot-light.svg')" alt="Hydropay">
+      <img class="ring ring-top" :src="require('@svg/animation_ring/circle-top.svg')" alt="Affiliate Builder">
+      <img class="ring-bottom" :src="require('@svg/animation_ring/cirlce-bot-light.svg')" alt="Affiliate Builder">
 
 
       <div class="particles-container">

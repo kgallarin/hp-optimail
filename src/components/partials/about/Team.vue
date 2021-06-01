@@ -2,14 +2,14 @@
     <SlicedSection class="team-wrapper">
         <template v-slot:slot-left>
             <div class="image-container">
-                <img :src="require('@images/about/man.png')" alt="Hydropay Team" class="team-image">
+                <img :src="require('@images/about/man.png')" alt="Affiliate Builder Team" class="team-image">
             </div>
         </template>
         <template v-slot:slot-right>
             <p class="team-content-text">
                 &quot;Just having satisfied customers isn&#39;t good enough anymore. We know that for a booming business, it&#39;s not only you who needs to be happy, but it&#39;s also your customers who need to be devoted users.&quot;
             </p>
-            <span class="team-signature">HydroPay Team</span>
+            <span class="team-signature">Affiliate Builder Team</span>
 
         </template>
     </SlicedSection>

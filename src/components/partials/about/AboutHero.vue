@@ -9,7 +9,7 @@
         </header-text>
 
         <p class="hero-content-text">
-          HydroPay was founded in 2018 with a focus on building the future of digital payment solutions.
+          Affiliate Builder was founded in 2018 with a focus on building the future of digital payment solutions.
           We believe that funds transfer should be transparent, secure, fast, and affordable, breaking the
           old and traditional way of moving money – and we found a perfect way to do it!
         </p>

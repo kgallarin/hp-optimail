@@ -130,7 +130,7 @@
                     value="accepted"
                     unchecked-value="not_accepted"
                 >
-                    I agree to the <a href="#" class="link gold-link">HydroPay Terms of Service</a>.
+                    I agree to the <a href="#" class="link gold-link">Affiliate Builder Terms of Service</a>.
                 </b-form-checkbox>
 
                 <Button type="submit" class="custom-button-yellow" label="register" />

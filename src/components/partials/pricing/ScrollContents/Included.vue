@@ -10,10 +10,10 @@
         <check-list :listData="listData" />
 
         <div class="rsearch-study">
-            <img :src="require('@svg/research.svg')" alt="Hydropay" />
+            <img :src="require('@svg/research.svg')" alt="Affiliate Builder" />
             <div class="text-wrap d-flex align-items-center">
                <div class="wrapper">
-                    <span class="hl">An IDC study</span> shows that, on average, businesses using Stripe attribute a <span class="hl">6.7% increase</span> in revenue to the Hydropay platform.
+                    <span class="hl">An IDC study</span> shows that, on average, businesses using Stripe attribute a <span class="hl">6.7% increase</span> in revenue to the Affiliate Builder platform.
                </div>
             </div>
         </div>

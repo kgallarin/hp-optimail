@@ -6,9 +6,9 @@
                     <dark-card
                         :click="() => goTo('features')"
                         header="Limitless Possibilities "
-                        linkText="Learn about HydroPay’s products"
+                        linkText="Learn about Affiliate Builder's products"
                     >
-                        Easily integrate Hydropay into your online store and start accepting global payments. 
+                        Easily integrate Affiliate Builder into your online store and start accepting global payments. 
                         Take advantage of our reporting tools and gain unique insights into the purchasing behavior of your customers. 
                         Use all our features and workflows and unlock all possibilities at your disposal to see your businesses raising performance.
                     </dark-card>

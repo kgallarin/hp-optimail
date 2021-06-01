@@ -2,7 +2,7 @@
   <div class="features-wrapper">
     <features-hero
       header-text="Process All Your Recurring Plans in One API"
-      text-desc="With HydroPay’s payment dashboard and simple API – making it easy to manage all your subscription plans most cost-effectively."
+      text-desc="With Affiliate Builder’s payment dashboard and simple API – making it easy to manage all your subscription plans most cost-effectively."
     />
 
     <!-- section 2 -->
@@ -10,7 +10,7 @@
       header-text="Billing Automation in One Platform"
       :text-desc="
         [
-          'HydroPay provides a secure payment solution for business, which allows our clients to process automated billing and payment collection regularly. With our sophisticated API: business, eCommerce, iGaming, and other business trends will no longer need to process the recurring bill manually, and customers don’t have to make manual payments every cycle. Let our platform do the automation for your business.', 
+          'Affiliate Builder provides a secure payment solution for business, which allows our clients to process automated billing and payment collection regularly. With our sophisticated API: business, eCommerce, iGaming, and other business trends will no longer need to process the recurring bill manually, and customers don’t have to make manual payments every cycle. Let our platform do the automation for your business.', 
         ]
       "
     />

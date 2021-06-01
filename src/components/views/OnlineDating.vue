@@ -21,7 +21,7 @@
       header-text="Merchant account for Online dating"
       :text-desc="
         [
-          'Online dating has been classified as high-risk, making these services unsuitable for merchant accounts at numerous banks. HydroPay has a vast network of banking partners that accept online dating services and can provide competitive rates. '
+          'Online dating has been classified as high-risk, making these services unsuitable for merchant accounts at numerous banks. Affiliate Builder has a vast network of banking partners that accept online dating services and can provide competitive rates. '
         ]
       "
       :list-data="dating_list"  
@@ -30,7 +30,7 @@
     <!-- section 4 -->
     <security 
       header-text="Versatile Subscriptions and Packages"
-      text-desc="Dating sites must offer a multitude of services, depending on the needs of every type of customer., Give users the quickest way to start any subscription or package and search for love using HydroPay: "
+      text-desc="Dating sites must offer a multitude of services, depending on the needs of every type of customer., Give users the quickest way to start any subscription or package and search for love using Affiliate Builder: "
       :list-data="dating_bluelist" 
     />
      <!-- footers  -->
@@ -40,7 +40,7 @@
       header-text="Confidentiality for Dating Users"
       :text-desc="
         [
-          'It is essential for your users that they feel safe when using your dating site. That is why HydroPay offers confidential payment confirmation. You can remove your dating site name from the payment confirmation sent to the user so that the user can keep his online dating activities a secret.'
+          'It is essential for your users that they feel safe when using your dating site. That is why Affiliate Builder offers confidential payment confirmation. You can remove your dating site name from the payment confirmation sent to the user so that the user can keep his online dating activities a secret.'
         ]
       "
     />
@@ -51,7 +51,7 @@
       :text-desc="
         [
           'It is crucial to implement mobile payments in an online dating site to increase traffic and conversion rates. In 2020, the number of people in the world that own a smart and feature phone is 4.78 Billion, making up 61.62% of the world\'s population, so it is only logical to offer mobile payment methods.',
-          'Since most users tend to use phones for texting on online dating sites, the same users should be able to make payments through their phones. Offering mobile payments with HydroPay will have a direct positive impact on your revenue.'
+          'Since most users tend to use phones for texting on online dating sites, the same users should be able to make payments through their phones. Offering mobile payments with Affiliate Builder will have a direct positive impact on your revenue.'
         ]
       "
     />
@@ -77,7 +77,7 @@ import GettingStarted from '@components/partials/home/GettingStarted'
                   id: 0,
                   title: 'Maintain a Low Chargeback',
                   icon: ['fas','book-open'],
-                  block_text:'The online dating industry has a higher-than-average number of chargebacks. Maintaining a low chargeback ratio is critical because if chargebacks exceed the maximums, the merchant account becomes at risk of being shut down by the banks. HydroPay is an expert when it comes to chargeback management and can guide you to self-regulate and establish industry best practices. '
+                  block_text:'The online dating industry has a higher-than-average number of chargebacks. Maintaining a low chargeback ratio is critical because if chargebacks exceed the maximums, the merchant account becomes at risk of being shut down by the banks. Affiliate Builder is an expert when it comes to chargeback management and can guide you to self-regulate and establish industry best practices. '
               },
               {
                   id: 1,
@@ -89,7 +89,7 @@ import GettingStarted from '@components/partials/home/GettingStarted'
                   id: 2,
                   title: 'Multiple merchant account IDs (MIDs):',
                   icon:['fas','users'],
-                  block_text:'Online dating companies usually need more than one merchant account to support their varied services. HydroPay can manage multiple merchant IDs organized under one main MID account.'
+                  block_text:'Online dating companies usually need more than one merchant account to support their varied services. Affiliate Builder can manage multiple merchant IDs organized under one main MID account.'
               }
               
           ],

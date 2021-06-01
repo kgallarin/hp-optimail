@@ -34,7 +34,7 @@ import CheckList from '@components/common/CheckList'
         type: Array,
         default: () => [
           'With today\'s developing technologies and a lot of payment options checkouts don\'t have to be a complicated process before you reach the last part and complete your shopping experience.',
-          'With HydroPay\'s secured and simplified online payment procedure, no unnecessary page redirection, you can prevent your customers from having abandoned checkouts. Only vital information is required to minimize interruptions with very few clicks possible, making their checkout experience sleek and easy - means more conversion for your business.'
+          'With Affiliate Builder\'s secured and simplified online payment procedure, no unnecessary page redirection, you can prevent your customers from having abandoned checkouts. Only vital information is required to minimize interruptions with very few clicks possible, making their checkout experience sleek and easy - means more conversion for your business.'
           ]
       }
     },

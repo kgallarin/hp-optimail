@@ -34,9 +34,9 @@ export default {
     data() {
         return {
             list: [
-                { id:0,  headerLabel: 'Eliminate Fraud & Minimize Chargebacks ', fa_icon:['fas','users'], text:'Our fraud prevention tool with Non-invasive 3D technology, Blacklisting & Tokenization that will help optimize your conversion rates. HydroPay’s automated anti-fraud solution will help you distinguishing fraudsters from customers and apply Dynamic 3D Secure to high-risk payments, reducing the risk of illegal transactions. '},
-                { id:1,  headerLabel: 'Global Payment Acceptance', fa_icon: ['fas','user-shield'], text:'Connect your website with Hydropay and be ready to make the world your market within minutes. Through our value-added serviced for you and your customers, you can start accepting globally recognized payment options and cards in your store.'},
-                { id:2,  headerLabel: 'Adaptable Payment Solution', fa_icon: ['fas','sort-amount-up'], text:'HydroPay provides a flexible solution for companies of all sizes. With our experience in the digital and financial services, we can tailor our solution to the smallest detail to cater to the requirements of all niche industry verticals.  '}
+                { id:0,  headerLabel: 'Eliminate Fraud & Minimize Chargebacks ', fa_icon:['fas','users'], text:'Our fraud prevention tool with Non-invasive 3D technology, Blacklisting & Tokenization that will help optimize your conversion rates. Affiliate Builder\'s automated anti-fraud solution will help you distinguishing fraudsters from customers and apply Dynamic 3D Secure to high-risk payments, reducing the risk of illegal transactions. '},
+                { id:1,  headerLabel: 'Global Payment Acceptance', fa_icon: ['fas','user-shield'], text:'Connect your website with Affiliate Builder and be ready to make the world your market within minutes. Through our value-added serviced for you and your customers, you can start accepting globally recognized payment options and cards in your store.'},
+                { id:2,  headerLabel: 'Adaptable Payment Solution', fa_icon: ['fas','sort-amount-up'], text:'Affiliate Builder provides a flexible solution for companies of all sizes. With our experience in the digital and financial services, we can tailor our solution to the smallest detail to cater to the requirements of all niche industry verticals.  '}
             ]
         }
     }

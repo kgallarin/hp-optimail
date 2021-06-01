@@ -17,7 +17,7 @@
 
     <!-- section 3 -->
     <data-protection 
-      header-text="With HydroPay, you'll get treated equally"
+      header-text="With Affiliate Builder, you'll get treated equally"
       :text-desc="
         [
           'We know that not every business is built the same, even among high-risk merchants, there are massive differences. Shatter the barriers of typical high-risk treatment and work with us to get:'
@@ -127,7 +127,7 @@ import GettingStarted from '@components/partials/home/GettingStarted'
                   id: 1,
                   title: 'Step 2',
                   icon:['fas','cloud'],
-                  block_text:'You go looking for a new partner who specializes in high-risk merchant accounts and came across HydroPay.'
+                  block_text:'You go looking for a new partner who specializes in high-risk merchant accounts and came across Affiliate Builder.'
               },
               {
                   id: 2,

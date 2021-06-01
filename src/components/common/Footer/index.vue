@@ -5,12 +5,12 @@
                 <!-- with logo box -->
                 <div class="brand-wrapper">
                     <router-link :to="{name: 'home'}">
-                      <img :src="require('@svg/hydropay-logo.svg')" alt="Hydropay" />
+                      <b-img height="auto" width="150px" :src="require('@images/affiliate/aff_logo.png')" alt="Affiliate builder"></b-img>
                     </router-link>
                     <p>
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                     </p>
-                      <p v-if="windowWidth < 1200">© {{ currentYear }} HydroPay</p>
+                      <p v-if="windowWidth < 1200">© {{ currentYear }} Affiliate Builder</p>
                 </div>
 
                 <!-- link list -->
@@ -21,7 +21,7 @@
                 <footer-links :data="links" :click="(e) => goTo(e)" />
             </div>
             <div class="signature">
-                <p v-if="windowWidth > 1200">© {{ currentYear }} HydroPay</p>
+                <p v-if="windowWidth > 1200">© {{ currentYear }} Affiliate Builder</p>
 
                 <!-- social media -->
                 <social-media label="Follow Us" />

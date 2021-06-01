@@ -4,7 +4,7 @@
     <template v-slot:slot-left>
       <div class="hero-intro-wrapper">
         <p class="font-lg landing-hero--header">
-          <strong class="text-uppercase">Online Payment Processing</strong>
+          <strong class="text-uppercase">Affiliate Builder</strong>
         </p>
         <ul class="landing-hero--list">
           <li>Grow your online business through a single software platform.</li>
@@ -19,7 +19,8 @@
     </template>
 
     <template v-slot:slot-right>
-      <animated-demo v-if="windowWidth > 1200"  />
+      <!-- <animated-demo v-if="windowWidth > 1200"  /> -->
+      <img :src="require('@images/affiliate/affhero.png')" alt="affiliate builder">
     </template>
 
 

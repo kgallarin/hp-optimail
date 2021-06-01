@@ -10,11 +10,11 @@
             <Card
               informative
               :fa_icon="['fas', 'envelope-open-text']"
-              headerLabel="Get Answers from the Hydropay Team"
+              headerLabel="Get Answers from the Affiliate Builder Team"
               iconSize="3x"
             >
-              Find everything you need to know to make Hydropay work for you.
-              Contact our customer success team at <strong>support@hydropay.com</strong> or <strong>123-456-789</strong>.
+              Find everything you need to know to make Affiliate Builder work for you.
+              Contact our customer success team at <strong>support@affiliatebuilder.com</strong> or <strong>123-456-789</strong>.
             </Card>
           </li>
           <li>
@@ -33,7 +33,7 @@
             <Card
               informative
               :fa_icon="['fas', 'map-marked-alt']"
-              headerLabel="Hydropay"
+              headerLabel="Affiliate Builder"
               iconSize="3x"
             >
               909 Locust Street, Suite 201 <br />

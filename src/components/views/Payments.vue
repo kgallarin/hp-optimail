@@ -2,7 +2,7 @@
   <div class="features-wrapper">
     <features-hero
       header-text="Payment Processing"
-      text-desc="HydroPay payment platform supports payment processing for all online transactions, 
+      text-desc="Affiliate Builder payment platform supports payment processing for all online transactions, 
       whether it&#39;s credit card and debit card, e-wallets, bank transfer, and mobile banking activities."
     />
 
@@ -12,7 +12,7 @@
       :text-desc="
         [
           'Our solutions will allow you to localize your payment target locations and broaden to worldwide scope.', 
-          'We have the latest cutting-edge technologies that emphasize on core customers and product experiences that will cater to all your payment needs as you grow your business. Whether domestic or international, POS, on-site, or in-app transactions, HydroPay has everything you need from a secure payment processing to recurring bills and subscriptions, from marketplace to simply accepting payments from any currency.',
+          'We have the latest cutting-edge technologies that emphasize on core customers and product experiences that will cater to all your payment needs as you grow your business. Whether domestic or international, POS, on-site, or in-app transactions, Affiliate Builder has everything you need from a secure payment processing to recurring bills and subscriptions, from marketplace to simply accepting payments from any currency.',
           'Increase your revenue with fast and secure payment options, low-cost B2B transactions, and advanced checkout conversion. Our process will ensure that the funds will be credited immediately and available for use without any foreign exchange liabilities.'
         ]
       "
@@ -23,7 +23,7 @@
       header-text="Accessible Mobile Payment"
       :text-desc="
         [
-          'In today\'s emerging technology, where you can do everything with just a single click, mobile phones became the most quintessential gadgets for reaching your customers. With Hydropay, your customers can make a mobile payment, barcode scanning, checking transactions, NFC, and mobile wallets or apps: mobile payment options are dynamic for every industry and company.',
+          'In today\'s emerging technology, where you can do everything with just a single click, mobile phones became the most quintessential gadgets for reaching your customers. With Affiliate Builder, your customers can make a mobile payment, barcode scanning, checking transactions, NFC, and mobile wallets or apps: mobile payment options are dynamic for every industry and company.',
           'Give your customers a complete payment option for any industry'
         ]
       "
@@ -94,7 +94,7 @@ import GettingStarted from '@components/partials/home/GettingStarted'
                   id: 0,
                   title: 'Over 250 payment networks',
                   icon: ['fas','database'],
-                  block_text:'HydroPay – as one of the leading international payment service providers, offers you secured access to over 250 payment networks that can be easily configured.'
+                  block_text:'Affiliate Builder – as one of the leading international payment service providers, offers you secured access to over 250 payment networks that can be easily configured.'
               },
               {
                   id: 1,

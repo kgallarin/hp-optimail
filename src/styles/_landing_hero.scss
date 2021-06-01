@@ -69,10 +69,13 @@
   }
 
   .sliced-section--right {
-    width: 33%;
+    // width: 33%;
+    // min-height: 463px;
+    width: 60%;
+    min-width: 310.19px;
+    
     padding: 0;
     min-width: 310.19px;
-    min-height: 463px;
     @media #{$small-desktop} {
       display: none;
    }

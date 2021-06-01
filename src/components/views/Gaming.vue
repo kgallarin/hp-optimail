@@ -2,7 +2,7 @@
   <div class="features-wrapper">
     <features-hero
       header-text="iGaming Merchants"
-      text-desc="Get a winning edge with HydroPay!HydroPay understands all the unique requirements of online gaming. Whether it's online gambling, online poker, online casinos, or any type of iGaming, our team recognizes the challenges you may face."
+      text-desc="Get a winning edge with Affiliate Builder! Affiliate Builder understands all the unique requirements of online gaming. Whether it's online gambling, online poker, online casinos, or any type of iGaming, our team recognizes the challenges you may face."
     />
 
     <!-- section 2 -->
@@ -39,7 +39,7 @@
       header-text="Global iGaming payments"
       :text-desc="
         [
-          'HydroPay offers gaming operators a payment system that can accept payments from every corner of the world. To increase acceptance rates and improve international player confidence in the game, you should allow players to make deposits in their home currency. We have you covered with more than 38 currencies in over 180 countries. With our multiple partners around the world, we have developed strong banking relationships to support online gaming. '
+          'Affiliate Builder offers gaming operators a payment system that can accept payments from every corner of the world. To increase acceptance rates and improve international player confidence in the game, you should allow players to make deposits in their home currency. We have you covered with more than 38 currencies in over 180 countries. With our multiple partners around the world, we have developed strong banking relationships to support online gaming. '
         ]
       "
     />
@@ -49,7 +49,7 @@
       header-text="Get mobile reach"
       :text-desc="
         [
-          'The mobile gaming sector has grown to one of the most significant industries over the past few years. Both games and payment pages must be able to respond to any device, whether desktop, mobile, or tablet, to provide the players with a better experience. This way, you will not miss out on any significant revenue from mobile users by implementing HydroPay for a better mobile experience.'
+          'The mobile gaming sector has grown to one of the most significant industries over the past few years. Both games and payment pages must be able to respond to any device, whether desktop, mobile, or tablet, to provide the players with a better experience. This way, you will not miss out on any significant revenue from mobile users by implementing Affiliate Builder for a better mobile experience.'
         ]
       "
     />
@@ -75,7 +75,7 @@ import GettingStarted from '@components/partials/home/GettingStarted'
                   id: 0,
                   title: 'Fraud Protection',
                   icon: ['fas','book-open'],
-                  block_text:'Chargebacks from players have become an increasing challenge. HydroPay can provide fraud prevention to identify fraudulent transactions in real-time. We have implemented hundreds of data points that minimize chargebacks and detect fraudsters.'
+                  block_text:'Chargebacks from players have become an increasing challenge. Affiliate Builder can provide fraud prevention to identify fraudulent transactions in real-time. We have implemented hundreds of data points that minimize chargebacks and detect fraudsters.'
               },
               {
                   id: 1,
