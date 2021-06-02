@@ -130,9 +130,14 @@
   }
 
   // .landing-hero
-  @media #{$md-desktop} {
-    padding-top: 40px;
-   padding-bottom: 70px;
- }
+  @media #{$md-desktop} {    
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
+  
+  @media #{$mobile} {    
+    padding-top: 15px;
+    padding-bottom: 70px;
+  }
 
 }
