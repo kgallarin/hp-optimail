@@ -31,7 +31,11 @@
   &-inner {
     max-width: 1344px;
     margin: 0 auto;
-
+    .hp-home-logo img{
+      height: 62px;
+      width: 187px;
+      margin-top: -10px;
+    }
     // header_navigation-inner
     @media #{$md-desktop} {
       max-width: 1144px;
