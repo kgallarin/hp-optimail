@@ -9,7 +9,7 @@
       <!-- Affiliate logo -->
       <router-link :to="{ name: 'home' }" class="hp-home-logo">
        <template v-if="!whiteNav">
-          <b-img height="auto" width="150" :src="require('@images/affiliate/aff_logo_white.png')" alt="Aff Builder"></b-img>
+          <b-img :src="require('@images/affiliate/aff_logo_white.png')" alt="Aff Builder"></b-img>
        </template>
        <template v-else>
           <b-img height="auto" width="150" :src="require('@images/affiliate/aff_logo.png')" alt="Aff Builder"></b-img>

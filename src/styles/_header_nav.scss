@@ -28,11 +28,11 @@
       padding: 0 24px;
     }
 
-  &-inner {
-    max-width: 1344px;
+  &-inner {    
+    max-width: 1199px;
     margin: 0 auto;
     .hp-home-logo img{
-      height: 62px;
+      height: 58px;
       width: 187px;
       margin-top: -10px;
     }
@@ -78,7 +78,6 @@
 
 
 
-
     &.sticky-nav {
       height: 80px;
       min-height: 80px;
@@ -106,8 +105,8 @@
     }
 
     .header_navigation-inner {
-      max-width: 100%;
-      margin: 0 48px;
+      max-width: 1199px;
+      margin: 0 auto;
 
       // .header_navigation-inner
       @media #{$tablet-portrait} {
