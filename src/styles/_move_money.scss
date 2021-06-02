@@ -19,7 +19,7 @@
   }
 
   .sliced-section-inner {
-    max-width: 940px;
+    max-width: 1199px;
     padding-left: 0px;
     // .sliced-section-inner
     @media #{$small-desktop} {
@@ -27,11 +27,15 @@
       padding: 10px;
     }
   }
-  .sliced-section--left,
+  
+  .sliced-section--left {
+    width: 40%;
+  }
   .sliced-section--right {
-    width: 50%;
-    // sliced-section--left,
-    // sliced-section--right
+    width: 60%;
+  }
+  .sliced-section--left,
+  .sliced-section--right {    
     @media #{$small-desktop} {
       width: 100%;
       padding: 0 15px;
@@ -80,5 +84,6 @@
 
 
 .hdw-at-movemoney {
-  margin-top: 120px;
+  // margin-top: 120px;
+  padding: 0 20px;
 }

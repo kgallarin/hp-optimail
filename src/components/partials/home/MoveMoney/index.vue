@@ -1,6 +1,7 @@
 <template>
   <div class="wrap mt-5 overflow-hidden">
-    <animated-demo v-if="windowWidth < 1200" class="d-flex justify-content-center hdw-at-movemoney"/>
+    <!-- <animated-demo  class="d-flex justify-content-center hdw-at-movemoney"/> -->
+  <img v-if="windowWidth < 1200" class="hdw-at-movemoney" :src="require('@images/affiliate/affhero.png')" alt="Aff Builder">
   <!-- please check sliced_container.scss for this sliced section class -->
   <SlicedSection class="default-sliced move_money-section">
     <template v-slot:slot-left>

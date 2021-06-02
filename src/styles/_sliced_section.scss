@@ -11,7 +11,7 @@
 // sliced section main class
 .sliced-section {
   &-inner {
-    max-width: 940px;
+    max-width: 1199px;
     width: 100%;
     margin: 0 auto;
 
@@ -24,7 +24,7 @@
     position: relative;
     z-index: 105;
     width: 100%;
-    max-width: 940px;
+    max-width: 100%;
 
     @media #{$small-desktop} {
       padding: 0 10px;

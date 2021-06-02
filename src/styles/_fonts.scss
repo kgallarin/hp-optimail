@@ -90,7 +90,11 @@ $font-secondary: "Poppins", sans-serif;
   letter-spacing: 0.36px;
   font-weight: 700;
   font-family: $font-secondary;
-
+  
+  // @media #{$mobile} {
+  //   text-align: left !important;
+  // }
+  
   &.xl {
     font-size: $font-xlg;
   }

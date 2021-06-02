@@ -45,7 +45,7 @@
   }
 
   .sliced-section--left {
-    width: 67%;
+    width: 40%;
     @media #{$small-desktop} {
       margin: 0 auto;
       width: 80%;
@@ -71,8 +71,14 @@
   .sliced-section--right {
     // width: 33%;
     // min-height: 463px;
-    width: 60%;
+    width: 70%;
     min-width: 310.19px;
+    
+    img {
+      margin-left: 48px;
+      width: 100%;
+      max-width: 100%;
+    }
     
     padding: 0;
     min-width: 310.19px;
