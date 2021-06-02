@@ -24,7 +24,7 @@
                   <div class="list-column-content">
                     <header class="list-column-header">Fraud protection</header>
                     <p class="list-column-description">
-                      Identify fake leads with real-time multi-data point user profiling. Configure at will <a href="https://seon.io/landing/online-lending-fraud-prevention/" target="_blank" class="card-w-icon-link">Machine Learning Driven Alerts</a>, 
+                      Identify fake leads with real-time multi-data point user profiling. Configure at will <a href="https://seon.io/landing/online-lending-fraud-prevention/" target="_blank" class="card-w-icon-link mt-0">Machine Learning Driven Alerts</a>, 
                       or hold suspicious conversions by implementing AI rules. Detect and blacklist bot traffic - stop wasting money on non-human clicks.
                     </p>
                   </div>
