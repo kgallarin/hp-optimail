@@ -6,8 +6,8 @@
                 <div class="base-column">
                     <Card
                         :fa_icon="['fas', 'file-alt']"
-                        headerLabel="Recurring Payments"
-                        text="Create multiple subscription plans to provide the best choices and improve customer retention."
+                        headerLabel="Multi-access and team work"
+                        text="Make all relevant data from your platform easily available to your team members or partners. Assign access based on roles & provide affiliates access to data in real-time."
                         iconSize="6x"
                     />
                 </div>
@@ -15,8 +15,8 @@
                 <div class="base-column">
                     <Card
                         :fa_icon="['fas', 'mobile-alt']"
-                        headerLabel="All-in-one Solution"
-                        text="A secured purchasing process with a quick checkout or custom form without redirecting."
+                        headerLabel="Native tracking capabilities"
+                        text="Track affiliates using first-party data and server sidetracking., no pixels, no digital fingerprints required and of course, no 3rd party cookies."
                         iconSize="6x"
                     />
                 </div>

@@ -1,18 +1,47 @@
 <template>
     <SlicedSection single-column class="learn-more">
-        <header-Text> Secure payment platform for all your needs </header-Text>
+        <header-Text> Marketing Platform for all your needs </header-Text>
 
         <div class="list-container-wrapper">
             <div class="list-container">
-                <template v-for="data in list" >
-                <list-column
-                    :key="data.id"
-                    :fa_icon="data.fa_icon"
-                    :headerLabel="data.headerLabel"
-                    :text="data.text"
-                    icon_size="4x"
-                />
-                </template>
+                <!-- <template v-for="data in list" > -->
+                <div class="list-column d-flex">
+                   <div class="icon-container">
+                     <font-awesome-icon :icon="['fas','users']" size="4x" />
+                   </div>
+                  <div class="list-column-content">
+                    <header class="list-column-header">Scale your bussiness</header>
+                    <p class="list-column-description">
+                      Aff Builder provides the most advanced suite to integrate, manage, track and reward affiliates or direct publishers on any kind of device
+                    </p>
+                  </div>
+                </div>
+                
+                <div class="list-column d-flex">
+                   <div class="icon-container">
+                     <font-awesome-icon :icon="['fas','user-shield']" size="4x" />
+                   </div>
+                  <div class="list-column-content">
+                    <header class="list-column-header">Fraud protection</header>
+                    <p class="list-column-description">
+                      Identify fake leads with real-time multi-data point user profiling. Configure at will <a href="https://seon.io/landing/online-lending-fraud-prevention/" target="_blank" class="card-w-icon-link">Machine Learning Driven Alerts</a>, 
+                      or hold suspicious conversions by implementing AI rules. Detect and blacklist bot traffic - stop wasting money on non-human clicks.
+                    </p>
+                  </div>
+                </div>
+                
+                <div class="list-column d-flex">
+                   <div class="icon-container">
+                     <font-awesome-icon :icon="['fas','sort-amount-up']" size="4x" />
+                   </div>
+                  <div class="list-column-content">
+                    <header class="list-column-header">Powerful tools</header>
+                    <p class="list-column-description">
+                      We provide you and your affiliates with everything you can possibly need. Landings, Banners, Tracking software, robust analytics and an intuitive interface.
+                    </p>
+                  </div>
+                </div>
+                <!-- </template> -->
             </div>
         </div>
 
@@ -33,11 +62,11 @@ export default {
     components: { HeaderText, SlicedSection, ListColumn, Button },
     data() {
         return {
-            list: [
-                { id:0,  headerLabel: 'Eliminate Fraud & Minimize Chargebacks ', fa_icon:['fas','users'], text:'Our fraud prevention tool with Non-invasive 3D technology, Blacklisting & Tokenization that will help optimize your conversion rates. Aff Builder\'s automated anti-fraud solution will help you distinguishing fraudsters from customers and apply Dynamic 3D Secure to high-risk payments, reducing the risk of illegal transactions. '},
-                { id:1,  headerLabel: 'Global Payment Acceptance', fa_icon: ['fas','user-shield'], text:'Connect your website with Aff Builder and be ready to make the world your market within minutes. Through our value-added serviced for you and your customers, you can start accepting globally recognized payment options and cards in your store.'},
-                { id:2,  headerLabel: 'Adaptable Payment Solution', fa_icon: ['fas','sort-amount-up'], text:'Aff Builder provides a flexible solution for companies of all sizes. With our experience in the digital and financial services, we can tailor our solution to the smallest detail to cater to the requirements of all niche industry verticals.  '}
-            ]
+          list: [
+              { id:0,  headerLabel: 'Eliminate Fraud & Minimize Chargebacks ', fa_icon:['fas','users'], text:'Our fraud prevention tool with Non-invasive 3D technology, Blacklisting & Tokenization that will help optimize your conversion rates. Aff Builder\'s automated anti-fraud solution will help you distinguishing fraudsters from customers and apply Dynamic 3D Secure to high-risk payments, reducing the risk of illegal transactions. '},
+              { id:1,  headerLabel: 'Global Payment Acceptance', fa_icon: ['fas','user-shield'], text:'Connect your website with Aff Builder and be ready to make the world your market within minutes. Through our value-added serviced for you and your customers, you can start accepting globally recognized payment options and cards in your store.'},
+              { id:2,  headerLabel: 'Adaptable Payment Solution', fa_icon: ['fas','sort-amount-up'], text:'Aff Builder provides a flexible solution for companies of all sizes. With our experience in the digital and financial services, we can tailor our solution to the smallest detail to cater to the requirements of all niche industry verticals.  '}
+          ]
         }
     }
 }

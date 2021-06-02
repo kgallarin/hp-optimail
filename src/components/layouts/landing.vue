@@ -60,7 +60,5 @@ export default {
     this.$EventBus.$off('closeMobileNav', this.handleCloseMobileNav)
     window.removeEventListener('scroll', this.handleScroll)
   }
-
-
 };
 </script>

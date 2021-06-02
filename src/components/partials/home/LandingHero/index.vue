@@ -4,12 +4,11 @@
     <template v-slot:slot-left>
       <div class="hero-intro-wrapper">
         <p class="font-lg landing-hero--header">
-          <strong class="text-uppercase">Aff Builder</strong>
+          <strong class="text-uppercase">Affiliation, Evolved</strong>
         </p>
         <ul class="landing-hero--list">
-          <li>Grow your online business through a single software platform.</li>
-          <li>Boost conversion & acceptance rates.</li>
-          <li>Use automated features for demanding global payment operations.</li>
+          <li>Create, grow and manage your own affiliate platform.</li>
+          <li>Provide your network with everything needed to promote your products within minutes.</li>
         </ul>
       </div>
 

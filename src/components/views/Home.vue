@@ -5,10 +5,10 @@
     <landing-hero />
 
     <!-- section 2 -->
-    <move-money/>
+    <learn-more/>
 
     <!-- section 3 -->
-    <learn-more/>
+    <move-money/>
 
     <!-- section 4 -->
     <brands />

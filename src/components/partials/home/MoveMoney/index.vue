@@ -5,7 +5,8 @@
   <!-- please check sliced_container.scss for this sliced section class -->
   <SlicedSection class="default-sliced move_money-section">
     <template v-slot:slot-left>
-      <header-text> Move Money in <br /> 3 Easy Endpoints </header-text>
+      <header-text> Smairtlink, <br /> The ultimate AI marketing tool </header-text>
+      
       <ul class="card-list">
         <li v-for="(data, index) in card_data" :class="[{ 'active' : activeNav === index }]" :key="data.id">
           <a href="#"
@@ -98,23 +99,23 @@ export default {
         {
           id: 0,
           fa_icon: ['fas', 'address-card'],
-          headerLabel: 'Step 1 – Create Users',
+          headerLabel: 'Step 1 - Campaign Creation',
           desc: 'create_users',
-          text:'Your user can connect and verify their identity all within your application, without having to go to a third-party site.'
+          text:'Let your affiliates  Start a campaign and replace the url with SmAIrtlink. As easy as this.'
         },
         {
           id: 1,
           fa_icon:['fas', 'money-check-alt'],
-          headerLabel: 'Step 2 – Attach Bank Accounts',
+          headerLabel: 'Step 2 - Auto Optimization',
           desc: 'attach_bank',
-          text:'Dwolla offers multiple ways to quickly verify bank accounts to send funds.'
+          text:'Let the power of SmAIrtlink optimize the campaigns through landing pages, banners, devices, offers, platforms or any filters you would like to ad'
         },
         {
           id: 2,
           fa_icon:['fas', 'exchange-alt'],
-          headerLabel: 'Step 3 – Move Money',
+          headerLabel: 'Step 3- Analyze and filter',
           desc: 'move_money',
-          text:'Automate your payments and even send up to 5,000 payments with 1 API request.'
+          text:'With small adjustments Smairtlink will provide you and your affilates the best conversion'
         }
       ]
     }
