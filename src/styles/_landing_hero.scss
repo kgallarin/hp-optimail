@@ -16,7 +16,7 @@
   .wave-container {
     position: absolute;
     width: 100%;
-    bottom: -285px;
+    bottom: -140px;
     transform: translateY(-3px) rotate(180deg);
     height: 143px;
 
@@ -34,9 +34,9 @@
 
 .landing-hero {
   background-image: linear-gradient(to bottom, #2e4dab, #0091ff);
-  padding-top: 80px;
+  // padding-top: 80px;
   position: relative;
-  padding-bottom: 200px;
+  padding-bottom: 90px;
   transform: translateZ(3px);
 
   .sliced-section-inner {
