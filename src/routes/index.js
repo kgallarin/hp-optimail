@@ -10,6 +10,8 @@ import CaseStudy from '@components/views/CaseStudy';
 import About from '@components/views/About';
 import Features from '@components/views/Features';
 import ContactUs from '@components/views/ContactUs';
+import PayoutTerms from '@components/views/PayoutTerms';
+import Careers from '@components/views/Careers';
 
 import Login from '@components/views/Auth/Login';
 import Forgot from '@components/views/Auth/Forgot';
@@ -31,6 +33,14 @@ import HighRisk from '@components/views/HighRisk';
 import OnlineDating from '@components/views/OnlineDating';
 import Startups from '@components/views/Startups';
 import DigitalProducts from '@components/views/DigitalProducts';
+
+// Static pages
+import TermsCondition from '@components/views/TermsCondition';
+import PrivacyPolicy from '@components/views/PrivacyPolicy';
+import CookiePolicy from '@components/views/CookiePolicy';
+
+
+
 
 
 
@@ -81,7 +91,7 @@ const router = new Router({
       },
     },
     {
-      path: '/pricing',
+      path: '/affiliates',
       component: Pricing,
       name: 'pricing',
       meta: {
@@ -224,6 +234,46 @@ const router = new Router({
       path: '/start-ups',
       component: Startups,
       name: 'start_ups',
+      meta: {
+        layout: 'default',
+      },
+    },
+    {
+      path: '/payout',
+      component: PayoutTerms,
+      name: 'payout',
+      meta: {
+        layout: 'default',
+      },
+    },
+    {
+      path: '/careers',
+      component: Careers,
+      name: 'careers',
+      meta: {
+        layout: 'default',
+      },
+    },
+    {
+      path: '/terms-and-conditions',
+      component: TermsCondition,
+      name: 'terms_condition',
+      meta: {
+        layout: 'default',
+      },
+    },
+    {
+      path: '/cookie-policy',
+      component: CookiePolicy,
+      name: 'cookie_policy',
+      meta: {
+        layout: 'default',
+      },
+    },
+    {
+      path: '/privacy-policy',
+      component: PrivacyPolicy,
+      name: 'privacy_policy',
       meta: {
         layout: 'default',
       },

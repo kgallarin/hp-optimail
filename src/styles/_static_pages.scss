@@ -1,0 +1,27 @@
+.static-pages {
+  max-width: 1199px;
+  margin: 0 auto;
+  
+  p, li{
+    @include font-settings;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.43;
+    letter-spacing: 0.13px;
+    color: #6d7278;
+    margin: 23px 0 16px;
+  }
+  
+  .ordered-list {
+    ul {
+      list-style-type: disc;
+      padding-left: 40px;
+      @media #{$mobile} {
+        padding-left: 30px;
+      }
+    }
+  }
+  
+  @media #{$mobile} {
+    padding: 0 24px;
+  }
+}

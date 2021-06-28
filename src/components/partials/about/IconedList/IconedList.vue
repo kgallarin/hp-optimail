@@ -16,40 +16,28 @@ export default {
             actions: [
                 { 
                     id: 0,
-                    header: 'Compliance and Security', 
-                    content: 'Aff Builder has comprehensive experience with KYC/CIP and AML procedure, compliance with all local and international laws, and licensed and regulated financial institution that diverges according to payment options and countries. We have a full regulatory understanding and compliance risk assessments - which means every transaction is highly secured and treated with confidentiality.',
-                    icon:'baby-carriage'
+                    header: 'Success Management', 
+                    content: 'Aff Builder has comprehensive experience with marketing and advertising procedures that focus on traffic performance to lift your brands for a wider audience.',
+                    icon:'calendar-check'
                 },
                 { 
                     id: 1,
-                    header: 'Simplicity', 
-                    content: 'With a single integration to our advanced framework, businesses from all sorts of industries and eCommerce can make payments. Whether it is sending or receiving to almost any bank accounts, eWallets, mobile banking anywhere in the world in a fast, highly secure, and adaptable platform.',
+                    header: 'Simplicity and Single Integration', 
+                    content: 'With one single integration to our advanced framework, businesses from all sorts of industries and eCommerce can understand which type of audience works best for every brand and use that data to boost your customer engagement.',
                     icon:'hands-helping' 
                 },
                 { 
                     id: 2,
-                    header: 'Multi- Currencies and Flexible Foreign Exchange', 
-                    content: 'Aff Builder provides the most competitive foreign exchange rates either for single or mass payments and the flexibility for mixing and funding your FX needs, which allows you to store funds in major currencies while having an advantage payment network for minor currencies.',
-                    icon:'business-time'  
+                    header: 'Worldwide Reach', 
+                    content: 'AFF Builder is one of the fastest growing affiliate marketing platforms, you can automate and manually gain full control over your affiliate marketing worldwide and focus on your business growth anywhere in the world.',
+                    icon:'globe-americas'  
                 },
                 { 
                     id: 3,
-                    header: 'Worldwide Reach', 
-                    content: 'Aff Builder, as one of the fastest-growing international payment service providers, we provide services for both business customers and consumers with real-time digital payments with our unique and integrated B2B B2C approach.',
-                    icon:'procedures'   
-                },
-                { 
-                    id: 4,
                     header: 'Customer Satisfaction Guaranteed', 
-                    content: 'Satisfied customers are one of the critical components of business success. Providing payment solutions with complete transparency, guarantee what you send is what they receive with settlement timing will make your seasonal customer one of your patron user.',
-                    icon:'cogs'    
+                    content: 'Satisfied customers are one of the critical components of any successful businesses. Providing marketing solutions with complete transparency, guaranteed that will grow your business and motivate your affiliates.',
+                    icon:'smile'   
                 },
-                { 
-                    id: 5,
-                    header: 'Single Integration', 
-                    content: 'With easy integration to our advanced framework, businesses from all sorts of industries and eCommerce can make payments, whether it&#39;s sending or receiving to almost any bank accounts, eWallets, mobile banking anywhere in the world in a fast, highly secure and adaptable platform.',
-                    icon:'chart-bar'     
-                }
             ]
         }
     },

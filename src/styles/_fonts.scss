@@ -66,6 +66,13 @@ $font-secondary: "Poppins", sans-serif;
 
 .color-gold {
   color: #f7b500;
+  &:hover, &:active {
+    color: #f7a000;
+
+    svg {
+      fill: #f7a000;
+    }
+  }
 }
 
 .color-lblue {

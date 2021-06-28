@@ -1,6 +1,6 @@
 <template>
     <SlicedSection single-column class="learn-more">
-        <header-Text> Marketing Platform for all your needs </header-Text>
+        <header-Text class="text-capitalize"> Marketing Platform for all your needs </header-Text>
 
         <div class="list-container-wrapper">
             <div class="list-container">
@@ -24,8 +24,10 @@
                   <div class="list-column-content">
                     <header class="list-column-header">Fraud protection</header>
                     <p class="list-column-description">
-                      Identify fake leads with real-time multi-data point user profiling. Configure at will <a href="https://seon.io/landing/online-lending-fraud-prevention/" target="_blank" class="card-w-icon-link mt-0">Machine Learning Driven Alerts</a>, 
-                      or hold suspicious conversions by implementing AI rules. Detect and blacklist bot traffic - stop wasting money on non-human clicks.
+                      Detect and blacklist bot traffic and stop wasting money on non-human clicks. 
+                    </p>
+                    <p class="list-column-description">
+                      Identify fake leads with real-time multi-data point user profiling, configure-at-will Machine Learning Driven Alerts, and hold suspicious conversions by implementing AI rules. 
                     </p>
                   </div>
                 </div>
@@ -37,7 +39,7 @@
                   <div class="list-column-content">
                     <header class="list-column-header">Powerful tools</header>
                     <p class="list-column-description">
-                      We provide you and your affiliates with everything you can possibly need. Landings, Banners, Tracking software, robust analytics and an intuitive interface.
+                      Providing you and your affiliates with everything you need - from Landings, Banners, Tracking software, robust analytics with an intuitive interface.
                     </p>
                   </div>
                 </div>

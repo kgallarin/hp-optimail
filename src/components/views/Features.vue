@@ -1,146 +1,80 @@
 <template>
   <div class="features-wrapper">
     <features-hero 
-      header-text="Mass Payouts"
-      text-desc="Aff Builder provides the most efficient, state of the art mass payment API when you can process your bulk payment 
-      and track the progress in just one click, which helps you save time and focus more on building your business."
+      header-text="Power Up Your Lead Conversion Through One Platform"
+      text-desc="Aff Builder is equipped with all the features you need to expand your business with affiliates. Everything under your fingertips, in just few clicks away."
     />
 
     <!-- section 2 -->
     <research 
-      header-text="Mass Payment Platform"
+      header-text="Be Widely Known"
       :text-desc="
         [
-          'With Aff Builder mass payment platform, you can make mass payments securely and in a cost-effective way to Visa, Mastercard, SEPA, Bank Transfer or SWIFT, eWallets, or any online account in either local or international cross border payouts.', 
+          'Aff Builder platform makes it easy to expand your social reach worldwide with awesome engaging branded content.', 
           'With our wide range of payment methods – we offer an attractive rate without double commissions to instantly process payouts any time of the day.'
         ]
       "
+      :list-data="widely_known"
+      bullet-list
     />
 
     <!-- section 3 -->
     <data-protection 
-      header-text="Domestic and International Mass Payment Solutions"
+      header-text="Easy as 1-2-3"
       :text-desc="
         [
-          'Sending at least hundreds of mass payouts only takes a few minutes. With Aff Builder’s mass payment platform – payouts are group together for efficiency.', 
-          'According to the report, ACH payments had the lowest fraud rate, by value, among the payment types with just 1.3% of fraudulent ACH transactions in 2015.'
+          'Our platform generates easy copy and paste options to share on any social media apps and websites you have.', 
         ]
       "
-      :list-data="massList"  
+      :list-data="easy_steps"
+      bullet-list
     />
 
     <!-- section 4 -->
-    <security 
+    <!-- <security 
       header-text="All-in-One Payment Solutions"
       text-desc="Providing your customers with the broadest range and mixes of different payment options is a must-have for successfully converting your seasonal shoppers to a regular one."
       :list-data="massBlueList" 
-    />
+    /> -->
 
     <br />
 
      <!--           Payment content            -->
 
-    <features-hero
+    <!-- <features-hero
       header-text="Payment Processing"
       text-desc="Aff Builder payment platform supports payment processing for all online transactions, 
       whether it&#39;s credit card and debit card, e-wallets, bank transfer, and mobile banking activities."
-    />
+    /> -->
 
     <!-- section 2 -->
     <research 
-      header-text="Accept WorldWide Payment from Different Currencies."
+      header-text="One-time or Recurring"
       :text-desc="
         [
-          'Our solutions will allow you to localize your payment target locations and broaden to worldwide scope.', 
-          'We have the latest cutting-edge technologies that emphasize on core customers and product experiences that will cater to all your payment needs as you grow your business. Whether domestic or international, POS, on-site, or in-app transactions, Aff Builder has everything you need from a secure payment processing to recurring bills and subscriptions, from marketplace to simply accepting payments from any currency.',
-          'Increase your revenue with fast and secure payment options, low-cost B2B transactions, and advanced checkout conversion. Our process will ensure that the funds will be credited immediately and available for use without any foreign exchange liabilities.'
+          'Attract influencers with massive followers and create their commissions accordingly with our automated commission feature.', 
         ]
       "
+      :list-data="recurring"
+      bullet-list
     />
 
     <!-- section 3 -->
     <data-protection 
-      header-text="Accessible Mobile Payment"
+      header-text="Performance Bonus"
       :text-desc="
         [
-          'In today\'s emerging technology, where you can do everything with just a single click, mobile phones became the most quintessential gadgets for reaching your customers. With Aff Builder, your customers can make a mobile payment, barcode scanning, checking transactions, NFC, and mobile wallets or apps: mobile payment options are dynamic for every industry and company.',
-          'Give your customers a complete payment option for any industry'
+          'Increase your sales by having irresistible rewards by setting targets based on the number of conversions made by your affiliates'
         ]
       "
-      :list-data="paymentList"  
+      :list-data="bonus"  
+      bullet-list
     />
-
-    <!-- section 4 -->
-    <security 
-      header-text="All-in-One Payment Solutions"
-      text-desc="Providing your customers with the broadest range and mixes of different payment options is a must-have for successfully converting your seasonal shoppers to a regular one."
-      :list-data="paymentBlueList" 
-    />
-
-<br />
-
-    <!-- CURRENCY CONVERSIONS -->
-
-    <features-hero
-      header-text="FX Exchange"
-      text-desc="Have access to current foreign exchange rates before you make your conversions."
-    />
-
-    <!-- section 2 -->
-    <research 
-      header-text="Currency Conversions"
-      :text-desc="
-        [
-          'Aff Builder understands the importance of bringing transparency to finance. We offer a mid-market, competitive range of foreign exchange without hidden fees. Our automated conversion functions provide you best exchange rates, convert funds, and manage settlements at your Aff Builder online account with little feasible cost as possible in real-time.', 
-        ]
-      "
-    />
-
-    <!-- section 3 -->
-    <data-protection 
-      header-text="Settlements and Conversion Management"
-      :text-desc="
-        [
-          'With our settlement platforms, you can merge multiple conversion into a single transaction to store funds in your Aff Builder account.',
-        ]
-      "
-      :list-data="[]"  
-    />
-
-
-    <!-- SUBSCRIPTION -->
-
-    <features-hero
-      header-text="Process All Your Recurring Plans in One API"
-      text-desc="With Aff Builder’s payment dashboard and simple API – making it easy to manage all your subscription plans most cost-effectively."
-    />
-
-    <!-- section 2 -->
-    <research 
-      header-text="Billing Automation in One Platform"
-      :text-desc="
-        [
-          'Aff Builder provides a secure payment solution for business, which allows our clients to process automated billing and payment collection regularly. With our sophisticated API: business, eCommerce, iGaming, and other business trends will no longer need to process the recurring bill manually, and customers don’t have to make manual payments every cycle. Let our platform do the automation for your business.', 
-        ]
-      "
-    />
-
-    <!-- section 3 -->
-    <data-protection 
-      header-text="Multiple Pricing and Perks Options"
-      :text-desc="
-        [
-          'You can create as many subscription categories as you like, different discounts, and special offers to cater to your customer’s needs. The more options and better offer – mean conversion for your seasonal customers.',
-        ]
-      "
-      :list-data="subscriptionsList"  
-    />
-
 
      <!-- footers  -->
 
     <!-- section 5 -->
-    <contact />
+    <!-- <contact /> -->
 
     <!-- section 6 -->
     <getting-started/>
@@ -158,92 +92,6 @@ import GettingStarted from '@components/partials/home/GettingStarted'
     name: 'Features',
     data() {
       return {
-        massList: [
-              {
-                  id: 0,
-                  title: 'Manage, Audit and Launch Funds Transfer',
-                  icon: ['fas','book-open'],
-                  block_text:'Aff Builder’s platform is fully equipped to track each transaction, view trends in metrics and performance while checking customer accounts and initiating funds transfers.'
-              },
-              {
-                  id: 1,
-                  title: 'Local and International Coverage',
-                  icon:['fas','users'],
-                  block_text:'Having a wide range of payment methods giving your business a wider reach of accepting and sending payments from customers globally.'
-              },
-              {
-                  id: 2,
-                  title: '24/7 Highly Trained Customer Support',
-                  icon: ['fas','chess-rook'],
-                  block_text:'Having issues or any concerns?  Our highly trained technical support is available at any time to provide you assistance to any of your questions.'
-              },
-              {
-                  id: 3,
-                  title: 'Accelerated Processing',
-                  icon: ['fas','user-shield'],
-                  block_text:'Aff Builder\'s mass payment solutions help remove all international bank transfer fees, acquire a better foreign exchange rate, lessen data entry errors, and accelerate the processing of your mass payment.'
-              }
-          ],
-          paymentList: [
-              {
-                  id: 0,
-                  title: 'eCommerce business',
-                  icon: ['fas','book-open'],
-                  block_text:''
-              },
-              {
-                  id: 1,
-                  title: 'Digital products',
-                  icon:['fas','users'],
-                  block_text:''
-              },
-              {
-                  id: 2,
-                  title: 'Online dating',
-                  icon: ['fas','chess-rook'],
-                  block_text:''
-              },
-              {
-                  id: 3,
-                  title: 'iGaming',
-                  icon: ['fas','user-shield'],
-                  block_text:''
-              },
-              {
-                  id: 4,
-                  title: 'Selling high-risk goods',
-                  icon: ['fas','user-shield'],
-                  block_text:''
-              },
-              {
-                  id: 5,
-                  title: 'and many more.',
-                  icon: ['fas','user-shield'],
-                  block_text:''
-              }
-              
-          ],
-          subscriptionsList: [
-              {
-                  id: 0,
-                  title: 'Personalized Plan',
-                  icon: ['fas','book-open'],
-                  block_text:'Specific subscription plans for your customers based on their preferences and particular needs will reach more diverse customers.'
-              },
-              {
-                  id: 1,
-                  title: 'Discounted Plan',
-                  icon:['fas','users'],
-                  block_text:'Create a discounted plan for customers that opted-in for longer time frame subscriptions.'
-              },
-              {
-                  id: 2,
-                  title: 'Affiliates or Partners Plan',
-                  icon: ['fas','chess-rook'],
-                  block_text:'Providing subscriptions for affiliates or partners will give your business partnership a boost and a long relationship.'
-              },
-              
-          ],
           massBlueList: [
               {
                   id: 0,
@@ -283,7 +131,102 @@ import GettingStarted from '@components/partials/home/GettingStarted'
                   icon:['fas','cloud'],
                   block_text:'Our tools and dynamic features will provide your customers with an excellent checkout service experience that supports online and in-person payments.'
               }
-          ]
+          ],
+          
+          widely_known: [
+            {
+                id: 0,
+                title: 'Provide your own referral links and discount coupons',
+                icon: ['fas', 'circle'],
+                icon_size: 'sm',
+                block_text:''
+            },
+            {
+                id: 1,
+                title: 'Personalized banners and other brand materials',
+                icon:['fas', 'circle'],
+                icon_size: 'sm',
+                block_text:''
+            },
+            {
+                id: 2,
+                title: 'Create shareable social media links to post for your affiliates',
+                icon: ['fas', 'circle'],
+                icon_size: 'sm',
+                block_text:''
+            }
+        ],
+        
+        easy_steps: [
+          {
+              id: 0,
+              title: 'Have a unique link for every campaign especially made for you',
+              icon: ['fas', 'circle'],
+              icon_size: 'sm',
+              block_text:''
+          },
+          {
+              id: 1,
+              title: 'Each link are especially designed for every social media apps you have',
+              icon:['fas', 'circle'],
+              icon_size: 'sm',
+              block_text:''
+          },
+        ],
+        
+        recurring: [
+          {
+              id: 0,
+              title: 'Give one-time commission on e-commerce traffic',
+              icon: ['fas', 'circle'],
+              icon_size: 'sm',
+              block_text:''
+          },
+          {
+              id: 1,
+              title: 'Give monthly commissions via subscriptions',
+              icon:['fas', 'circle'],
+              icon_size: 'sm',
+              block_text:''
+          },
+          {
+              id: 2,
+              title: 'Give fixed commissions via percentage',
+              icon:['fas', 'circle'],
+              icon_size: 'sm',
+              block_text:''
+          },
+          {
+              id: 3,
+              title: 'Give commissions based on categories or products',
+              icon:['fas', 'circle'],
+              icon_size: 'sm',
+              block_text:''
+          },
+        ],
+        bonus: [
+          {
+              id: 0,
+              title: 'Set affiliate ranks',
+              icon: ['fas', 'circle'],
+              icon_size: 'sm',
+              block_text:''
+          },
+          {
+              id: 1,
+              title: 'Set performance bonus',
+              icon:['fas', 'circle'],
+              icon_size: 'sm',
+              block_text:''
+          },
+          {
+              id: 2,
+              title: 'Team bonuses',
+              icon:['fas', 'circle'],
+              icon_size: 'sm',
+              block_text:''
+          },
+        ],
       }
     },
     components: {

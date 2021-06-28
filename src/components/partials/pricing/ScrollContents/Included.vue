@@ -2,10 +2,10 @@
   <SlicedSection single-column class="included-section">
     <div class="included-tab tab-view">
         <header-text size="xmd" class="text-center text-uppercase">
-            What’s included
+            Being one of our top affiliates has a lot of bonuses and benefits:
         </header-text>
 
-        <p class="included-tab-sub">Get 100+ features out of the box with Stripe’s integrated per-transaction pricing</p>
+        <!-- <p class="included-tab-sub">Get 100+ features out of the box with Stripe’s integrated per-transaction pricing</p> -->
 
         <check-list :listData="listData" />
 
@@ -31,68 +31,50 @@ export default {
         listData: [
             {
                 id: 0,
-                title: 'Tools to build',
+                title: '24/7 Customer Service',
                 icon: ['fas','book-open'],
                 check_list: [
-                    'Embeddable checkout',
-                    'Custom UI toolkit',
-                    'Simplified PCI compliance',
-                    'Invoice support',
+                  'Reach our professional customer service department if you have any questions regarding our business, your status or perks',
                 ]
             },
             {
                 id: 1,
-                title: 'Tools to build optimized checkout flows',
+                title: 'Affiliate Manager Assistance',
                 icon:['fas','users'],
                 check_list: [
-                    'Embeddable checkout',
-                    'Custom UI toolkit',
-                    'Simplified PCI compliance',
-                    'Invoice support',
+                    'We have a team of highly qualified with years of experience account managers to provide you personalized assistance that is best suited for your geographical target location and traffic.',
                 ]
             },
             {
                 id: 2,
-                title: 'Tools to build optimized checkout flows',
+                title: 'Hundreds of offers from Top Brands',
                 icon: ['fas','user-shield'],
                 check_list: [
-                    'Embeddable checkout',
-                    'Custom UI toolkit',
-                    'Simplified PCI compliance',
-                    'Invoice support',
+                    'Aff Builder has years of concrete partnerships with hundreds of advertisers and client partners that have exclusive offers only for us.',
                 ]
             },
             {
                 id: 3,
-                title: 'Tools to build optimized checkout flows',
+                title: 'Exclusive offers and promotions',
                 icon: ['fas','book-open'],
                 check_list: [
-                    'Embeddable checkout',
-                    'Custom UI toolkit',
-                    'Simplified PCI compliance',
-                    'Invoice support',
+                    'Our affiliate marketing platform caters to a wide range of industries, whether it’s e-commerce, mobile or web dating app, mobile games, our clients and partners have exclusive offers and promotional campaigns towards its affiliates.',
                 ]
             },
             {
                 id: 4,
-                title: 'Tools to build optimized checkout flows',
+                title: 'Life-time referral program bonus',
                 icon:['fas','users'],
                 check_list: [
-                    'Embeddable checkout',
-                    'Custom UI toolkit',
-                    'Simplified PCI compliance',
-                    'Invoice support',
+                    'Refer friends or anyone with your referral link and guaranteed bonuses on all their earnings.',
                 ]
             },
             {
                 id: 5,
-                title: 'Tools to build optimized checkout flows',
+                title: 'Quick and Detailed Reporting',
                 icon: ['fas','user-shield'],
                 check_list: [
-                    'Embeddable checkout',
-                    'Custom UI toolkit',
-                    'Simplified PCI compliance',
-                    'Invoice support',
+                    'Our stats platform provides you with detailed information about your data, traffic conversation and how much sales and converts your affiliates and promotional links made.',
                 ]
             }
         ]

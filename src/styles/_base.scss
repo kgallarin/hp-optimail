@@ -88,6 +88,10 @@ blockquote {
   &-lowercase {
     text-transform: lowercase;
   }
+  
+  &-capitalize {
+    text-transform: capitalize;
+  }
 }
 
 svg {
@@ -107,6 +111,8 @@ svg {
 img {
   max-width: 100%;
 }
+
+
 
 // for icon rotations
 

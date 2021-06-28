@@ -11,13 +11,15 @@
       <p class="text-desc color-gray" v-for="text in textDesc" :key="text">
         {{ text }}
       </p>
-
+      
+      <check-list :bulletList="bulletList" :listData="listData" />
+      
       <div class="link-wrapper">
         <a href="#" class="color-gold report-link">
           <svg height="20" width="20" class="yellow-arrow">
               <use :xlink:href="require('@svg/sprites/dark_card.svg') + '#yellow-arrow'" class="svg-icon"  />
           </svg>
-          Read the report
+          Learn more
         </a>
       </div>
     </template>
@@ -27,6 +29,8 @@
 <script>
 import SlicedSection from '@components/common/SlicedSection'
 import HeaderText from '@components/common/HeaderText'
+import CheckList from '@components/common/CheckList'
+
   export default {
     name: 'Research',
     props: {
@@ -37,11 +41,20 @@ import HeaderText from '@components/common/HeaderText'
       textDesc: {
         type: Array,
         default: () => []
+      },
+      listData: {
+        type: Array,
+        default: () => []
+      },
+      bulletList: {
+        type: Boolean,
+        default: false
       }
     },
     components: {
       SlicedSection,
-      HeaderText
+      HeaderText,
+      CheckList
     }
   }
 </script>

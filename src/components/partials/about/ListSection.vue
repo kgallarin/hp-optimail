@@ -1,7 +1,7 @@
 <template>
   <SlicedSection single-column class="about-list-section">
     <header-text size="xlg" class="text-center text-uppercase">
-      The customer&#39;s perception and expectation is our reality
+      MAKE YOUR CAMPAIGN MANAGEMENT PLAN INTO REALITY
     </header-text>
     <!-- <div class="abt-list-sub">
       We believe the best teams are built by the inclusion of diverse ideas, experiences and people. We don’t just

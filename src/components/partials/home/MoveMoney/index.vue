@@ -5,7 +5,7 @@
   <!-- please check sliced_container.scss for this sliced section class -->
   <SlicedSection class="default-sliced move_money-section">
     <template v-slot:slot-left>
-      <header-text> Smairtlink, <br /> The ultimate AI marketing tool </header-text>
+      <header-text> SmAIrtlink, <br /> The ultimate AI marketing tool </header-text>
       
       <ul class="card-list">
         <li v-for="(data, index) in card_data" :class="[{ 'active' : activeNav === index }]" :key="data.id">
@@ -101,21 +101,21 @@ export default {
           fa_icon: ['fas', 'address-card'],
           headerLabel: 'Step 1 - Campaign Creation',
           desc: 'create_users',
-          text:'Let your affiliates  Start a campaign and replace the url with SmAIrtlink. As easy as this.'
+          text:'Let your affiliates start a campaign and replace the URL with SmAIrtlink.'
         },
         {
           id: 1,
           fa_icon:['fas', 'money-check-alt'],
           headerLabel: 'Step 2 - Auto Optimization',
           desc: 'attach_bank',
-          text:'Let the power of SmAIrtlink optimize the campaigns through landing pages, banners, devices, offers, platforms or any filters you would like to ad'
+          text: 'Allow the power of SmAIrtlink to optimize your campaign through landing pages, devices, offers, and verticals or any filters you like to add.'
         },
         {
           id: 2,
           fa_icon:['fas', 'exchange-alt'],
           headerLabel: 'Step 3- Analyze and filter',
           desc: 'move_money',
-          text:'With small adjustments Smairtlink will provide you and your affilates the best conversion'
+          text: 'With AI adjustments - SmAIrtlink will provide you and your affiliates with the best conversion.'
         }
       ]
     }

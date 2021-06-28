@@ -2,9 +2,9 @@
     <div class="pricing-wrapper" @scroll="handleScroll">
         <!-- section 1 -->
         <pricing-hero />
-
+        
         <!-- <tab control /> -->
-        <div class="tc-main-container">
+        <!-- <div class="tc-main-container">
           <tab-control
             ref="tabControl"
             @onSetActiveTab="handleActiveTab"
@@ -12,21 +12,28 @@
               { 'active': tcOnScroll }
             ]"
           />
-        </div>
+        </div> -->
+        
+        <receipt-card 
+          header-text="SmAIrtlinks" 
+          sub-text="SmAIrtinks is not your typical affiliate links. With Aff Builder’s offers, SmAIrtlinks offers guaranteed best deals to send to your clients and customers. 
+            Each unique link features best top-converting deals and rewarding products based on your target clients and customer’s geographical location, device, and preferences. 
+            SmAIrtlinks are automated and optimized to boost return on investment for your affiliate campaigns"
+          />
 
-        <included id="included" ref="included" />
+        <!-- <included id="included" ref="included" /> -->
 
         <!-- Receipt cards starts -->
-        <receipt-card id="receiptCard" ref="receiptCard" />
+        <!-- <receipt-card id="receiptCard" ref="receiptCard" /> -->
 
         <!-- blue wave with brands -->
-        <blue-brands ref="blueBrands" />
+        <!-- <blue-brands ref="blueBrands" /> -->
 
         <!-- faq list -->
-        <question-and-answer id="qa" ref="qa" />
+        <!-- <question-and-answer id="qa" ref="qa" /> -->
 
         <!-- about us section -->
-        <about-us id="aboutus" ref="aboutus" />
+        <!-- <about-us id="aboutus" ref="aboutus" /> -->
 
         <!-- getting started section  -->
         <getting-started/>
@@ -112,10 +119,10 @@ export default {
     }
   },
   created() {
-    window.addEventListener('scroll', this.handleScroll)
+    // window.addEventListener('scroll', this.handleScroll)
   },
   beforeDestroy() {
-    window.removeEventListener('scroll', this.handleScroll)
+    // window.removeEventListener('scroll', this.handleScroll)
   }
 }
 </script>

@@ -4,14 +4,13 @@
 
     <SlicedSection single-column class="hero-content">
         <header-text size="xlg" class="text-center text-uppercase">
-          Our Mission is to Provide a Simple Payment Processing System  <br v-if="windowWidth < 768" /> That Supports All Your
-          Local and International Cross-Border Payment Needs
+          OUR MISSION IS TO PROVIDE A SIMPLE AFFILIATE MARKETING PLATFORM THAT HELPS <br v-if="windowWidth < 768" /> 
+          YOU GROW  YOUR LOCAL AND INTERNATIONAL LEADS NETWORK.
         </header-text>
 
         <p class="hero-content-text">
-          Aff Builder was founded in 2018 with a focus on building the future of digital payment solutions.
-          We believe that funds transfer should be transparent, secure, fast, and affordable, breaking the
-          old and traditional way of moving money – and we found a perfect way to do it!
+          Aff Builder was founded  with a focus on building the future of digital affiliate marketing  solutions. 
+          We believe that lead conversions should be vast, fast, transparent and affordable, breaking the old and traditional way of marketing – and we found a perfect way to do it!
         </p>
 
         <router-link :to="{ name: 'register'}">

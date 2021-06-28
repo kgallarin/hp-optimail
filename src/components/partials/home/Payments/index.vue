@@ -7,7 +7,7 @@
                     <Card
                         :fa_icon="['fas', 'file-alt']"
                         headerLabel="Multi-access and team work"
-                        text="Make all relevant data from your platform easily available to your team members or partners. Assign access based on roles & provide affiliates access to data in real-time."
+                        text="Make all relevant data from your platform easily available to your team members or partners. Assign access based on roles & provide affiliates data access in real-time."
                         iconSize="6x"
                     />
                 </div>
@@ -16,7 +16,7 @@
                     <Card
                         :fa_icon="['fas', 'mobile-alt']"
                         headerLabel="Native tracking capabilities"
-                        text="Track affiliates using first-party data and server sidetracking., no pixels, no digital fingerprints required and of course, no 3rd party cookies."
+                        text="Track affiliates using first-party data and server side tracking., no pixels, no digital fingerprints required and of course, no 3rd party cookies."
                         iconSize="6x"
                     />
                 </div>

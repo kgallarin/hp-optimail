@@ -19,28 +19,28 @@ import Gems from './Gems'
           {
             id: 0,
             textHeaders:'Innovative',
-            texts: 'Using the most advanced technology for a better solution for moving money around the world,making it affordable, fast, and available for everyone.',
+            texts: 'Using the most advanced technology for a better solution and achieve high engagement growth to your subscribers and users.',
             imageSource: 'diamond-image01',
             style: ''
           },
           {
             id: 1,
-            textHeaders:'Instant Money Transfer',
-            texts: 'Aff Builder to Aff Builder account funds transfer will reflect the funds in real-time with no hidden fees.',
+            textHeaders:'Transparency',
+            texts: 'Affordable and transparent pricing that caters to your daily budget',
             imageSource: 'diamond-image02',
             style: ''
           },
           {
             id: 3,
-            textHeaders:'Perks and Referral Bonus',
-            texts: 'Get your friends and family all together with your referral code and get a cash bonus directly to your Aff Builder account once they signed up and make their first transfer.',
+            textHeaders:'Campaign Management',
+            texts: 'Track your account activities, manage data and check the campaign progress straight in your dashboard',
             imageSource: 'diamond-image03',
             style: 'offset-top-left image-text-swap'
           },
           {
             id: 4,
-            textHeaders:'Online Security and Account Transactions',
-            texts: 'Track your live account activities by receiving notifications about funds received, online transfers, withdrawals, and deposits.',
+            textHeaders:'Perks and Referral Bonus',
+            texts: 'Get your friends and family all together with your referral code and get a cash bonus directly to your Aff Builder account once they sign up and make their account activity.',
             imageSource: 'diamond-image04',
             style: 'offset-top-only image-text-swap'
           }

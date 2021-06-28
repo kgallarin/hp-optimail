@@ -9,7 +9,7 @@
 
         <div class="brands-main-wrapper">
             <div class="brands-main">
-                <header-text class="text-center">Empowering leading brands with our payment gateway</header-text>
+                <header-text class="text-center">Brands Promoted with Aff Builder.</header-text>
                 
 
                 <ul class="brands-list">

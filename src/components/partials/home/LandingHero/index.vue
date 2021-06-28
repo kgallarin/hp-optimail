@@ -4,11 +4,13 @@
     <template v-slot:slot-left>
       <div class="hero-intro-wrapper">
         <p class="font-lg landing-hero--header">
-          <strong class="text-uppercase">Affiliation, Evolved</strong>
+          <strong class="text-uppercase">Redefining the Power of Affiliation Through AI</strong>
         </p>
         <ul class="landing-hero--list">
           <li>Create, grow and manage your own affiliate platform.</li>
-          <li>Provide your network with everything needed to promote your products within minutes.</li>
+          <li> 
+            Providing a profitable network to promote your products within minutes.
+          </li>
         </ul>
       </div>
 

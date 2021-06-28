@@ -2,6 +2,23 @@
     display: flex;
     flex-wrap: wrap;
 
+    &.bulleted-list {
+      flex-direction: column;
+      .check-list-item {
+        width: 100%;
+        align-items: center;
+        margin: 16px 0;
+        &-icon {
+          min-width: initial;
+        }
+        &-content {
+          .header {
+            margin-bottom: 0;
+            line-height: normal;
+          }
+        }
+      }
+    }
     // .check-list
     @media #{$tablet-portrait} {
         flex-direction: column;

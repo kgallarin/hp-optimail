@@ -1,7 +1,7 @@
 <template>
     <li class="check-list-item">
         <div class="check-list-item-icon">
-            <font-awesome-icon :icon="data.icon" size="3x" />
+            <font-awesome-icon :icon="data.icon" :size="iconSize" />
         </div>
         <div class="check-list-item-content">
             <p class="header">{{ data.title }}</p>
@@ -19,10 +19,15 @@
 export default {
     name:'CheckListItem',
     props: {
-        data: {
-            type: Object,
-            default: () => {}
-        }
+      data: {
+          type: Object,
+          default: () => {}
+      }
+    },
+    computed: {
+      iconSize() {
+        return this.data.icon_size ? this.data.icon_size : '3x';
+      }
     }
 }
 </script>

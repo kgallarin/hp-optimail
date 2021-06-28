@@ -24,175 +24,102 @@ import MenuItemMobile from './MenuItemMobile'
         currentActive: null,
         menu_links: [
           { id:"0",
-            label: "payments",
-            component_link:'',
+            label: "Home",
+            component_link:'home',
             sub_links: [
-              {
-                id: 0,
-                title: 'Payments',
-                desc: 'description here',
-                fa_icon: ['fas', 'address-card'],
-                external_link:'',
-                component_link:'payments'
-              },
-              {
-                id: 1,
-                title: 'Subscriptions',
-                desc: 'description here',
-                fa_icon:['fas', 'money-check-alt'],
-                external_link:'',
-                component_link:'subscription'
-              },
-              {
-                id: 2,
-                title: 'FX Conversions',
-                desc: 'description here',
-                fa_icon:['fas', 'exchange-alt'],
-                external_link:'',
-                component_link:'currency_conversions'
-              },
-              { id: 3,
-                title: 'Mass Payouts',
-                desc: 'description here',
-                fa_icon:['fas', 'user-shield'],
-                external_link:'',
-                component_link:'mass_payouts'
-              },
-              { id: 4,
-                title: 'Integration',
-                desc: 'description here',
-                fa_icon:['fas', 'user-shield'],
-                external_link:'',
-                component_link:'integration'
-              }
+              // {
+              //   id: 0,
+              //   title: 'Payments',
+              //   desc: 'description here',
+              //   fa_icon: ['fas', 'address-card'],
+              //   external_link:'',
+              //   component_link:'payments'
+              // },
+              // {
+              //   id: 1,
+              //   title: 'Subscriptions',
+              //   desc: 'description here',
+              //   fa_icon:['fas', 'money-check-alt'],
+              //   external_link:'',
+              //   component_link:'subscription'
+              // },
+              // {
+              //   id: 2,
+              //   title: 'FX Conversions',
+              //   desc: 'description here',
+              //   fa_icon:['fas', 'exchange-alt'],
+              //   external_link:'',
+              //   component_link:'currency_conversions'
+              // },
+              // { id: 3,
+              //   title: 'Mass Payouts',
+              //   desc: 'description here',
+              //   fa_icon:['fas', 'user-shield'],
+              //   external_link:'',
+              //   component_link:'mass_payouts'
+              // },
+              // { id: 4,
+              //   title: 'Integration',
+              //   desc: 'description here',
+              //   fa_icon:['fas', 'user-shield'],
+              //   external_link:'',
+              //   component_link:'integration'
+              // }
             ]
           },
           { id:"1",
-            label: "pricing",
-            component_link:'pricing',
+            label: "features",
+            component_link:'features',
             sub_links: []
           },
           { id:"2",
-            label: "developers",
+            label: "platform",
             component_link:'',
             sub_links: [
               {
                 id: 0,
-                title: 'Documentation',
-                desc: 'description here',
+                title: 'Affiliate',
+                desc: 'payout periods, payout methods',
                 fa_icon: ['fas', 'address-card'],
                 external_link:'',
-                component_link:''
+                component_link:'pricing'
               },
               {
                 id: 1,
-                title: 'API Status',
-                desc: 'description here',
-                fa_icon:['fas', 'money-check-alt'],
+                title: 'Payout terms',
+                desc: 'payout periods, payout methods',
+                fa_icon: ['fas', 'address-card'],
                 external_link:'',
-                component_link:''
+                component_link:'payout'
               },
-              {
-                id: 2,
-                title: 'API Changelog',
-                desc: 'description here',
-                fa_icon:['fas', 'exchange-alt'],
-                external_link:'',
-                component_link:''
-              }
             ]
           },
           { id:"3",
-            label: "Customers",
+            label: "about Us",
             component_link:'',
             sub_links: [
               {
                 id: 0,
-                title: 'eCommerce',
-                desc: 'description here',
-                fa_icon: ['fas', 'address-card'],
-                external_link:'',
-                component_link:'ecommerce'
-              },
-              {
-                id: 1,
-                title: 'SaaS and Start-ups',
-                desc: 'description here',
-                fa_icon: ['fas', 'address-card'],
-                external_link:'',
-                component_link:'start_ups'
-              },
-              {
-                id: 2,
-                title: 'Digital products',
-                desc: 'description here',
-                fa_icon: ['fas', 'address-card'],
-                external_link:'',
-                component_link:'digital_products'
-              },
-              {
-                id: 3,
-                title: 'Online Dating',
-                desc: 'description here',
-                fa_icon: ['fas', 'address-card'],
-                external_link:'',
-                component_link:'online_dating'
-              },
-              {
-                id: 4,
-                title: 'iGaming',
-                desc: 'description here',
-                fa_icon: ['fas', 'address-card'],
-                external_link:'',
-                component_link:'gaming'
-              },
-              {
-                id: 5,
-                title: 'High-Risk',
-                desc: 'description here',
-                fa_icon: ['fas', 'address-card'],
-                external_link:'',
-                component_link:'high_risk'
-              }
-            ]
-          },
-          { id:"4",
-            label: "company",
-            component_link:'',
-            sub_links: [
-              {
-                id: 0,
-                title: 'About us',
-                desc: 'description here',
+                title: 'Company',
+                desc: 'Mission and goals',
                 fa_icon: ['fas', 'address-card'],
                 external_link:'',
                 component_link:'about'
               },
               {
-                id: 2,
-                title: 'Blog',
-                desc: 'description here',
-                fa_icon: ['fas', 'phone'],
-                external_link:'',
-                component_link:'blog'
-              },
-              {
-                id: 3,
-                title: 'Case studies',
-                desc: 'description here',
-                fa_icon: ['fas', 'phone'],
-                external_link:'',
-                component_link:'case_study'
-              },
-              {
-                id: 4,
+                id: 1,
                 title: 'Contact us',
-                desc: 'description here',
-                fa_icon: ['fas', 'phone'],
+                desc: 'we\'re here to help',
+                fa_icon: ['fas', 'address-card'],
                 external_link:'',
                 component_link:'contacts'
-              }
+              },
             ]
+          },
+          { id:"4",
+            label: "careers",
+            component_link:'careers',
+            sub_links: []
           }
         ]
       }

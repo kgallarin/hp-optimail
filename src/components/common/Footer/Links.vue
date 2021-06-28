@@ -22,7 +22,7 @@
                   <h3>{{ data.title }}</h3>
                   <ul class="link-list">
                       <li v-for="link in data.links" :key="link.id">
-                          <a class="link-item" href="#" @click.prevent.stop="click(link)">{{ link.name }}</a>
+                          <a class="link-item text-capitalize" href="#" @click.prevent.stop="click(link)">{{ link.name }}</a>
                       </li>
                   </ul>
               </div>

@@ -1,6 +1,8 @@
 <template>
   <div class="contactus-form">
-    <header-text class="text-uppercase" size="xlg">let's get in touch</header-text>
+    <header-text class="text-uppercase" size="xlg">
+      Connect with our team and learn more about our features
+    </header-text>
     <ValidationObserver ref="contactForm">
       <form @submit.prevent="validate" ref="" class="main-form" autocomplete="off">
         <!-- First name -->
@@ -104,7 +106,7 @@
                     { 'custom-input input-textarea': true }
                 ]"
             >
-                <label class="input-placeholder" for="message">Tell us about your payment needs</label>
+                <label class="input-placeholder" for="message">Tell us about your marketing needs</label>
                 <TextArea name="message" type="text" :value.sync="message" :focus="(e) => handleFocus(e)" :blur="(e) => handleBlur(e)"/>
             </div>
             <span class="validation-err">{{ errors[0] }}</span>

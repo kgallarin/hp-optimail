@@ -24,7 +24,7 @@
               headerLabel="Be A Part of Our Developer-Focused Conversation"
               iconSize="3x"
             >
-              Dwolla’s community forum is an ongoing dialogue specifically for developers.
+              Aff Builder's community forum is an ongoing dialogue specifically for developers.
 
               <a href="#" class="card-w-icon-link">Access our community forum</a>
             </Card>

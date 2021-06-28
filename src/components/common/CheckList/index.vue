@@ -1,5 +1,5 @@
 <template>
-    <ul class="check-list">
+    <ul :class="[{'check-list': true }, {'bulleted-list': bulletList}]">
         <check-list-item v-for="data in listData" :key="data.id" :data="data"/>
     </ul>
 </template>
@@ -11,6 +11,10 @@ export default {
       listData: {
         type: Array,
         default: () => []
+      },
+      bulletList: {
+        type: Boolean,
+        default: false
       }
     },
     data() {

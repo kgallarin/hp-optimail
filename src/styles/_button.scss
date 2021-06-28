@@ -42,3 +42,18 @@
     }
   }
 }
+
+
+.report-link {
+  .yellow-arrow {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  &:hover, &:active {
+    color: #f7a000;
+
+    svg {
+      fill: #f7a000;
+    }
+  }
+}

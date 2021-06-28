@@ -35,7 +35,11 @@ import {
     faComments,
     faMapMarkedAlt,
     faArrowLeft,
-    faPhone
+    faPhone,
+    faCircle,
+    faSmile,
+    faGlobeAmericas,
+    faCalendarCheck
 } from '@fortawesome/free-solid-svg-icons'
 
 
@@ -89,3 +93,8 @@ library.add(faComments)
 library.add(faMapMarkedAlt)
 library.add(faArrowLeft)
 library.add(faPhone)
+library.add(faCircle)
+library.add(faSmile)
+library.add(faGlobeAmericas)
+library.add(faCalendarCheck)
+

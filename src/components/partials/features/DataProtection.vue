@@ -9,22 +9,31 @@
         {{ text }}
       </p>
 
-      <check-list :listData="listData" />
+      <check-list :bulletList="bulletList" :listData="listData" />
+      
+      <div class="link-wrapper">
+        <a href="#" class="color-gold report-link">
+          <svg height="20" width="20" class="yellow-arrow">
+              <use :xlink:href="require('@svg/sprites/dark_card.svg') + '#yellow-arrow'" class="svg-icon"  />
+          </svg>
+          Learn more
+        </a>
+      </div>
     </template>
     <template v-slot:slot-right>
       <div class="slot-right-inner">
         <img :src="require('@svg/features/servershield.svg')" alt="">
 
-        <p class="text-desc color-lblue int">
+        <!-- <p class="text-desc color-lblue int">
           With Aff Builder, your business will have a fully integrated payment system at your fingertips.
-        </p>
+        </p> -->
 
-        <a href="#" class="color-gold report-link">
+        <!-- <a href="#" class="color-gold report-link">
           <svg height="20" width="20" class="yellow-arrow ml-0 mr-1">
               <use :xlink:href="require('@svg/sprites/dark_card.svg') + '#yellow-arrow'" class="svg-icon"  />
           </svg>
           Read the white paper
-        </a>
+        </a> -->
       </div>
     </template>
   </SlicedSection>
@@ -49,6 +58,10 @@ import CheckList from '@components/common/CheckList'
       listData: {
         type: Array,
         default: () => []
+      },
+      bulletList: {
+        type: Boolean,
+        default: false
       }
     },
    data() {

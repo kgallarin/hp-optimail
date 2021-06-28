@@ -7,10 +7,10 @@
                     <router-link :to="{name: 'home'}">
                       <b-img height="auto" width="150px" :src="require('@images/affiliate/aff_logo.png')" alt="Aff Builder"></b-img>
                     </router-link>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    <p class="text-capitalize">
+                        Affiliation, Evolved.
                     </p>
-                      <p v-if="windowWidth < 1200">© {{ currentYear }} Aff Builder</p>
+                    <p class="mt-0">© {{ currentYear }} Aff Builder</p>
                 </div>
 
                 <!-- link list -->
@@ -20,12 +20,12 @@
                 <!-- component link example please see /src/routes/index.js -- route_name -->
                 <footer-links :data="links" :click="(e) => goTo(e)" />
             </div>
-            <div class="signature">
-                <p v-if="windowWidth > 1200">© {{ currentYear }} Aff Builder</p>
+            <!-- <div class="signature"> -->
+                
 
                 <!-- social media -->
-                <social-media label="Follow Us" />
-            </div>
+                <!-- <social-media label="Follow Us" /> -->
+            <!-- </div> -->
         </SlicedSection>
     </footer>
 </template>
@@ -40,178 +40,100 @@ export default {
             links: [
                 {
                     id: 1,
-                    title: 'product',
+                    title: 'our company',
                     links: [
                         {
                             id: 1,
-                            name: 'Platform',
+                            name: 'homepage',
                             external_link:'',
                             component_link:'Home'
                         },
                         {
                             id: 2,
-                            name: 'Plans',
-                            external_link:'http://www.google.com',
-                            component_link:''
-                        },
-                        {
-                            id: 3,
-                            name: 'Security',
+                            name: 'about us',
                             external_link:'',
-                            component_link:''
+                            component_link:'about'
                         },
+                        // {
+                        //     id: 3,
+                        //     name: 'Security',
+                        //     external_link:'',
+                        //     component_link:''
+                        // },
                         {
                             id: 4,
-                            name: 'Partnerships',
+                            name: 'contact',
                             external_link:'',
-                            component_link:''
+                            component_link:'contacts'
                         },
-                        {
-                            id: 5,
-                            name: 'Integragtions',
-                            external_link:'',
-                            component_link:''
-                        },
-                        {
-                            id: 6,
-                            name: 'Industries',
-                            external_link:'',
-                            component_link:''
-                        }
                     ]
                 },
                 {
                     id: 2,
-                    title: 'developers',
+                    title: 'services',
                     links: [
                         {
                             id: 1,
-                            name: 'Sandbox',
+                            name: 'features',
                             external_link:'',
-                            component_link:''
+                            component_link:'features'
                         },
                         {
                             id: 2,
-                            name: 'Documentation',
+                            name: 'affiliates',
                             external_link:'',
-                            component_link:''
+                            component_link:'pricing'
                         },
                         {
                             id: 3,
-                            name: 'API Updates',
+                            name: 'payout terms',
                             external_link:'',
-                            component_link:''
+                            component_link:'payout'
                         }
                     ]
                 },
                 {
                     id: 3,
-                    title: 'resources',
+                    title: 'Terms & conditions',
                     links: [
                         {
                             id: 1,
-                            name: 'Resource Library',
+                            name: 'Terms of service',
                             external_link:'',
-                            component_link:''
+                            component_link:'terms_condition'
                         },
                         {
                             id: 2,
-                            name: 'Blog',
+                            name: 'Cookie policy',
                             external_link:'',
-                            component_link:''
+                            component_link:'cookie_policy'
                         },
                         {
                             id: 3,
-                            name: 'Case Studies',
+                            name: 'Privacy policy',
                             external_link:'',
-                            component_link:''
+                            component_link:'privacy_policy'
                         },
-                        {
-                            id: 4,
-                            name: 'Developers',
-                            external_link:'',
-                            component_link:''
-                        },
-                        {
-                            id: 5,
-                            name: 'Help Center',
-                            external_link:'',
-                            component_link:''
-                        }
                     ]
                 },
                 {
                     id: 4,
-                    title: 'company',
+                    title: 'resources',
                     links: [
-                        {
-                            id: 1,
-                            name: 'About Us',
-                            external_link:'',
-                            component_link:''
-                        },
+                        // {
+                        //     id: 1,
+                        //     name: 'blogs',
+                        //     external_link:'',
+                        //     component_link:''
+                        // },
                         {
                             id: 2,
                             name: 'Careers',
                             external_link:'',
-                            component_link:''
+                            component_link:'careers'
                         },
-                        {
-                            id: 3,
-                            name: 'Press',
-                            external_link:'',
-                            component_link:''
-                        },
-                        {
-                            id: 4,
-                            name: 'Contact Us',
-                            external_link:'',
-                            component_link:'contacts'
-                        },
-                        {
-                            id: 5,
-                            name: 'Provide a Referral',
-                            external_link:'',
-                            component_link:''
-                        }
                     ]
                 },
-                {
-                    id: 5,
-                    title: 'legal',
-                    links: [
-                        {
-                            id: 1,
-                            name: 'Terms of Service',
-                            external_link:'',
-                            component_link:'text_page'
-                        },
-                        {
-                            id: 2,
-                            name: 'Privacy Policy',
-                            external_link:'',
-                            component_link:'text_page'
-                        },
-                        {
-                            id: 3,
-                            name: 'Cookies Policy',
-                            external_link:'',
-                            component_link:'text_page'
-                        },
-                        {
-                            id: 4,
-                            name: 'AML and KYC',
-                            external_link:'',
-                            component_link:'text_page'
-                        },
-                        {
-                            id: 5,
-                            name: 'Anti-Fraud',
-                            external_link:'',
-                            component_link:'text_page'
-                        }
-                    ]
-                }
             ]
         }
     },

@@ -8,9 +8,9 @@
                         header="Limitless Possibilities "
                         linkText="Learn about Aff Builder's products"
                     >
-                        Easily integrate Aff Builder into your online store and start accepting global payments. 
-                        Take advantage of our reporting tools and gain unique insights into the purchasing behavior of your customers. 
-                        Use all our features and workflows and unlock all possibilities at your disposal to see your businesses raising performance.
+                      Easily integrate Aff Builder into your online store and start accepting global traffic. 
+                      Take advantage of our reporting tools and gain unique insights into the purchasing behavior of your customers. 
+                      Use all our features and workflows and unlock all possibilities at your disposal to see your businesses raising performance.
                     </dark-card>
                 </div>
                 <div class="base-column">
@@ -19,8 +19,9 @@
                         header="Digital Generation"
                         linkText="More about us"
                     >
-                        Technology is in our DNA. As digital payments are evolving dynamically & daily, we have embraced the digital technologies since day one.
-                        With our innovative solutions, you can reach your full online potential and grow your consumer base around the world.
+                        Technology is in our DNA. 
+                        As affiliate marketing platforms are evolving dynamically, we have embraced digital technology since day one. 
+                        With our innovative solutions, you can reach your full marketing potential and grow your consumer base around the world.
                     </dark-card>
                 </div>
             </div>
