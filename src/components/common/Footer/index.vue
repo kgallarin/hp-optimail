@@ -70,7 +70,7 @@ export default {
                           id: 1,
                           name: 'homepage',
                           external_link:'',
-                          component_link:'Home'
+                          component_link:'home'
                       },
                       {
                           id: 2,
@@ -106,13 +106,7 @@ export default {
                           id: 2,
                           name: 'affiliates',
                           external_link:'',
-                          component_link:'pricing'
-                      },
-                      {
-                          id: 3,
-                          name: 'payout terms',
-                          external_link:'',
-                          component_link:'payout'
+                          component_link:'affiliate'
                       }
                   ]
                 },
