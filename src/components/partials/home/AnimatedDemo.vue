@@ -121,8 +121,8 @@
 </template>
 
 <script>
-import "expose-loader?$!jquery"
-import '@plugins/AnimatedDemo/landing.js'
+// import "expose-loader?$!jquery"
+// import '@plugins/AnimatedDemo/landing.js'
 
   export default {
     name:'AnimatedDemo'

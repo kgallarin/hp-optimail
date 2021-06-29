@@ -4,7 +4,7 @@
   <img v-if="windowWidth < 1200" class="hdw-at-movemoney" :src="require('@images/affiliate/affhero.png')" alt="Aff Builder">
   <!-- please check sliced_container.scss for this sliced section class -->
   
-  <header-text class="move_money-header"> SmAIrtlink <span class="xmd">©</span>, The ultimate AI marketing tool </header-text>
+  <header-text class="move_money-header"> SmAIrtlink<span class="xmd">©</span>, The ultimate AI marketing tool </header-text>
   <SlicedSection class="default-sliced move_money-section">
     <template v-slot:slot-left>      
       <ul class="card-list">
@@ -101,21 +101,21 @@ export default {
           fa_icon: ['fas', 'address-card'],
           headerLabel: 'Step 1 - Campaign Creation',
           desc: 'create_users',
-          text:'Let your affiliates start a campaign and replace the URL with SmAIrtlink.'
+          text:'Let your affiliates start a campaign and replace the URL with SmAIrtlink©.'
         },
         {
           id: 1,
           fa_icon:['fas', 'money-check-alt'],
           headerLabel: 'Step 2 - Auto Optimization',
           desc: 'attach_bank',
-          text: 'Allow the power of SmAIrtlink to optimize your campaign through landing pages, devices, offers, and verticals or any filters you like to add.'
+          text: 'Allow the power of SmAIrtlink© to optimize your campaign through landing pages, devices, offers, and verticals or any filters you like to add.'
         },
         {
           id: 2,
           fa_icon:['fas', 'exchange-alt'],
           headerLabel: 'Step 3- Analyze and filter',
           desc: 'move_money',
-          text: 'With AI adjustments - SmAIrtlink will provide you and your affiliates with the best conversion.'
+          text: 'With AI adjustments - SmAIrtlink© will provide you and your affiliates with the best conversion.'
         }
       ]
     }

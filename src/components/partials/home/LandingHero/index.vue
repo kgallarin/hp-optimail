@@ -21,7 +21,7 @@
 
     <template v-slot:slot-right>
       <!-- <animated-demo v-if="windowWidth > 1200"  /> -->
-      <img :src="require('@images/affiliate/affhero.png')" alt="Aff Builder">
+      <img class="animate fadeIn" :src="require('@images/affiliate/affhero.png')" alt="Aff Builder">
     </template>
 
 
@@ -37,7 +37,7 @@ import Button from '@components/common/FormElements/Button'
 import { mapGetters } from "vuex";
 
 import Waves from '../Waves'
-import AnimatedDemo from '../AnimatedDemo'
+// import AnimatedDemo from '../AnimatedDemo'
 export default {
   name: "LandingHero",
   props: {},
@@ -49,6 +49,6 @@ export default {
       return this.$store.getters['app/GET_WINDOW_WIDTH']
     }
   },
-  components: { Waves, SlicedSection, Button, AnimatedDemo },
+  components: { Waves, SlicedSection, Button },
 };
 </script>

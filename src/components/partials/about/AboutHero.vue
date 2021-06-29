@@ -4,12 +4,11 @@
 
     <SlicedSection single-column class="hero-content">
         <header-text size="xlg" class="text-center text-uppercase">
-          PROVIDING A SIMPLE AFFILIATE MARKETING PLATFORM TO GROW YOUR LOCAL AND INTERNATIONAL LEADS NETWORK. 
-          
+          SIMPLE MARKETING PLATFORM
         </header-text>
 
         <p class="hero-content-text">
-          Aff Builder was founded  with a focus on building the future of digital affiliate marketing  solutions. 
+          Aff Builder was founded  with a focus on building the future of digital affiliate marketing  solutions, providing a simple affiliate marketing platform to grow your local and international leads network. 
           We believe that lead conversions should be vast, fast, transparent and affordable, breaking the old and traditional way of marketing – and we found a perfect way to do it!
         </p>
 

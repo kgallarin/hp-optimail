@@ -1,7 +1,7 @@
 <template>
     <SlicedSection single-column class="getting-started">
         <h1>
-          POWER UP YOUR LEAD CONVERSION THROUGH ONE PLATFORM
+          POWER UP YOUR CONVERSIONS THROUGH ONE PLATFORM
         </h1>
       <router-link :to="{name:'register'}">
         <Button class="custom-button-yellow" label="get started" />

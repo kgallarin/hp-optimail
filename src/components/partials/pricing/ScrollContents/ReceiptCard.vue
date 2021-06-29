@@ -3,8 +3,11 @@
       <div class="receipt-card-main">
           <!-- title move faster -->
           <div class="move-faster-section">
-              <header-text size="xlg" class="text-center text-uppercase">
+              <header-text v-if="!hasTitleSlot" size="xlg" class="text-center text-uppercase">
                   {{ headerText }}
+              </header-text>
+              <header-text v-else>
+                <slot name="headerTitle" />
               </header-text>
               <p class="mf-sub-text">
                 {{ subText }}
@@ -127,6 +130,11 @@ export default {
       hasRibbon: {
         type: Boolean,
         default: false
+      }
+    },
+    computed: {
+      hasTitleSlot () {
+        return !!this.$slots.headerTitle
       }
     }
 }

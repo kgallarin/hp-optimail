@@ -8,7 +8,7 @@
     <template v-slot:slot-right>
       <header-text size="xl" class="text-left text-uppercase">
        <!-- <br v-if="windowWidth > 767" /> -->
-       Affiliate marketing platform for all types of businesses
+       All Types of Businesses
       </header-text>
     </template>
   </SlicedSection>

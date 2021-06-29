@@ -121,6 +121,7 @@
     .move-faster-section {
         font-family: $font-primary;
         padding: 100px 0;
+        vertical-align: super;
         .mf-sub-text {
             line-height: 2.22;
             color: #374163;
@@ -135,5 +136,10 @@
     }
     .header-text-1 {
         margin-bottom:48px;
+        text-align: center;
+        .copy {
+          font-size: $font-xmd;
+          vertical-align: super;
+        }
     }
 }

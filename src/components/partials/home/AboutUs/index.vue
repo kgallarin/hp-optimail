@@ -5,7 +5,7 @@
                 <div class="base-column">
                     <dark-card
                         :click="() => goTo('features')"
-                        header="Limitless Possibilities "
+                        header="Limitless possibilities "
                         linkText="Product details"
                     >
                       Easily integrate Aff Builder into your online store and start accepting global traffic. 
@@ -16,7 +16,7 @@
                 <div class="base-column">
                     <dark-card
                         :click="() => goTo('about')"
-                        header="Digital Generation"
+                        header="Digital generation"
                         linkText="More about us"
                     >
                         Technology is in our DNA. 

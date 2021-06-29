@@ -9,6 +9,10 @@
         color: #2353c4;
         font-family: $font-secondary;
         font-size: $font-md;
+        
+        &:first-letter {
+          text-transform: capitalize !important;
+        }
     }
     &-content {
         font-family: $font-primary;

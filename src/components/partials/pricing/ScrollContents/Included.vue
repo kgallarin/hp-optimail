@@ -2,7 +2,7 @@
   <SlicedSection single-column class="included-section">
     <div class="included-tab tab-view">
         <header-text size="xmd" class="text-center text-uppercase">
-            Being one of our top affiliates has a lot of bonuses and benefits:
+            Being one of our networks has a lot of benefits:
         </header-text>
 
         <!-- <p class="included-tab-sub">Get 100+ features out of the box with Stripe’s integrated per-transaction pricing</p> -->
@@ -31,7 +31,7 @@ export default {
         listData: [
             {
                 id: 0,
-                title: '24/7 Customer Service',
+                title: '24/7 Customer service',
                 icon: ['fas','user-clock'],
                 check_list: [
                   'Reach our professional customer service department if you have any questions regarding our business, your status or perks',
@@ -39,7 +39,7 @@ export default {
             },
             {
                 id: 1,
-                title: 'Affiliate Manager Assistance',
+                title: 'Affiliate manager assistance',
                 icon:['fas','hands-helping'],
                 check_list: [
                     'We have a team of highly qualified with years of experience account managers to provide you personalized assistance that is best suited for your geographical target location and traffic.',
@@ -47,7 +47,7 @@ export default {
             },
             {
                 id: 2,
-                title: 'Hundreds of offers from Top Brands',
+                title: 'Hundreds of offers from top brands',
                 icon: ['fas','medal'],
                 check_list: [
                     'Aff Builder has years of concrete partnerships with hundreds of advertisers and client partners that have exclusive offers only for us.',
@@ -71,7 +71,7 @@ export default {
             },
             {
                 id: 5,
-                title: 'Quick and Detailed Reporting',
+                title: 'Quick and detailed reporting',
                 icon: ['fas','edit'],
                 check_list: [
                     'Our stats platform provides you with detailed information about your data, traffic conversation and how much sales and converts your affiliates and promotional links made.',
