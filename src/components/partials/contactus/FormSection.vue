@@ -13,8 +13,8 @@
               headerLabel="Get Answers from the Aff Builder Team"
               iconSize="3x"
             >
-              Find everything you need to know to make Aff Builder work for you.
-              Contact our customer success team at <strong>support@affiliatebuilder.com</strong>.
+              Find everything you need to know to make Aff Builder work for you. Contact our customer success team at
+              <strong>support@affbuilder.com</strong>
             </Card>
           </li>
           <li>
