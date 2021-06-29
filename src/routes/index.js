@@ -3,7 +3,7 @@ import Router from 'vue-router';
 
 // views
 import Home from '@components/views/Home';
-import Pricing from '@components/views/Pricing';
+import Affiliate from '@components/views/Affiliate';
 import TextPage from '@components/views/TextPage';
 import Blog from '@components/views/Blog';
 import CaseStudy from '@components/views/CaseStudy';
@@ -92,8 +92,8 @@ const router = new Router({
     },
     {
       path: '/affiliates',
-      component: Pricing,
-      name: 'pricing',
+      component: Affiliate,
+      name: 'affiliate',
       meta: {
         layout: 'default',
       },

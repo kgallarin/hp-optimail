@@ -8,6 +8,7 @@
         background-color: #fff;
         padding:32px;
         border-radius: 4px;
+        min-height: 600px;
 
         // .white-container
         @media #{$tablet-portrait} {
@@ -31,6 +32,8 @@
         }
     }
     .white-container-text {
+      display: flex;
+      flex-direction: column;
         .content {
             line-height: 1.5;
             letter-spacing: 0.15px;
@@ -60,7 +63,7 @@
     .help-links {
         display: flex;
         flex-direction: column;
-
+        margin-top: auto;
         &-header {
             @include font-settings;
             line-height: 1.5;

@@ -17,7 +17,7 @@
     letter-spacing: normal;
     text-align: center;
     color: #374163;
-    margin: 36px 0 48px;
+    margin: 36px 0 80px;
   }
 
   .custom-button-yellow {
@@ -34,7 +34,7 @@
 // mission section styles starts
 
 .mission-section {
-  padding-top: 80px;
+  padding: 150px 0 50px;
 
   .column-section {
       align-items: center !important;
@@ -85,7 +85,7 @@
 
   // .mission-section
   @media #{$mobile} {
-    padding-top: 40px;
+    padding: 112px 0 80px;
   }
 
 }
@@ -94,7 +94,7 @@
 // diamond-section styles
 
 .diamond-section {
-  padding: 16px 0 76px;
+  padding: 16px 0 156px;
   margin-left: 150px;
   .diamond-gems-wrapper {
     display: flex;
@@ -109,13 +109,12 @@
   @media #{$mobile} {
       max-width: 100%;
       flex-direction: column;
-      padding: 120px 0 0px;
+      padding: 16px 0 100px;
     }
   }
 
   // .diamond-section
   @media #{$smallest-desktop} {
     margin-left: 0;
-    padding: 16px 0 40px;
   }
 }

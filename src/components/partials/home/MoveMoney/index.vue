@@ -3,10 +3,10 @@
     <!-- <animated-demo  class="d-flex justify-content-center hdw-at-movemoney"/> -->
   <img v-if="windowWidth < 1200" class="hdw-at-movemoney" :src="require('@images/affiliate/affhero.png')" alt="Aff Builder">
   <!-- please check sliced_container.scss for this sliced section class -->
+  
+  <header-text class="move_money-header"> SmAIrtlink <span class="xmd">©</span>, The ultimate AI marketing tool </header-text>
   <SlicedSection class="default-sliced move_money-section">
-    <template v-slot:slot-left>
-      <header-text> SmAIrtlink, <br /> The ultimate AI marketing tool </header-text>
-      
+    <template v-slot:slot-left>      
       <ul class="card-list">
         <li v-for="(data, index) in card_data" :class="[{ 'active' : activeNav === index }]" :key="data.id">
           <a href="#"

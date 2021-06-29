@@ -54,31 +54,10 @@ import HeaderText from '@components/common/HeaderText'
             {
               id: 0,
               img:'blog1.jpg',
-              header_desc: 'The Definition of Blog, Blogging, and Blogger',
-              content:'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cu sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. fringilla vel, aliquet nec, vulputate eget, arcu.',
-              date: '26 Nov 2019',
+              header_desc: 'Reach Your Ultimate Lead Conversion Goal',
+              content:'Read on for more tips on keyword research to increase conversion affiliate traffic. Make your affiliate campaigns faster with tools that help you create and automate your campaigns. In today’s blog post, I will share with you how powerful the Aff Builder  affiliate marketing tool can be used by your business to understand the market, conversion rate, daily visitors, website traffic, page views and much more. ',
+              date: '25 Feb 2021',
             },
-            {
-              id: 1,
-              img:'blog1.jpg',
-              header_desc: 'The Definition of Blog, Blogging, and Blogger',
-              content: 'Sample 2 Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Aenean massa.',
-              date: '26 July 2019',
-            },
-            {
-              id: 2,
-              img:'blog1.jpg',
-              header_desc: 'The Definition of Blog, Blogging, and Blogger',
-              content: 'Sample 3 Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Aenean massa.',
-              date: '12 Dec 2019',
-            },
-            {
-              id: 3,
-              img:'blog1.jpg',
-              header_desc: 'The Definition of Blog, Blogging, and Blogger',
-              content: 'Sample 4 Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Aenean massa.',
-              date: '18 Oct 2019',
-            }
           ]
       }
     },

@@ -4,7 +4,7 @@ import App from './App.vue';
 import store from './store';
 import router from './routes';
 import VueHighlightJS from 'vue-highlightjs';
-import * as VueGoogleMaps from 'vue2-google-maps';
+// import * as VueGoogleMaps from 'vue2-google-maps';
 import { ClickOutside, EventBus, ScrollTo } from './plugins';
 
 import BootstrapVue from 'bootstrap-vue';
@@ -43,19 +43,19 @@ Vue.use(BootstrapVue)
  * Google Maps
  */
 
- Vue.use(VueGoogleMaps, {
-   load: {
-     key: 'AIzaSyCTZjwOVnMwhvNp1uI197QJUzpjwVb_1aU',
-     libraries: 'places', // This is required if you use the Autocomplete plugin
+ // Vue.use(VueGoogleMaps, {
+   // load: {
+     // key: 'AIzaSyCTZjwOVnMwhvNp1uI197QJUzpjwVb_1aU',
+     //libraries: 'places',  This is required if you use the Autocomplete plugin
      // OR: libraries: 'places,drawing'
      // OR: libraries: 'places,drawing,visualization'
      // (as you require)
 
      //// If you want to set the version, you can do so:
      // v: '3.26',
-   },
-   installComponents: true
- })
+   // },
+   // installComponents: true
+ // })
 
 /**
   Scroll to element

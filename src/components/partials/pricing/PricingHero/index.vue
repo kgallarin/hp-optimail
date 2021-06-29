@@ -1,10 +1,10 @@
 <template>
     <SlicedSection single-column class="pricing-hero">
         <header-text size="xlg" class="text-center text-uppercase">
-          Enhance and Optimize Your Campaign With the Globe’s Fastest Growing Affiliate Marketing Platform Through Exceptional Technology with Human Touch
+          Optimize Your Campaign
         </header-text>
         <p class="hero-content-text">
-          As one of the fastest growing affiliate marketing platforms combined with years of experience, Aff Builder ensures proper connection to every advertisers and products optimizing your sales and reaching your target audience worldwide.
+          Enhance and Optimize Your Campaign With the Globe’s Fastest Growing Affiliate Marketing Platform Through Exceptional Technology with Human Touch. As one of the fastest growing affiliate marketing platforms combined with years of experience, Aff Builder ensures proper connection to every advertisers and products optimizing your sales and reaching your target audience worldwide.
         </p>
         <div class="cards-wrapper d-flex" style="color:#000">
           <included ref="included" />

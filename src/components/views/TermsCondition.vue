@@ -1,6 +1,6 @@
 <template>
   <div class="static-pages">
-    <header-text class="text-center">
+    <header-text class="text-center main-header-text">
       Terms and Conditions
     </header-text>
     <p>
@@ -108,15 +108,18 @@
       </div>
     </div>
     
+    <company-details />
   </div>
 </template>
 
 <script>
 import HeaderText from '@components/common/HeaderText'
+import CompanyDetails from '@components/common/CompanyDetails'
 export default {
   name: 'TermsCondition',
   components: {
-    HeaderText
+    HeaderText,
+    CompanyDetails
   }
 }
 </script>

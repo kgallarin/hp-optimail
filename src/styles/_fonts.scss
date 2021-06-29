@@ -114,7 +114,13 @@ $font-secondary: "Poppins", sans-serif;
   &.xmd {
     font-size: $font-xmd;
   }
-
+  
+  &.md {
+    font-size: $font-md;
+  }
+  &.smd {
+    font-size: $font-smd;
+  }
   &.sm {
     font-size: $base;
   }

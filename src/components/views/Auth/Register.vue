@@ -3,17 +3,17 @@
         <div class="white-wrapper position-relative">
             <div class="white-container d-flex">
                 <div class="white-container-text">
-                    <header-text class="color-lbue" size="sm">Start testing, create your sandbox account</header-text>
+                    <header-text class="color-lbue" size="sm">Register and see your business grow</header-text>
 
                     <p class="content">
-                        Start building in the sandbox for free, right now. From creating customers to initiating transactions,
-                        get a feel for how our API works before going live in production. <br /> <br />
-                        Have you previously created a sandbox account?<br />
-                        <router-link href="#" :to="{name: 'login'}" class="color-gold gold-link">Log in</router-link>.
+                        Make your affiliate campaigns faster with tools that help you create and automate your campaigns. <br /> <br />
+                        Contact our support team to know more about our affiliate marketing services that will help you grow your business.<br /><br />
+                        Already have an account?
+                        <router-link href="#" :to="{name: 'login'}" class="color-gold gold-link">Log in</router-link>
                     </p>
 
                     <div class="help-links">
-                        <p class="help-links-header">Helpful links</p>
+                        <!-- <p class="help-links-header">Helpful links</p>
                         <ul>
                             <li>
                                 <a href="#" @click.prevent="" class="gold-link">
@@ -48,18 +48,18 @@
                             <li>
                               <a href="#" @click.prevent="" class="gold-link">
                                 <svg height="20" width="20" class="mr-1 yellow-arrow">
-                                    <use
+                                    <user
                                         :xlink:href="require('@svg/sprites/dark_card.svg') + '#yellow-arrow'"
                                     />
                                 </svg>
                                 Getting started in the sandbox.
                               </a>
                             </li>
-                        </ul>
+                        </ul> -->
 
                         <div class="help-links-footer d-flex justify-content-between">
-                            <p>© {{ currentYear }} Aff Builder</p>
-                            <router-link :to="{ name: 'text_page' }">Terms & Privacy</router-link>
+                            <p>© {{ currentYear }} Moebius Development Inc.</p>
+                            <router-link :to="{ name: 'privacy_policy' }">Terms & Privacy</router-link>
                         </div>
                     </div>
                 </div>

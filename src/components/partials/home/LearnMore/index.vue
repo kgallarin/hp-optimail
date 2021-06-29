@@ -7,7 +7,7 @@
                 <!-- <template v-for="data in list" > -->
                 <div class="list-column d-flex">
                    <div class="icon-container">
-                     <font-awesome-icon :icon="['fas','users']" size="4x" />
+                     <font-awesome-icon :icon="['fas','chart-line']" size="5x" />
                    </div>
                   <div class="list-column-content">
                     <header class="list-column-header">Scale your bussiness</header>

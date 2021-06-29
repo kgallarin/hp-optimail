@@ -3,53 +3,58 @@
     background-size: 100%;
     background-position: 100% -970px;
     background-repeat: no-repeat;
-
+    .included-tab {
+      &.tab-view {
+        margin-top: 40px;
+      }
+    }
     .included-tab-sub {
         font-weight: 500;
     }
     .rsearch-study {
-        display: flex;
-        padding: 30px;
-        border-radius: 4px;
-        box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25);
-        background-color: #fff;
+      margin: 80px 0 50px;
+      display: flex;
+      padding: 30px;
+      border-radius: 4px;
+      box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25);
+      background-color: #fff;
 
-        // .rsearch-study
-        @media #{$tablet-portrait} {
-            flex-direction: column;
+      // .rsearch-study
+      @media #{$tablet-portrait} {
+          flex-direction: column;
 
-            img {
-              margin-bottom: 40px;
-            }
-        }
+          img {
+            margin-bottom: 40px;
+          }
+      }
 
-        .text-wrap {
-            margin-left: 40px;
-            margin-right: 80px;
-            font-family: $font-secondary;
-            line-height: 1.78;
-            letter-spacing: 0.16px;
-            color: #07265d;
-            font-weight: 500;
-            line-height: 1.78;
-            letter-spacing: 0.16px;
-            font-size: $font-md;
+      .text-wrap {
+          margin-left: 40px;
+          margin-right: 80px;
+          font-family: $font-secondary;
+          line-height: 1.78;
+          letter-spacing: 0.16px;
+          color: #07265d;
+          font-weight: 500;
+          line-height: 1.78;
+          letter-spacing: 0.16px;
+          font-size: $font-md;
 
-            .wrapper {
-              display: inline-block;
-                @media #{$mobile} {
-                    text-align: center;
-                }
-            }
+          .wrapper {
+            display: inline-block;
+              @media #{$mobile} {
+                  text-align: center;
+              }
+          }
 
-            // .text-wrap
-            @media #{$tablet-portrait} {
-                margin: 15px 15px 0;
-            }
-            .hl {
-                color: #2353c4;
-                font-weight: 700;
-            }
-        }
+          // .text-wrap
+          @media #{$tablet-portrait} {
+              margin: 15px 15px 0;
+          }
+          .hl {
+              color: #2353c4;
+              font-weight: 700;
+          }
+      }
     }
 }

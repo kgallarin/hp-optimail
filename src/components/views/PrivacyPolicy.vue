@@ -1,7 +1,7 @@
 <template>
   <div class="static-pages">
     
-    <header-text class="text-center">Privacy Policy</header-text>
+    <header-text class="text-center main-header-text">Privacy Policy</header-text>
     
     <p>Aff Builder (referred to as “we” or “our”), is fully compliant with General Data Protection and the e-Privacy Directive (2002/58/EC) and is committed to respect the privacy of our clients and website visitors. We are in continuous process innovating the ways we handle and protect customer data and privacy while aiming to deliver relevant data advertising and personalize online experience on behalf of our clients and affiliates</p>
     <p>This Privacy Policy provides details on how we use our client’s input data that are being collected during the registration process.</p>
@@ -39,15 +39,20 @@
     
     <header-text class="xmd">Changes</header-text>
     <p>Aff Builder reserves the right to change and amend this Privacy Policy in order to adhere with the applicable laws and regulations. It is recommended that the user check this privacy policy from time to time to be fully aware about the changes and updates.</p>
+  
+    
+    <company-details />
   </div>
 </template>
 
 <script>
 import HeaderText from '@components/common/HeaderText'
+import CompanyDetails from '@components/common/CompanyDetails'
 export default {
   name: 'PrivacyPolicy',
   components: {
-    HeaderText
+    HeaderText,
+    CompanyDetails
   }
 }
 </script>

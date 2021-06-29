@@ -1,7 +1,7 @@
 <template>
    <div class="blog-single">
        <header>{{ this.data === null ? 'Header is empty' : data.header_desc }}</header>
-        <p class="sub-header">{{ this.data === null ? 'Header is empty' : data.date }} – Blog category</p>
+        <p class="sub-header">{{ this.data === null ? 'Header is empty' : data.date }}</p>
 
         <!-- image area -->
         <div class="image-screen">
@@ -66,97 +66,56 @@
                             </ordered-list>
                         </div>
                     </div> -->
-
-                    <Hero>{{ this.data === null ? '' : data.content }}</Hero>
+                    
 
                     <paragraph>
-                      Recently, the US Federal government banned online casinos from operating in America by making it illegal to
-                      transfer money to them through any US bank or payment system. As a result of this law, most of the popular
-                      online casino networks such as Party Gaming and PlayTech left the United States. Overnight, online casino
-                      players found themselves being chased by the Federal government. But, after a fortnight, the online casino
-                      industry came up with a solution and new online casinos started taking root. These began to operate under a
-                      different business umbrella, and by doing that, rendered the transfer of money to and from them legal. A major part
-                      of this was enlisting electronic banking systems that would accept this new clarification and start doing business with me.
-                      Listed in this article are the electronic banking systems that accept players from the United States that wish to play in online casinos.
+                      Read on for more tips on keyword research to increase conversion affiliate traffic. Make your affiliate campaigns faster with tools that help you create and automate your campaigns. 
                     </paragraph>
 
-                    <h1>The Payment Systems You Can Use:</h1>
-
-                    <h5>1, 2) MasterCard and Visa:</h5>
-
                     <paragraph>
-                      The most popular credit cards in the world, you can use these for depositing money into your casino account.
-                      But, please note that the casinos do not deposit your winning through your credit card. They use one of the other electronic payment systems.
-                      This is also the biggest reason why you should refrain from using your personal credit cards today for gambling.
+                      In today’s blog post, I will share with you how powerful the Aff Builder  affiliate marketing tool can be used by your business to understand the market, conversion rate, daily visitors, website traffic, page views and much more. 
                     </paragraph>
 
-                    <h5>3, 4) Visa Delta, Visa Electron:</h5>
-
-
                     <paragraph>
-                      These are debit cards that one can use to deposit cash into their casino account.
-                      By debit card, it means that the money you pay through the card, is immediately withdrawn from your bank account.
-                      This is a comfortable option, but here too, you cannot receive money into it.
+                      Aff Builder is one of the best affiliate marketing tools and it is the best email marketing program for several reasons : It is customizable, sends messages, emails, reports and manages subscribers to increase the profitability of your business. 
                     </paragraph>
 
-                    <h5>5) Neteller:</h5>
-
-
                     <paragraph>
-                      Based in the UK and traded on the London AIM Stock Exchange, this e-bank company is one of the major independent
-                      electronic banking entities in the world, and it allows players to transfer money to and from an online casino.
+                      Affiliate marketing is beneficial to all parties involved and generates sales, customer recommendations and new website visitors. Affiliate marketers have a priority to track traffic, which is a useful source for monitoring the monetary value of leads. 
                     </paragraph>
 
-                    <h5>6) Neteller Instacash</h5>
-
                     <paragraph>
-                      This is Neteller’s version of the Debit Card, and, in fact, it is just like any other debit card with one difference.
-                      To use, InstaCash, you have to pay a small amount. But, most casinos will offer to pay this for you, so read their regulations.
+                      If you want to run a successful affiliate program, you need to invest in a good affiliate marketing tool and not rely on free tools. While affiliate marketing tools are essential to get started, the ones I recommend at a later date will help you scale faster once you have reached a certain revenue level. There are many excellent affiliate marketing tools on the market that can be used to operate an affiliate program for any type of business, including blogs. 
                     </paragraph>
 
-                    <h5>7) EcoCard</h5>
-
                     <paragraph>
-                      Based in the European Union, EcoCard offers a wider range of electronic banking solutions than the other e-banks.
-                      Other than the regular card and debit system, you can decide beforehand how to create a flexible financial account.
-                      Because they use a wide network of banks in Europe, transactions made through EcoCard are quick and efficient.
+                      We have collected some proven affiliate sales tips and tricks that you can use to increase your passive income, expand your audience, increase your efforts, build authority and improve your sales numbers. These tips will be useful for any partner, no matter what program or brand you work with. We regularly post affiliate sales tips on our blog page to help our affiliates increase their affiliate income. 
                     </paragraph>
 
-
-
-                    <h5>8) FirePay</h5>
-
                     <paragraph>
-                      This e-banking system is solely web-based and carries out its transactions just like a debit card.
-                      You place cash into your FirePay account, and then, you can use that money to pay or deposit into your casino account.
-                      While it will not cost you a dime to open an account, you will be charged a minimal amount each time you transfer money
-                      from your bank account to FirePay.
+                      One of the best ways to open up new perspectives and increase revenue is to use lead generation and affiliate programs. Although direct affiliate links are not allowed, it is easy to share to any social media platforms to increase your affiliate sales. 
                     </paragraph>
 
-
-                    <h5>9) Moneybookers</h5>
-
                     <paragraph>
-                      All you need to open an account is an email address! This e-banking system uses transactions from your credit
-                      or debit card or your bank account to whichever company you wish to move your money to. Regulated in the UK and run by
-                      Gatcombe Park Ventures Limited, this is one of the relatively new e-finance companies that allow transferring money to online casinos.
+                      Managing your affiliate program within your regular activities can be a tedious task as you need to monitor its growth, analyze statistics and keep your income from dwindling. Aff Builder affiliate marketing tools give you a consolidated overview of how affiliates perform and how much you pay. Our tools are the biggest advantage that they track leads generated by affiliates, each using unique tracking links.
                     </paragraph>
 
-                    <h5>10) eWalletXpress:</h5>
-
                     <paragraph>
-                      Owned and run by Navaho Networks Inc, eWalletXpress is a new electronic payment system that
-                      has been created to answer the need for US players to transfer funds to online casinos. This is a completely
-                      different e-banking system. Instead of charging your bank account or your credit card, 900Pay charges your
-                      telephone bill for all your financial transactions. This is one of the fastest methods of electronic
-                      payment because you do not have to go through a long and detailed sign up process.
-                      And, if you were wondering, this does work to fund your casino account.
+                      By working with sellers, a motivated affiliate is able to generate passive income from the comfort of his home without worrying about producing his own products and services. 
+                    </paragraph>
+                    
+                    <paragraph>
+                      With active lead generation you bring new perspectives to your website. This means that you do not have to rely on your current customers and can expand your reach further. Free traffic sources bring a good number of visitors to your site so that you can use them to build a huge following that leads to conversion.    
+                    </paragraph>
+                    
+                    <paragraph>
+                      Contact our support team to know more about our affiliate marketing services that will help you grow your business. 
                     </paragraph>
                 </TextCanvas>
 
                 <div class="social-media-wrapper">
                     <!-- social media please add more prop when sharing the blog through api -->
-                    <social-media label="Share" />
+                    <!-- <social-media label="Share" /> -->
                 </div>
             </div>
         </SlicedSection>

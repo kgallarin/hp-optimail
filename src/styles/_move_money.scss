@@ -1,4 +1,8 @@
 .move_money-section {
+  padding: 40px 0 170px;
+  @media #{$mobile} {
+    padding-top: 0px;
+  }
   .card-list {
     margin-top: 46px;
     li {
@@ -79,6 +83,21 @@
   // .move_money-section
   @media #{$small-desktop} {
     margin-top: 0;
+  
+  }
+}
+
+.move_money-header {
+  padding: 0 20px;
+  text-align: center;
+  .xmd {
+    vertical-align: super;
+    font-size: 28px;
+    margin-left: -6px;
+  }
+  @media #{$mobile} {
+    margin-top: 30px;
+    text-align: left;
   }
 }
 

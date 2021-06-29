@@ -14,19 +14,19 @@
               iconSize="3x"
             >
               Find everything you need to know to make Aff Builder work for you.
-              Contact our customer success team at <strong>support@affiliatebuilder.com</strong> or <strong>123-456-789</strong>.
+              Contact our customer success team at <strong>support@affiliatebuilder.com</strong>.
             </Card>
           </li>
           <li>
             <Card
               informative
               :fa_icon="['fas', 'comments']"
-              headerLabel="Be A Part of Our Developer-Focused Conversation"
+              headerLabel="Be A Part of Our Affiliate Marketer's forum"
               iconSize="3x"
             >
               Aff Builder's community forum is an ongoing dialogue specifically for developers.
 
-              <a href="#" class="card-w-icon-link">Access our community forum</a>
+              <!-- <a href="#" class="card-w-icon-link">Access our community forum</a> -->
             </Card>
           </li>
           <li>

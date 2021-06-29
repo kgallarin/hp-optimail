@@ -11,7 +11,7 @@
     </div>
 </template>
 <script>
-import {gmapApi} from 'vue2-google-maps'
+// import {gmapApi} from 'vue2-google-maps'
 export default {
     name: 'GoogleMap',
     data(){
@@ -120,7 +120,7 @@ export default {
       }
     },
     computed: {
-        google: gmapApi
+        // google: gmapApi
     },
 
 }

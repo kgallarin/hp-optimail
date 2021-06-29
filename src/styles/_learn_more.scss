@@ -1,5 +1,11 @@
-.learn-more {
-    padding: 160px 0 0px 0;
+.learn-more {    
+    padding: 160px 0 90px 0;
+    .header-text-1 {
+      text-align: center;
+      @media #{$mobile} {
+        text-align: left;
+      }
+    }
     .list-container-wrapper {
         // padding: 15px;
     }
@@ -47,7 +53,7 @@
 
     .custom-button {
         max-width: 220px;
-        margin: 0 auto;
+        margin: 70px auto 0px;
 
         @media #{$mobile} {
             max-width: 100%;

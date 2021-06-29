@@ -26,46 +26,7 @@ import MenuItemMobile from './MenuItemMobile'
           { id:"0",
             label: "Home",
             component_link:'home',
-            sub_links: [
-              // {
-              //   id: 0,
-              //   title: 'Payments',
-              //   desc: 'description here',
-              //   fa_icon: ['fas', 'address-card'],
-              //   external_link:'',
-              //   component_link:'payments'
-              // },
-              // {
-              //   id: 1,
-              //   title: 'Subscriptions',
-              //   desc: 'description here',
-              //   fa_icon:['fas', 'money-check-alt'],
-              //   external_link:'',
-              //   component_link:'subscription'
-              // },
-              // {
-              //   id: 2,
-              //   title: 'FX Conversions',
-              //   desc: 'description here',
-              //   fa_icon:['fas', 'exchange-alt'],
-              //   external_link:'',
-              //   component_link:'currency_conversions'
-              // },
-              // { id: 3,
-              //   title: 'Mass Payouts',
-              //   desc: 'description here',
-              //   fa_icon:['fas', 'user-shield'],
-              //   external_link:'',
-              //   component_link:'mass_payouts'
-              // },
-              // { id: 4,
-              //   title: 'Integration',
-              //   desc: 'description here',
-              //   fa_icon:['fas', 'user-shield'],
-              //   external_link:'',
-              //   component_link:'integration'
-              // }
-            ]
+            sub_links: []
           },
           { id:"1",
             label: "features",
@@ -82,16 +43,16 @@ import MenuItemMobile from './MenuItemMobile'
                 desc: 'payout periods, payout methods',
                 fa_icon: ['fas', 'address-card'],
                 external_link:'',
-                component_link:'pricing'
+                component_link:'affiliate'
               },
-              {
-                id: 1,
-                title: 'Payout terms',
-                desc: 'payout periods, payout methods',
-                fa_icon: ['fas', 'address-card'],
-                external_link:'',
-                component_link:'payout'
-              },
+              // {
+              //   id: 1,
+              //   title: 'Payout terms',
+              //   desc: 'payout periods, payout methods',
+              //   fa_icon: ['fas', 'address-card'],
+              //   external_link:'',
+              //   component_link:'payout'
+              // },
             ]
           },
           { id:"3",

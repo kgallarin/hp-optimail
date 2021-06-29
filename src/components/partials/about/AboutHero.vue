@@ -4,8 +4,8 @@
 
     <SlicedSection single-column class="hero-content">
         <header-text size="xlg" class="text-center text-uppercase">
-          OUR MISSION IS TO PROVIDE A SIMPLE AFFILIATE MARKETING PLATFORM THAT HELPS <br v-if="windowWidth < 768" /> 
-          YOU GROW  YOUR LOCAL AND INTERNATIONAL LEADS NETWORK.
+          PROVIDING A SIMPLE AFFILIATE MARKETING PLATFORM TO GROW YOUR LOCAL AND INTERNATIONAL LEADS NETWORK. 
+          
         </header-text>
 
         <p class="hero-content-text">

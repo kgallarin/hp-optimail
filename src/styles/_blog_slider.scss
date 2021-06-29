@@ -3,6 +3,16 @@
     overflow: hidden;
     background-color: #fff;
     box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25);
+    
+    max-width: 1199px;
+    margin: 0 auto;
+    
+    @media #{$mobile} {
+      .header-text-1 {
+        padding: 0 20px;
+      }
+    }
+    
     .text-content, .date {
         font-family: $font-primary;
         line-height: 1.29;

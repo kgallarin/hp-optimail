@@ -6,7 +6,7 @@
                     <dark-card
                         :click="() => goTo('features')"
                         header="Limitless Possibilities "
-                        linkText="Learn about Aff Builder's products"
+                        linkText="Product details"
                     >
                       Easily integrate Aff Builder into your online store and start accepting global traffic. 
                       Take advantage of our reporting tools and gain unique insights into the purchasing behavior of your customers. 

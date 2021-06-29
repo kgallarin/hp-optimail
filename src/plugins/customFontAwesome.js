@@ -39,7 +39,13 @@ import {
     faCircle,
     faSmile,
     faGlobeAmericas,
-    faCalendarCheck
+    faCalendarCheck,
+    faChartLine,
+    faUserClock,
+    faMedal,
+    faUserTag,
+    faUserPlus,
+    faEdit
 } from '@fortawesome/free-solid-svg-icons'
 
 
@@ -97,4 +103,9 @@ library.add(faCircle)
 library.add(faSmile)
 library.add(faGlobeAmericas)
 library.add(faCalendarCheck)
-
+library.add(faChartLine)
+library.add(faUserClock)
+library.add(faMedal)
+library.add(faUserTag)
+library.add(faUserPlus)
+library.add(faEdit)

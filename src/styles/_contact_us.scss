@@ -80,3 +80,12 @@
     margin-bottom: 31px;
   }
 }
+
+#map-frame {
+  width: 100% !important;
+  height: 636px !important;
+  border: none !important;
+  @media #{$mobile} {
+    height: 400px !important;
+  }
+}

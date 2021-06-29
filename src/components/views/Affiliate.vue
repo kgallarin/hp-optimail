@@ -15,10 +15,10 @@
         </div> -->
         
         <receipt-card 
-          header-text="SmAIrtlinks" 
-          sub-text="SmAIrtinks is not your typical affiliate links. With Aff Builder’s offers, SmAIrtlinks offers guaranteed best deals to send to your clients and customers. 
+          header-text="SmAIrtlink" 
+          sub-text="SmAIrtlink is not your typical affiliate link. With Aff Builder’s offers, SmAIrtlink offers guaranteed best deals to send to your clients and customers. 
             Each unique link features best top-converting deals and rewarding products based on your target clients and customer’s geographical location, device, and preferences. 
-            SmAIrtlinks are automated and optimized to boost return on investment for your affiliate campaigns"
+            SmAIrtlink are automated and optimized to boost return on investment for your affiliate campaigns"
           />
 
         <!-- <included id="included" ref="included" /> -->
@@ -54,7 +54,7 @@ import GettingStarted from '@components/partials/home/GettingStarted'
 import AboutUs from '@components/partials/home/AboutUs'
 
 export default {
-    name:'Pricing',
+    name:'Affiliate',
     components: {
         PricingHero,
         GettingStarted,

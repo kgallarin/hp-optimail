@@ -1,6 +1,11 @@
 .static-pages {
   max-width: 1199px;
   margin: 0 auto;
+  padding-top: 80px;
+  
+  .main-header-text {
+    padding-bottom: 30px;
+  }
   
   p, li{
     @include font-settings;
@@ -23,5 +28,12 @@
   
   @media #{$mobile} {
     padding: 0 24px;
+  }
+  
+  .company-details {
+    margin-top: 50px;
+    p {
+      margin: 8px 0;
+    }
   }
 }

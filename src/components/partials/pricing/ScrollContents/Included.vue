@@ -32,7 +32,7 @@ export default {
             {
                 id: 0,
                 title: '24/7 Customer Service',
-                icon: ['fas','book-open'],
+                icon: ['fas','user-clock'],
                 check_list: [
                   'Reach our professional customer service department if you have any questions regarding our business, your status or perks',
                 ]
@@ -40,7 +40,7 @@ export default {
             {
                 id: 1,
                 title: 'Affiliate Manager Assistance',
-                icon:['fas','users'],
+                icon:['fas','hands-helping'],
                 check_list: [
                     'We have a team of highly qualified with years of experience account managers to provide you personalized assistance that is best suited for your geographical target location and traffic.',
                 ]
@@ -48,7 +48,7 @@ export default {
             {
                 id: 2,
                 title: 'Hundreds of offers from Top Brands',
-                icon: ['fas','user-shield'],
+                icon: ['fas','medal'],
                 check_list: [
                     'Aff Builder has years of concrete partnerships with hundreds of advertisers and client partners that have exclusive offers only for us.',
                 ]
@@ -56,7 +56,7 @@ export default {
             {
                 id: 3,
                 title: 'Exclusive offers and promotions',
-                icon: ['fas','book-open'],
+                icon: ['fas','user-tag'],
                 check_list: [
                     'Our affiliate marketing platform caters to a wide range of industries, whether it’s e-commerce, mobile or web dating app, mobile games, our clients and partners have exclusive offers and promotional campaigns towards its affiliates.',
                 ]
@@ -64,7 +64,7 @@ export default {
             {
                 id: 4,
                 title: 'Life-time referral program bonus',
-                icon:['fas','users'],
+                icon:['fas','user-plus'],
                 check_list: [
                     'Refer friends or anyone with your referral link and guaranteed bonuses on all their earnings.',
                 ]
@@ -72,7 +72,7 @@ export default {
             {
                 id: 5,
                 title: 'Quick and Detailed Reporting',
-                icon: ['fas','user-shield'],
+                icon: ['fas','edit'],
                 check_list: [
                     'Our stats platform provides you with detailed information about your data, traffic conversation and how much sales and converts your affiliates and promotional links made.',
                 ]

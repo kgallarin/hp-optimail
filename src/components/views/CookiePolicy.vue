@@ -1,6 +1,6 @@
 <template>
   <div class="static-pages">
-    <header-text class="text-center">
+    <header-text class="text-center main-header-text">
       Cookie Policy
     </header-text>
     <p>
@@ -25,15 +25,19 @@
     <p>The law allows us to store cookies on your device strictly for necessary operation on our site and for all other types of cookies that we asked permission to use.</p>
     <p>This site uses different types of cookies and some are placed by third party services that appear on our web pages.</p>
     <p>All our users can withdraw their consent anytime on our website.</p>
+    
+    <company-details />
   </div>
 </template>
 
 <script>
 import HeaderText from '@components/common/HeaderText'
+import CompanyDetails from '@components/common/CompanyDetails'
 export default {
   name: 'CookiePolicy',
   components: {
-    HeaderText
+    HeaderText,
+    CompanyDetails
   }
 }
 </script>

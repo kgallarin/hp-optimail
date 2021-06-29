@@ -1,12 +1,15 @@
-.pricing-hero {
-    padding-bottom: 40px;
+.pricing-hero {    
+    padding-bottom: 135px;
+    @media #{$mobile} {
+      padding-bottom: 60px;
+    }
     background-image: url('~@svg/wave-bg.svg');
     background-size: 100%;
     // background-position: 100% -50%;
-    background-position: 100% -20%;
+    background-position: 100% -35%;
     background-repeat: no-repeat;
     .header-text-1 {
-        padding: 30px 0;
+      padding: 100px 0 50px;
     }
     .hero-content-text {
       font-family: "Roboto", sans-serif;
