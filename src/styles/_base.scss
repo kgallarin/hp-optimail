@@ -15,13 +15,6 @@ body {
     font-size: $base;
     font-weight: 400;
     color: #fff;
-    
-    @media #{$mobile} {
-      height: 100%;
-      overflow: hidden !important;
-      width: 100%;
-      position: fixed;
-    }
 }
 
 strong {
