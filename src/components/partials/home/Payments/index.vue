@@ -8,7 +8,7 @@
                         :fa_icon="['fas', 'users']"
                         headerLabel="Multi-access and team work"
                         text="Make all relevant data from your platform easily available to your team members or partners. Assign access based on roles & provide affiliates data access in real-time."
-                        iconSize="6x"
+                        iconSize="5x"
                     />
                 </div>
                 <!-- repeat end -->

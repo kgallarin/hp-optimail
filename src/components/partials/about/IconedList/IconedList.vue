@@ -35,7 +35,7 @@ export default {
                 { 
                     id: 3,
                     header: 'Customer Satisfaction Guaranteed', 
-                    content: 'Satisfied customers are one of the critical components of any successful businesses. Providing marketing solutions with complete transparency, guaranteed that will grow your business and motivate your affiliates.',
+                    content: 'Satisfied customers are one of the critical components of any successful business. Providing marketing solutions with complete transparency that is guaranteed to grow your business and motivate affiliates.',
                     icon:'smile'   
                 },
             ]
