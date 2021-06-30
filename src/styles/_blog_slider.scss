@@ -52,6 +52,11 @@
       height: 100%;
       max-height: 500px;
       object-fit: cover;
+      
+      @media #{$tablet-portrait} {
+        max-height: auto;
+        height: auto;
+      }
     }
 
     .header-text-1 {
