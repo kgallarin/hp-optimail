@@ -10,7 +10,7 @@
             </div>
           <!-- content starts -->
             <div class="w-50 main-content">
-              <Tag text="category" color="green" />
+              <Tag text="leads" color="green" />
 
               <header-text size="lg">{{ slide.header_desc }}</header-text>
               <p class="text-content">
@@ -53,7 +53,7 @@ import HeaderText from '@components/common/HeaderText'
           slides: [
             {
               id: 0,
-              img:'blog1.jpg',
+              img:'blog_2.jpg',
               header_desc: 'Reach Your Ultimate Lead Conversion Goal',
               content:'Read on for more tips on keyword research to increase conversion affiliate traffic. Make your affiliate campaigns faster with tools that help you create and automate your campaigns. In today’s blog post, I will share with you how powerful the Aff Builder  affiliate marketing tool can be used by your business to understand the market, conversion rate, daily visitors, website traffic, page views and much more. ',
               date: '25 Feb 2021',
