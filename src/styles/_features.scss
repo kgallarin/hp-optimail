@@ -6,6 +6,10 @@
     @media #{$tablet-portrait} {
       padding: 15px;
     }
+    
+    @media #{$mobile} {
+      padding: 0;
+    }
     @media #{$mobile} {
       flex-direction: column;
     }
@@ -35,6 +39,12 @@
       @media #{$mobile} {
         width: 100%;
       }
+    }
+  }
+  .link-wrapper {
+    @media #{$mobile} {
+      margin: 0 auto 80px !important;
+      @include instrinsic-width;
     }
   }
 }
@@ -317,6 +327,10 @@
 
   .sliced-section-inner {
     padding: 0 15px;
+    
+    @media #{$mobile} {
+      padding: 0;
+    }
   }
 
   @media #{$tablet-portrait} {

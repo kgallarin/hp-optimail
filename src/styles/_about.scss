@@ -35,7 +35,6 @@
 
 .mission-section {
   padding: 150px 0 50px;
-
   .column-section {
       align-items: center !important;
 
@@ -85,7 +84,7 @@
 
   // .mission-section
   @media #{$mobile} {
-    padding: 112px 0 80px;
+    padding: 80px 0 80px;
   }
 
 }
@@ -109,7 +108,7 @@
   @media #{$mobile} {
       max-width: 100%;
       flex-direction: column;
-      padding: 16px 0 100px;
+      padding: 16px 0 0px;
     }
   }
 

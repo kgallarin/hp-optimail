@@ -10,6 +10,10 @@
     background-repeat: no-repeat;
     .header-text-1 {
       padding: 100px 0 50px;
+      
+      @media #{$mobile} {
+        padding: 50px 0;
+      }
     }
     .hero-content-text {
       font-family: "Roboto", sans-serif;

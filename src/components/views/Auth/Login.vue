@@ -60,9 +60,11 @@
         </p> -->
 
         <div class="post-text-footer d-flex justify-content-between">
-            <p>© {{ currentYear }} Aff Builder</p>
+            <div>
+              <p>© {{ currentYear }} Moebius Development Inc.</p>
+            </div>
 
-            <router-link :to="{ name:'text_page' }">
+            <router-link :to="{ name:'terms_condition' }">
               <p>Terms & Privacy</p>
             </router-link>
 

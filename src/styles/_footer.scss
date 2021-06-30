@@ -2,6 +2,9 @@ footer {
     .footer-main {
         margin-top: 55px;
         padding-bottom: 56px;
+        @media #{$mobile} {
+          padding-bottom: 24px;
+        }
     }
 
     .sliced-section-inner {
@@ -15,8 +18,12 @@ footer {
 
         // .links-wrapper
         @media #{$small-desktop} {
-            flex-direction: column;
-            align-items: center;
+          flex-direction: column;
+          align-items: center;
+        }
+        
+        @media #{$mobile} {
+          padding-top: 24px;
         }
     }
 

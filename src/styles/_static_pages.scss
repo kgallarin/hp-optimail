@@ -3,6 +3,9 @@
   margin: 0 auto;
   padding-top: 80px;
   
+  @media #{$tablet-portrait} {
+    padding: 40px 24px;
+  }
   .main-header-text {
     padding-bottom: 30px;
   }
@@ -24,10 +27,6 @@
         padding-left: 30px;
       }
     }
-  }
-  
-  @media #{$mobile} {
-    padding: 0 24px;
   }
   
   .company-details {

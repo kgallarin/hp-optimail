@@ -45,7 +45,9 @@ import {
     faMedal,
     faUserTag,
     faUserPlus,
-    faEdit
+    faEdit,
+    faPeopleArrows,
+    faBuilding
 } from '@fortawesome/free-solid-svg-icons'
 
 
@@ -109,3 +111,6 @@ library.add(faMedal)
 library.add(faUserTag)
 library.add(faUserPlus)
 library.add(faEdit)
+library.add(faPeopleArrows)
+library.add(faBuilding)
+

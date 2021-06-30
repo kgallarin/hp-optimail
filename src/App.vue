@@ -1,10 +1,12 @@
 <template>
   <div id="app" class="h-100" style="min-height: 100vh;">
-    <component :is="layout" v-if="layout">
-      <transition name="fade" mode="out-in">
-        <router-view />
-      </transition>
-    </component>
+    <transition name="fade" mode="out-in">
+      <component :is="layout" v-if="layout">
+          <transition name="fade" mode="out-in">
+            <router-view />
+          </transition>
+      </component>
+    </transition>
   </div>
 </template>
 

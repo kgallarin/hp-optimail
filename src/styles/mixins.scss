@@ -46,3 +46,9 @@
       border-radius: 10px;
     }
 }
+
+@mixin instrinsic-width {
+  width: intrinsic;
+  width: -moz-max-content;
+  width: -webkit-max-content;
+}

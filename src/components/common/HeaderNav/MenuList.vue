@@ -40,8 +40,8 @@ import MenuItemMobile from './MenuItemMobile'
               {
                 id: 0,
                 title: 'Affiliate',
-                desc: 'payout periods, payout methods',
-                fa_icon: ['fas', 'address-card'],
+                desc: 'Payout periods, payout methods',
+                fa_icon: ['fas', 'people-arrows'],
                 external_link:'',
                 component_link:'affiliate'
               },
@@ -63,14 +63,14 @@ import MenuItemMobile from './MenuItemMobile'
                 id: 0,
                 title: 'Company',
                 desc: 'Mission and goals',
-                fa_icon: ['fas', 'address-card'],
+                fa_icon: ['fas', 'building'],
                 external_link:'',
                 component_link:'about'
               },
               {
                 id: 1,
                 title: 'Contact us',
-                desc: 'we\'re here to help',
+                desc: 'We\'re here to help',
                 fa_icon: ['fas', 'address-card'],
                 external_link:'',
                 component_link:'contacts'

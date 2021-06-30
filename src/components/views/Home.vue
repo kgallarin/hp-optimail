@@ -48,17 +48,17 @@ export default {
       return this.$store.getters['app/GET_STICKY_NAV']
     }
   },
-  beforeRouteLeave (to, from, next) {
-    window.localStorage.setItem('refresh', "0")
-    next()
-  },
+  // beforeRouteLeave (to, from, next) {
+  //   window.localStorage.setItem('refresh', "0")
+  //   next()
+  // },
   components: { LandingHero, MoveMoney,LearnMore, Brands, Payments, AboutUs, GettingStarted },
-  created() {
-    var refresh = window.localStorage.getItem('refresh');
-    if (refresh == 0){
-        window.location.reload()
-        window.localStorage.setItem('refresh', "1")
-    }
-  }
+  // created() {
+  //   var refresh = window.localStorage.getItem('refresh');
+  //   if (refresh == 0){
+  //       window.location.reload()
+  //       window.localStorage.setItem('refresh', "1")
+  //   }
+  // }
 };
 </script>

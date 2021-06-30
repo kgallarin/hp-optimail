@@ -17,7 +17,9 @@
         color: #8796af;
         margin-bottom: 8px;
         display: block;
-
+        &:first-letter {
+          text-transform: capitalize;
+        }
         // .link-item
         @media #{$small-desktop} {
             text-align: left;

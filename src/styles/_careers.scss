@@ -14,6 +14,10 @@
     position: relative;
     max-width: 960px;
     
+    @media #{$mobile} {
+      box-shadow: none;
+        padding: 45px 24px;
+    }
     p {
       font-family: "Roboto", sans-serif;
       line-height: 2.29;
