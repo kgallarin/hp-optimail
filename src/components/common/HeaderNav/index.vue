@@ -1,5 +1,5 @@
 <template>
-  <b-navbar :class="[{ 'white-navigation': whiteNav }, { 'header_navigation' : true }]">
+  <b-navbar :class="[{ 'white-navigation': whiteNav }, { 'header_navigation' : true }, { 'menu-active': menuActive }]">
     <div :class="[menuActive ? 'menu-active' : '', 'header_navigation-inner w-100 align-items-center justify-content-start d-flex h-100 w-100']">
 
       <a  v-if="windowWidth < 1200 && isSublinksShown" href="#" @click.prevent="handleGoNavBack" class="color-white nav-mob-back">

@@ -1,8 +1,8 @@
 <template>
     <div class="mobile-menu">
-        <div class="mobile-menu-inner">
-            <menu-list />
-        </div>
+      <div class="mobile-menu-inner">
+          <menu-list />
+      </div>
     </div>
 </template>
 <script>
