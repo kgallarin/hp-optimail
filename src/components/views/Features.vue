@@ -2,7 +2,7 @@
   <div class="features-wrapper">
     <features-hero 
       header-text="Power Up Your Lead Conversion Through One Platform"
-      text-desc="Aff Builder is equipped with all the features you need to expand your business with affiliates. Everything under your fingertips, in just few clicks away."
+      text-desc="Affi Builder is equipped with all the features you need to expand your business with affiliates. Everything under your fingertips, in just few clicks away."
     />
 
     <!-- section 2 -->
@@ -10,7 +10,7 @@
       header-text="Be Widely Known"
       :text-desc="
         [
-          'Aff Builder platform makes it easy to expand your social reach worldwide with awesome engaging branded content.', 
+          'Affi Builder platform makes it easy to expand your social reach worldwide with awesome engaging branded content.', 
           'With our wide range of payment methods – we offer an attractive rate without double commissions to instantly process payouts any time of the day.'
         ]
       "
@@ -43,7 +43,7 @@
 
     <!-- <features-hero
       header-text="Payment Processing"
-      text-desc="Aff Builder payment platform supports payment processing for all online transactions, 
+      text-desc="Affi Builder payment platform supports payment processing for all online transactions, 
       whether it&#39;s credit card and debit card, e-wallets, bank transfer, and mobile banking activities."
     /> -->
 
@@ -97,7 +97,7 @@ import GettingStarted from '@components/partials/home/GettingStarted'
                   id: 0,
                   title: 'Step 1',
                   icon: ['fas','database'],
-                  block_text:'Just enter your file containing massive payments lists directly to the Aff Builder platform, and you can view everything live.'
+                  block_text:'Just enter your file containing massive payments lists directly to the Affi Builder platform, and you can view everything live.'
               },
               {
                   id: 1,
@@ -111,7 +111,7 @@ import GettingStarted from '@components/partials/home/GettingStarted'
                   id: 0,
                   title: 'Over 250 payment networks',
                   icon: ['fas','database'],
-                  block_text:'Aff Builder – as one of the leading international payment service providers, offers you secured access to over 250 payment networks that can be easily configured.'
+                  block_text:'Affi Builder – as one of the leading international payment service providers, offers you secured access to over 250 payment networks that can be easily configured.'
               },
               {
                   id: 1,

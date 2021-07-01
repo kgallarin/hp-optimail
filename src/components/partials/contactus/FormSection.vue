@@ -10,11 +10,11 @@
             <Card
               informative
               :fa_icon="['fas', 'envelope-open-text']"
-              headerLabel="Get Answers from the Aff Builder Team"
+              headerLabel="Get Answers from the Affi Builder Team"
               iconSize="3x"
             >
-              Find everything you need to know to make Aff Builder work for you. Contact our customer success team at
-              <strong>support@affbuilder.com</strong>
+              Find everything you need to know to make Affi Builder work for you. Contact our customer success team at
+              <strong>support@affibuilder.com</strong>
             </Card>
           </li>
           <li>
@@ -24,7 +24,7 @@
               headerLabel="Be A Part of Our Affiliate Marketer's forum"
               iconSize="3x"
             >
-              Aff Builder's community forum is an ongoing dialogue specifically for developers.
+              Affi Builder's community forum is an ongoing dialogue specifically for developers.
 
               <!-- <a href="#" class="card-w-icon-link">Access our community forum</a> -->
             </Card>
@@ -33,7 +33,7 @@
             <Card
               informative
               :fa_icon="['fas', 'map-marked-alt']"
-              headerLabel="Aff Builder"
+              headerLabel="Affi Builder"
               iconSize="3x"
             >
               909 Locust Street, Suite 201 <br />

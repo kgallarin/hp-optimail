@@ -17,7 +17,7 @@ export default {
                 { 
                     id: 0,
                     header: 'Success Management', 
-                    content: 'Aff Builder has comprehensive experience with marketing and advertising procedures that focus on traffic performance to lift your brands for a wider audience.',
+                    content: 'Affi Builder has comprehensive experience with marketing and advertising procedures that focus on traffic performance to lift your brands for a wider audience.',
                     icon:'calendar-check'
                 },
                 { 
@@ -29,7 +29,7 @@ export default {
                 { 
                     id: 2,
                     header: 'Worldwide Reach', 
-                    content: 'AFF Builder is one of the fastest growing affiliate marketing platforms, you can automate and manually gain full control over your affiliate marketing worldwide and focus on your business growth anywhere in the world.',
+                    content: 'Affi Builder is one of the fastest growing affiliate marketing platforms, you can automate and manually gain full control over your affiliate marketing worldwide and focus on your business growth anywhere in the world.',
                     icon:'globe-americas'  
                 },
                 { 

@@ -15,7 +15,7 @@
         </div> -->
         
         <receipt-card 
-          sub-text="SmAIrtlink© is not your typical affiliate link. With Aff Builder’s offers, SmAIrtlink© offers guaranteed best deals to send to your clients and customers. 
+          sub-text="SmAIrtlink© is not your typical affiliate link. With Affi Builder’s offers, SmAIrtlink© offers guaranteed best deals to send to your clients and customers. 
             Each unique link features best top-converting deals and rewarding products based on your target clients and customer’s geographical location, device, and preferences. 
             SmAIrtlink© are automated and optimized to boost return on investment for your affiliate campaigns"
           >

@@ -25,7 +25,7 @@
         <img :src="require('@svg/features/servershield.svg')" alt="">
 
         <!-- <p class="text-desc color-lblue int">
-          With Aff Builder, your business will have a fully integrated payment system at your fingertips.
+          With Affi Builder, your business will have a fully integrated payment system at your fingertips.
         </p> -->
 
         <!-- <a href="#" class="color-gold report-link">

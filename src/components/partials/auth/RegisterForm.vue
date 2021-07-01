@@ -130,7 +130,7 @@
                     value="accepted"
                     unchecked-value="not_accepted"
                 >
-                    I agree to the <router-link :to="{ name: 'terms_condition' }" href="#" class="link gold-link">Aff Builder Terms of Service</router-link>.
+                    I agree to the <router-link :to="{ name: 'terms_condition' }" href="#" class="link gold-link">Affi Builder Terms of Service</router-link>.
                 </b-form-checkbox>
 
                 <Button type="submit" class="custom-button-yellow" label="register" />

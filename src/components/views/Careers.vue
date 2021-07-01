@@ -4,7 +4,7 @@
     <div class="careers-text-wrapper">
       <header-text class="text-uppercase mb-4" size="xmd">
         Work - Life balance is an intense driving force of every individual to succeed in their careers. 
-        Here at Aff Builder, we believe that innovation, appreciation, well-being, health and happiness is a key to success.
+        Here at Affi Builder, we believe that innovation, appreciation, well-being, health and happiness is a key to success.
       </header-text>
       <p class="mb-0">
         If you love challenges and thinking outside the box, come and join our rapidly growing team of professionals!

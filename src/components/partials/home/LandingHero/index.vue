@@ -21,7 +21,7 @@
 
     <template v-slot:slot-right>
       <!-- <animated-demo v-if="windowWidth > 1200"  /> -->
-      <img class="animate fadeIn" :src="require('@images/affiliate/affhero.png')" alt="Aff Builder">
+      <img class="animate fadeIn" :src="require('@images/affiliate/affhero.png')" alt="Affi Builder">
     </template>
 
 

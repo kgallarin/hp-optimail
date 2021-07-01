@@ -24,7 +24,7 @@
     <!-- section 4 -->
     <security 
       header-text="Choosing a payment gateway"
-      text-desc="We tick all the boxes, so why look further. It doesn't matter if you're looking to expand into international markets, managing subscription packages or just want to boost conversion rates, Aff Builder can help with all your needs and the complexities of global digital commerce. But first, get the right criteria filled"
+      text-desc="We tick all the boxes, so why look further. It doesn't matter if you're looking to expand into international markets, managing subscription packages or just want to boost conversion rates, Affi Builder can help with all your needs and the complexities of global digital commerce. But first, get the right criteria filled"
       :list-data="e_commerce_blueList" 
     />
   </div>
@@ -52,7 +52,7 @@ import GettingStarted from '@components/partials/home/GettingStarted'
                   id: 1,
                   title: 'Ultimate Customer Experience',
                   icon:['fas','users'],
-                  block_text:'We\'re focused on helping you create world-class user experiences. Aff Builder provides the ultimate checkout experience, and it\'s the only commerce solution you\'ll ever need. Our customizable checkout will help you improve conversion rates, and the set up is easy and quick. Offering our fast and straightforward way to pay for products by using our customizable forms will have a positive impact on your sales and returning customers.'
+                  block_text:'We\'re focused on helping you create world-class user experiences. Affi Builder provides the ultimate checkout experience, and it\'s the only commerce solution you\'ll ever need. Our customizable checkout will help you improve conversion rates, and the set up is easy and quick. Offering our fast and straightforward way to pay for products by using our customizable forms will have a positive impact on your sales and returning customers.'
               },
               {
                   id: 2,

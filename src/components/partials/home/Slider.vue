@@ -55,7 +55,7 @@ import HeaderText from '@components/common/HeaderText'
               id: 0,
               img:'blog_2.jpg',
               header_desc: 'Reach Your Ultimate Lead Conversion Goal',
-              content:'Read on for more tips on keyword research to increase conversion affiliate traffic. Make your affiliate campaigns faster with tools that help you create and automate your campaigns. In today’s blog post, I will share with you how powerful the Aff Builder  affiliate marketing tool can be used by your business to understand the market, conversion rate, daily visitors, website traffic, page views and much more. ',
+              content:'Read on for more tips on keyword research to increase conversion affiliate traffic. Make your affiliate campaigns faster with tools that help you create and automate your campaigns. In today’s blog post, I will share with you how powerful the Affi Builder  affiliate marketing tool can be used by your business to understand the market, conversion rate, daily visitors, website traffic, page views and much more. ',
               date: '25 Feb 2021',
             },
           ]

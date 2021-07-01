@@ -2,7 +2,7 @@
   <SlicedSection class="mission-section">
     <template v-slot:slot-left>
       <p class="mission-p">
-        Aff Builder is one of the globe&#39;s fastest-growing affiliate marketing platforms offering a simplest way for businesses to consolidate data through exceptional technology with human touch, providing a simple affiliate program and data processing platform accessible for all types of businesses.
+        Affi Builder is one of the globe&#39;s fastest-growing affiliate marketing platforms offering a simplest way for businesses to consolidate data through exceptional technology with human touch, providing a simple affiliate program and data processing platform accessible for all types of businesses.
       </p>
     </template>
     <template v-slot:slot-right>

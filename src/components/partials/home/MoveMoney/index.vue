@@ -1,7 +1,7 @@
 <template>
   <div class="wrap mt-5 overflow-hidden">
     <!-- <animated-demo  class="d-flex justify-content-center hdw-at-movemoney"/> -->
-  <img v-if="windowWidth < 1200" class="hdw-at-movemoney" :src="require('@images/affiliate/affhero.png')" alt="Aff Builder">
+  <img v-if="windowWidth < 1200" class="hdw-at-movemoney" :src="require('@images/affiliate/affhero.png')" alt="Affi Builder">
   <!-- please check sliced_container.scss for this sliced section class -->
   
   <header-text class="move_money-header"> SmAIrtlink<span class="xmd">©</span>, The ultimate AI marketing tool </header-text>

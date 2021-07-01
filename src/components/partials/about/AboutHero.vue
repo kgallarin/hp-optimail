@@ -8,7 +8,7 @@
         </header-text>
 
         <p class="hero-content-text">
-          Aff Builder was founded  with a focus on building the future of digital affiliate marketing  solutions, providing a simple affiliate marketing platform to grow your local and international leads network. 
+          Affi Builder was founded  with a focus on building the future of digital affiliate marketing  solutions, providing a simple affiliate marketing platform to grow your local and international leads network. 
           We believe that lead conversions should be vast, fast, transparent and affordable, breaking the old and traditional way of marketing – and we found a perfect way to do it!
         </p>
 

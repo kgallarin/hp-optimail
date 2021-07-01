@@ -58,7 +58,7 @@
                 <use :xlink:href="require('@svg/sprites/animated_demo.svg') + '#cc'" class="svg-icon" />
               </svg>
               <div class="field-content-wrapper">
-                <img :src="require('@svg/animated_demo/visa.svg')" class="visa-logo" alt="Aff Builder visa">
+                <img :src="require('@svg/animated_demo/visa.svg')" class="visa-logo" alt="Affi Builder visa">
                 <span id="field-card-strings-1" class="field-content-strings"><span>4242 4242 4242 4242</span></span>
                 <span id="field-card-1" class="field-content"></span>
                 <span class="placeholder-content">Card number</span>

@@ -4,7 +4,7 @@
       Cookie Policy
     </header-text>
     <p>
-      Aff Builder uses cookies to improve the user experience and to compile visitors' statistics, the type of technology they are using to help our developer identity if our site is working properly as it should for each technology like Mac or Windows, how long they spend on the site and what pages they look at etc.
+      Affi Builder uses cookies to improve the user experience and to compile visitors' statistics, the type of technology they are using to help our developer identity if our site is working properly as it should for each technology like Mac or Windows, how long they spend on the site and what pages they look at etc.
     </p>
     
     <p>
@@ -20,7 +20,7 @@
     <header-text class="xmd mt-4">Turning Off Cookies</header-text>
     
     <p>Users can switch off cookies through their browser settings to stop it from accepting cookies. By doing so will likely limit the functionality of our website services. </p>
-    <p>Aff Builder uses cookies to personalize content and to analyze traffic. We also share the user’s activity on our website to our social media, advertising and analytics partners. User’s consent to our cookies if you continue to use our website.</p>
+    <p>Affi Builder uses cookies to personalize content and to analyze traffic. We also share the user’s activity on our website to our social media, advertising and analytics partners. User’s consent to our cookies if you continue to use our website.</p>
     
     <p>The law allows us to store cookies on your device strictly for necessary operation on our site and for all other types of cookies that we asked permission to use.</p>
     <p>This site uses different types of cookies and some are placed by third party services that appear on our web pages.</p>

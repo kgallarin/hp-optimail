@@ -5,7 +5,7 @@
                 <!-- with logo box -->
                 <div class="brand-wrapper">
                     <router-link :to="{name: 'home'}">
-                      <b-img height="auto" width="150px" :src="require('@images/affiliate/aff_logo.png')" alt="Aff Builder"></b-img>
+                      <b-img height="35px" width="187px" :src="require('@images/affiliate/aff_logo.png')" alt="Affi Builder"></b-img>
                     </router-link>
                     <p class="text-capitalize">
                         Affiliation, Evolved.

@@ -8,7 +8,7 @@
                         header="Limitless possibilities "
                         linkText="Product details"
                     >
-                      Easily integrate Aff Builder into your online store and start accepting global traffic. 
+                      Easily integrate Affi Builder into your online store and start accepting global traffic. 
                       Take advantage of our reporting tools and gain unique insights into the purchasing behavior of your customers. 
                       Use all our features and workflows and unlock all possibilities at your disposal to see your businesses raising performance.
                     </dark-card>

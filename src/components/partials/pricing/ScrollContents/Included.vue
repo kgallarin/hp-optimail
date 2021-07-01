@@ -10,10 +10,10 @@
         <check-list :listData="listData" />
 
         <div class="rsearch-study">
-            <img :src="require('@svg/research.svg')" alt="Aff Builder" />
+            <img :src="require('@svg/research.svg')" alt="Affi Builder" />
             <div class="text-wrap d-flex align-items-center">
                <div class="wrapper">
-                    <span class="hl">An IDC study</span> shows that, on average, businesses using Stripe attribute a <span class="hl">6.7% increase</span> in revenue to the Aff Builder platform.
+                    <span class="hl">An IDC study</span> shows that, on average, businesses using Stripe attribute a <span class="hl">6.7% increase</span> in revenue to the Affi Builder platform.
                </div>
             </div>
         </div>
@@ -50,7 +50,7 @@ export default {
                 title: 'Hundreds of offers from top brands',
                 icon: ['fas','medal'],
                 check_list: [
-                    'Aff Builder has years of concrete partnerships with hundreds of advertisers and client partners that have exclusive offers only for us.',
+                    'Affi Builder has years of concrete partnerships with hundreds of advertisers and client partners that have exclusive offers only for us.',
                 ]
             },
             {

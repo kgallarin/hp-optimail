@@ -40,7 +40,7 @@ import Gems from './Gems'
           {
             id: 4,
             textHeaders:'Perks and Referral Bonus',
-            texts: 'Get your connections all together with your referral code and get a cash bonus directly to your Aff Builder account once they sign up and create their own network.',
+            texts: 'Get your connections all together with your referral code and get a cash bonus directly to your Affi Builder account once they sign up and create their own network.',
             imageSource: 'diamond-image04',
             style: 'offset-top-only image-text-swap'
           }

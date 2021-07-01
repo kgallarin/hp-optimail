@@ -31,10 +31,15 @@
   &-inner {    
     max-width: 1199px;
     margin: 0 auto;
-    .hp-home-logo img{
-      height: 58px;
+    .hp-home-logo img{    
       width: 187px;
-      margin-top: -10px;
+      &.logo-blue {
+        height: 35px;
+      }
+      
+      &.logo-white {
+        height: 30px;
+      }
     }
     // header_navigation-inner
     @media #{$md-desktop} {

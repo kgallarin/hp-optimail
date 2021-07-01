@@ -3,7 +3,7 @@
     <receipt-card 
       has-card
       has-ribbon
-      header-text="Discover how Aff Builder processed every payouts, payout periods, payment methods and how we reward amazing affiliate performance."
+      header-text="Discover how Affi Builder processed every payouts, payout periods, payment methods and how we reward amazing affiliate performance."
     />
   </div>
 </template>
