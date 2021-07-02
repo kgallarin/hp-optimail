@@ -58,7 +58,7 @@
                         </ul> -->
 
                         <div class="help-links-footer d-flex justify-content-between">
-                            <p>© {{ currentYear }} Moebius Development Inc.</p>
+                            <p>© {{ currentYear }} Equinox Media LLC</p>
                             <router-link :to="{ name: 'privacy_policy' }">Terms & Privacy</router-link>
                         </div>
                     </div>

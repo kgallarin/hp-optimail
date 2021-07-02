@@ -47,7 +47,8 @@ import {
     faUserPlus,
     faEdit,
     faPeopleArrows,
-    faBuilding
+    faBuilding,
+    faChalkboardTeacher,
 } from '@fortawesome/free-solid-svg-icons'
 
 
@@ -113,4 +114,4 @@ library.add(faUserPlus)
 library.add(faEdit)
 library.add(faPeopleArrows)
 library.add(faBuilding)
-
+library.add(faChalkboardTeacher)

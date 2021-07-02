@@ -36,7 +36,7 @@
 
         <div class="post-text-footer d-flex justify-content-between">
             <div>
-              <p>© {{ currentYear }} Moebius Development Inc.</p>
+              <p>© {{ currentYear }} Equinox Media LLC</p>
             </div>
 
             <router-link :to="{ name:'terms_condition' }">

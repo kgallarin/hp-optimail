@@ -10,7 +10,7 @@
                     <p class="text-capitalize">
                         Affiliation, Evolved.
                     </p>
-                    <p class="mt-0">© {{ currentYear }} Moebius Development Inc. </p>
+                    <p class="mt-0">© {{ currentYear }} Equinox Media LLC </p>
                 </div>
 
                 <!-- link list -->

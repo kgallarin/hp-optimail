@@ -29,33 +29,28 @@ import MenuItemMobile from './MenuItemMobile'
             sub_links: []
           },
           { id:"1",
-            label: "features",
-            component_link:'features',
-            sub_links: []
-          },
-          { id:"2",
             label: "platform",
             component_link:'',
             sub_links: [
               {
                 id: 0,
+                title: 'Features',
+                desc: 'More details about our service',
+                fa_icon: ['fas', 'chalkboard-teacher'],
+                external_link:'',
+                component_link:'features'
+              },
+              {
+                id: 1,
                 title: 'Affiliate',
                 desc: 'Payout periods, payout methods',
                 fa_icon: ['fas', 'people-arrows'],
                 external_link:'',
                 component_link:'affiliate'
               },
-              // {
-              //   id: 1,
-              //   title: 'Payout terms',
-              //   desc: 'payout periods, payout methods',
-              //   fa_icon: ['fas', 'address-card'],
-              //   external_link:'',
-              //   component_link:'payout'
-              // },
             ]
           },
-          { id:"3",
+          { id:"2",
             label: "about Us",
             component_link:'',
             sub_links: [
@@ -77,7 +72,7 @@ import MenuItemMobile from './MenuItemMobile'
               },
             ]
           },
-          { id:"4",
+          { id:"3",
             label: "careers",
             component_link:'careers',
             sub_links: []

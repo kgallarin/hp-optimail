@@ -108,7 +108,7 @@ export default {
           fa_icon:['fas', 'money-check-alt'],
           headerLabel: 'Step 2 - Auto Optimization',
           desc: 'attach_bank',
-          text: 'Allow the power of SmAIrtlink© to optimize your campaign through landing pages, devices, offers, and verticals or any filters you like to add.'
+          text: 'Allow the power of SmAIrtlink to optimize your campaign through landing pages, devices, offers, and verticals or any filters you like to add.'
         },
         {
           id: 2,

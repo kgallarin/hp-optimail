@@ -9,9 +9,8 @@
 
         <div class="brands-main-wrapper">
             <div class="brands-main">
-                <header-text class="text-center">Brands Promoted with Affi Builder</header-text>
-                
-
+                <header-text class="text-center">AffiBuilder, all together</header-text>
+              
                 <ul class="brands-list">
                     <li v-for="image in images" :key="image.id">
                         <img :src="require(`@images/brands/${image.name}.png`)" :alt="image.desc">
