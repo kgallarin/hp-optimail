@@ -47,7 +47,14 @@ import CookiePolicy from '@components/views/CookiePolicy';
 Vue.use(Router);
 
 const router = new Router({
-  mode: 'hash',
+  scrollBehavior() {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve({ x: 0, y: 0 })
+      }, 250)
+    })
+  },
+  mode: 'history',
   routes: [
     {
       path: '/',

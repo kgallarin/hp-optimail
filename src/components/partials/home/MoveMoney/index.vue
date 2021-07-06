@@ -101,7 +101,7 @@ export default {
           fa_icon: ['fas', 'address-card'],
           headerLabel: 'Step 1 - Campaign Creation',
           desc: 'create_users',
-          text:'Let your affiliates start a campaign and replace the URL with SmAIrtlink©.'
+          text:'Let your affiliates start a campaign and replace the URL with SmAIrtlink.'
         },
         {
           id: 1,
@@ -115,7 +115,7 @@ export default {
           fa_icon:['fas', 'exchange-alt'],
           headerLabel: 'Step 3- Analyze and filter',
           desc: 'move_money',
-          text: 'With AI adjustments - SmAIrtlink© will provide you and your affiliates with the best conversion.'
+          text: 'With AI adjustments - SmAIrtlink will provide you and your affiliates with the best conversion.'
         }
       ]
     }

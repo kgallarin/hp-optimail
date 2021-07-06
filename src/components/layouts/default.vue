@@ -27,7 +27,8 @@ export default {
   },
   data() {
     return {
-      visbleMobileMenu: false
+      visbleMobileMenu: false,
+      scrollpos: 0
     }
   },
   methods: {
@@ -40,7 +41,7 @@ export default {
     handleScroll(e) {
       const headerNav = this.$refs.main_nav.$el.offsetTop
       let docElScrollPosition = e.target.scrollingElement.scrollTop
-
+      this.scrollpos = docElScrollPosition
       if(docElScrollPosition > headerNav + 30) {
         this.$store.commit('app/SET_STICKY_NAV', true)
       }else {
@@ -65,6 +66,11 @@ export default {
     this.$EventBus.$off('toggleMobileNav', this.handleMobileNav)
     this.$EventBus.$off('closeMobileNav', this.handleCloseMobileNav)
     window.removeEventListener('scroll', this.handleScroll)
+  },
+  watch: {
+    scrollpos(val) {
+      console.log(val)
+    }
   }
 
 };
