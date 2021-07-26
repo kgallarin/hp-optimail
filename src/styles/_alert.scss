@@ -1,0 +1,11 @@
+.aff-alert {
+    position: fixed;
+    top: 130px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    @include instrinsic-width;
+    z-index: 999;
+    animation-delay: .3s;
+    max-width: 90%;
+}

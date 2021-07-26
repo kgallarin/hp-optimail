@@ -54,7 +54,7 @@ const router = new Router({
       }, 250)
     })
   },
-  mode: 'history',
+  mode: 'hash',
   routes: [
     {
       path: '/',

@@ -1,5 +1,6 @@
 <template>
   <div class="default-layout h-100">
+    <alert-notif />
     <header-nav white-nav :class="{'sticky-nav': stickyNav}" id="main_nav" ref="main_nav" />
       <slot />
     <Footer />
@@ -17,18 +18,19 @@
 import HeaderNav from '@components/common/HeaderNav'
 import MobileNav from '@components/common/HeaderNav/MobileNav'
 import Footer from '@components/common/Footer'
+import  AlertNotif from '@components/common/AlertNotif'
 
 export default {
   name: '',
   components: {
     HeaderNav,
     MobileNav,
-    Footer
+    Footer,
+    AlertNotif
   },
   data() {
     return {
       visbleMobileMenu: false,
-      scrollpos: 0
     }
   },
   methods: {
@@ -41,7 +43,6 @@ export default {
     handleScroll(e) {
       const headerNav = this.$refs.main_nav.$el.offsetTop
       let docElScrollPosition = e.target.scrollingElement.scrollTop
-      this.scrollpos = docElScrollPosition
       if(docElScrollPosition > headerNav + 30) {
         this.$store.commit('app/SET_STICKY_NAV', true)
       }else {
@@ -66,12 +67,6 @@ export default {
     this.$EventBus.$off('toggleMobileNav', this.handleMobileNav)
     this.$EventBus.$off('closeMobileNav', this.handleCloseMobileNav)
     window.removeEventListener('scroll', this.handleScroll)
-  },
-  watch: {
-    scrollpos(val) {
-      console.log(val)
-    }
   }
-
 };
 </script>

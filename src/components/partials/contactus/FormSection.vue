@@ -14,7 +14,7 @@
               iconSize="3x"
             >
               Find everything you need to know to make Affi Builder work for you. Contact our customer success team at
-              <strong>support@affibuilder.com</strong>
+              <strong>hello@affibuilder.com</strong>
             </Card>
           </li>
           <li>
@@ -33,11 +33,12 @@
             <Card
               informative
               :fa_icon="['fas', 'map-marked-alt']"
-              headerLabel="Affi Builder"
+              headerLabel="Equinox Media LLC"
               iconSize="3x"
             >
-              909 Locust Street, Suite 201 <br />
-              Des Moines, IA 50309
+              30 N GOULD ST STE R <br />
+              Sheridan, WY 82801, USA <br />
+              +1 307 459 0150
             </Card>
           </li>
         </ul>

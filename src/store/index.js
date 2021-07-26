@@ -7,6 +7,7 @@ import * as Cookies from "js-cookie";
 import app from "./modules/app.js";
 import move_money from "./modules/move_money.js";
 import blog from "./modules/blog.js";
+import alert from "./modules/alert.js";
 
 Vue.use(Vuex);
 
@@ -17,7 +18,8 @@ const store = new Vuex.Store({
     modules: {
         app,
         move_money,
-        blog
+        blog,
+        alert
     },
     strict: debug,
     // cookies if you want to persist data on page refresh
